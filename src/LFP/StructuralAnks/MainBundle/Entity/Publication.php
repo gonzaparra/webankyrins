@@ -49,6 +49,10 @@ class Publication
      */
     private $url;
 
+    /**
+     *  @ORM\OneToOne(targetEntity="Structure", inversedBy="publication")
+     */
+    protected $structure;
 
     /**
      * Get id
@@ -150,5 +154,28 @@ class Publication
     public function getUrl()
     {
         return $this->url;
+    }
+
+    /**
+     * Set structure
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structure
+     * @return Publication
+     */
+    public function setStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structure = null)
+    {
+        $this->structure = $structure;
+    
+        return $this;
+    }
+
+    /**
+     * Get structure
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Structure 
+     */
+    public function getStructure()
+    {
+        return $this->structure;
     }
 }

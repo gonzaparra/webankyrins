@@ -28,7 +28,11 @@ class MissingRes
      */
     private $resNum;
 
-
+    /**
+     *  @ORM\ManyToOne(targetEntity="Chain", inversedBy="missingResidues")
+     */
+    protected $chain;
+    
     /**
      * Get id
      *
@@ -60,5 +64,28 @@ class MissingRes
     public function getResNum()
     {
         return $this->resNum;
+    }
+
+    /**
+     * Set chain
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chain
+     * @return MissingRes
+     */
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chain = null)
+    {
+        $this->chain = $chain;
+    
+        return $this;
+    }
+
+    /**
+     * Get chain
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Chain 
+     */
+    public function getChain()
+    {
+        return $this->chain;
     }
 }

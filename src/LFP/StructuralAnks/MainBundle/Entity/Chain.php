@@ -94,9 +94,9 @@ class Chain
     /**
      * @var integer
      *
-     * @ORM\Column(name="missingResidues", type="integer", length=255)
+     * @ORM\Column(name="missingResiduesCount", type="integer", length=255)
      */
-    protected $missingResidues;
+    protected $missingResiduesCount;
     
     /**
      * @var boolean
@@ -113,14 +113,54 @@ class Chain
     protected $observations;
 
     /**
+     *  @ORM\OneToOne(targetEntity="ChainStructuralProperties", mappedBy="chain")
+     */
+    protected $chainStructuralProperties;
+    
+    /**
+     *  @ORM\OneToOne(targetEntity="FrustrationRes", mappedBy="chain")
+     */
+    protected $frustrationRes;
+    
+    /**
+     *  @ORM\OneToOne(targetEntity="FrustrationCont", mappedBy="chain")
+     */
+    protected $frustrationCont;
+    
+    /**
      *  @ORM\ManyToOne(targetEntity="Protein", inversedBy="chains")
      */
     protected $protein;
+    
+    /**
+     *  @ORM\ManyToOne(targetEntity="Structure", inversedBy="chains")
+     */
+    protected $structure;
+
+    /**
+     *  @ORM\OneToMany(targetEntity="Residue", mappedBy="chain")
+     */
+    protected $residues;
+    
+    /**
+     *  @ORM\OneToMany(targetEntity="MissingResidues", mappedBy="chain")
+     */
+    protected $missingResidues;
+    
+    /**
+     *  @ORM\OneToMany(targetEntity="StructuralRepeat", mappedBy="chain")
+     */
+    protected $structuralRepeats;
+    
 
     
     
-
-
+    public function __construct() {
+        $this->residues = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->missingResidues = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->structuralRepeats = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -451,5 +491,209 @@ class Chain
     public function getProtein()
     {
         return $this->protein;
+    }
+
+    /**
+     * Set missingResiduesCount
+     *
+     * @param integer $missingResiduesCount
+     * @return Chain
+     */
+    public function setMissingResiduesCount($missingResiduesCount)
+    {
+        $this->missingResiduesCount = $missingResiduesCount;
+    
+        return $this;
+    }
+
+    /**
+     * Get missingResiduesCount
+     *
+     * @return integer 
+     */
+    public function getMissingResiduesCount()
+    {
+        return $this->missingResiduesCount;
+    }
+
+    /**
+     * Add residues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Residue $residues
+     * @return Chain
+     */
+    public function addResidue(\LFP\StructuralAnks\MainBundle\Entity\Residue $residues)
+    {
+        $this->residues[] = $residues;
+    
+        return $this;
+    }
+
+    /**
+     * Remove residues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Residue $residues
+     */
+    public function removeResidue(\LFP\StructuralAnks\MainBundle\Entity\Residue $residues)
+    {
+        $this->residues->removeElement($residues);
+    }
+
+    /**
+     * Get residues
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getResidues()
+    {
+        return $this->residues;
+    }
+
+    /**
+     * Add missingResidues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues
+     * @return Chain
+     */
+    public function addMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues)
+    {
+        $this->missingResidues[] = $missingResidues;
+    
+        return $this;
+    }
+
+    /**
+     * Remove missingResidues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues
+     */
+    public function removeMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues)
+    {
+        $this->missingResidues->removeElement($missingResidues);
+    }
+
+    /**
+     * Set chainStructuralProperties
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chainStructuralProperties
+     * @return Chain
+     */
+    public function setChainStructuralProperties(\LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chainStructuralProperties = null)
+    {
+        $this->chainStructuralProperties = $chainStructuralProperties;
+    
+        return $this;
+    }
+
+    /**
+     * Get chainStructuralProperties
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties 
+     */
+    public function getChainStructuralProperties()
+    {
+        return $this->chainStructuralProperties;
+    }
+
+    /**
+     * Add structuralRepeats
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeats
+     * @return Chain
+     */
+    public function addStructuralRepeat(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeats)
+    {
+        $this->structuralRepeats[] = $structuralRepeats;
+    
+        return $this;
+    }
+
+    /**
+     * Remove structuralRepeats
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeats
+     */
+    public function removeStructuralRepeat(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeats)
+    {
+        $this->structuralRepeats->removeElement($structuralRepeats);
+    }
+
+    /**
+     * Get structuralRepeats
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getStructuralRepeats()
+    {
+        return $this->structuralRepeats;
+    }
+
+    /**
+     * Set frustrationRes
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\FrustrationRes $frustrationRes
+     * @return Chain
+     */
+    public function setFrustrationRes(\LFP\StructuralAnks\MainBundle\Entity\FrustrationRes $frustrationRes = null)
+    {
+        $this->frustrationRes = $frustrationRes;
+    
+        return $this;
+    }
+
+    /**
+     * Get frustrationRes
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\FrustrationRes 
+     */
+    public function getFrustrationRes()
+    {
+        return $this->frustrationRes;
+    }
+
+    /**
+     * Set frustrationCont
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\FrustrationCont $frustrationCont
+     * @return Chain
+     */
+    public function setFrustrationCont(\LFP\StructuralAnks\MainBundle\Entity\FrustrationCont $frustrationCont = null)
+    {
+        $this->frustrationCont = $frustrationCont;
+    
+        return $this;
+    }
+
+    /**
+     * Get frustrationCont
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\FrustrationCont 
+     */
+    public function getFrustrationCont()
+    {
+        return $this->frustrationCont;
+    }
+
+    /**
+     * Set structure
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structure
+     * @return Chain
+     */
+    public function setStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structure = null)
+    {
+        $this->structure = $structure;
+    
+        return $this;
+    }
+
+    /**
+     * Get structure
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Structure 
+     */
+    public function getStructure()
+    {
+        return $this->structure;
     }
 }

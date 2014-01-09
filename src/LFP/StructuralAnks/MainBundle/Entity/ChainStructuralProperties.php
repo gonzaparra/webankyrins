@@ -65,6 +65,12 @@ class ChainStructuralProperties
 
 
     /**
+     *  @ORM\OneToOne(targetEntity="ChainStructuralProperties", inversedBy="chainStructuralProperties")
+     */
+    protected $chain;
+    
+    
+    /**
      * Get id
      *
      * @return integer 
@@ -210,5 +216,28 @@ class ChainStructuralProperties
     public function getIcsRepeats()
     {
         return $this->icsRepeats;
+    }
+
+    /**
+     * Set chain
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chain
+     * @return ChainStructuralProperties
+     */
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chain = null)
+    {
+        $this->chain = $chain;
+    
+        return $this;
+    }
+
+    /**
+     * Get chain
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties 
+     */
+    public function getChain()
+    {
+        return $this->chain;
     }
 }

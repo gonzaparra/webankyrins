@@ -2,7 +2,10 @@
 
 namespace LFP\StructuralAnks\MainBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+
 
 /**
  * Protein
@@ -78,12 +81,30 @@ class Protein
     private $subGroup;
 
     /**
+     *  @ORM\OneToOne(targetEntity="Experiment", mappedBy="protein")
+     */
+    protected $experiment;
+    
+    /**
      *  @ORM\OneToMany(targetEntity="Chain", mappedBy="protein")
      */
     protected $chains;
+    /**
+     *  @ORM\OneToMany(targetEntity="PFAMRepeat", mappedBy="protein")
+     */
+    protected $pfamRepeats;
+    
+    /**
+     * @ORM\ManyToMany(targetEntity="GODef", mappedBy="proteins")
+     */
+    private $goDefs;
+    
+    
     
     public function __construct() {
-        $this->chains = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->chains = new ArrayCollection();
+        $this->pfamRepeats = new ArrayCollection();
+        $this->goDefs = new ArrayCollection();
     }
     
 
@@ -284,10 +305,10 @@ class Protein
     /**
      * Add chains
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chains
+     * @param Chain $chains
      * @return Protein
      */
-    public function addChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chains)
+    public function addChain(Chain $chains)
     {
         $this->chains[] = $chains;
     
@@ -297,9 +318,9 @@ class Protein
     /**
      * Remove chains
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chains
+     * @param Chain $chains
      */
-    public function removeChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chains)
+    public function removeChain(Chain $chains)
     {
         $this->chains->removeElement($chains);
     }
@@ -307,10 +328,99 @@ class Protein
     /**
      * Get chains
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return Collection 
      */
     public function getChains()
     {
         return $this->chains;
+    }
+
+    /**
+     * Set experiment
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment
+     * @return Protein
+     */
+    public function setExperiment(\LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment = null)
+    {
+        $this->experiment = $experiment;
+    
+        return $this;
+    }
+
+    /**
+     * Get experiment
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Experiment 
+     */
+    public function getExperiment()
+    {
+        return $this->experiment;
+    }
+
+    /**
+     * Add pfamRepeats
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\PFAMRepeat $pfamRepeats
+     * @return Protein
+     */
+    public function addPfamRepeat(\LFP\StructuralAnks\MainBundle\Entity\PFAMRepeat $pfamRepeats)
+    {
+        $this->pfamRepeats[] = $pfamRepeats;
+    
+        return $this;
+    }
+
+    /**
+     * Remove pfamRepeats
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\PFAMRepeat $pfamRepeats
+     */
+    public function removePfamRepeat(\LFP\StructuralAnks\MainBundle\Entity\PFAMRepeat $pfamRepeats)
+    {
+        $this->pfamRepeats->removeElement($pfamRepeats);
+    }
+
+    /**
+     * Get pfamRepeats
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getPfamRepeats()
+    {
+        return $this->pfamRepeats;
+    }
+
+    /**
+     * Add goDefs
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\GODef $goDefs
+     * @return Protein
+     */
+    public function addGoDef(\LFP\StructuralAnks\MainBundle\Entity\GODef $goDefs)
+    {
+        $this->goDefs[] = $goDefs;
+    
+        return $this;
+    }
+
+    /**
+     * Remove goDefs
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\GODef $goDefs
+     */
+    public function removeGoDef(\LFP\StructuralAnks\MainBundle\Entity\GODef $goDefs)
+    {
+        $this->goDefs->removeElement($goDefs);
+    }
+
+    /**
+     * Get goDefs
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getGoDefs()
+    {
+        return $this->goDefs;
     }
 }

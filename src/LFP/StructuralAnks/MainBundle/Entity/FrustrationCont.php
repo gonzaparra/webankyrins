@@ -77,6 +77,10 @@ class FrustrationCont
      */
     private $nConts;
 
+    /**
+     *  @ORM\OneToOne(targetEntity="Chain", inversedBy="frustrationCont")
+     */
+    protected $chain;
 
     /**
      * Get id
@@ -270,5 +274,28 @@ class FrustrationCont
     public function getNConts()
     {
         return $this->nConts;
+    }
+
+    /**
+     * Set chain
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chain
+     * @return FrustrationCont
+     */
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chain = null)
+    {
+        $this->chain = $chain;
+    
+        return $this;
+    }
+
+    /**
+     * Get chain
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Chain 
+     */
+    public function getChain()
+    {
+        return $this->chain;
     }
 }

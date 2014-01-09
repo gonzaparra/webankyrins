@@ -147,6 +147,11 @@ class Experiment
      */
     private $typeArq;
 
+    /**
+     *  @ORM\OneToOne(targetEntity="Protein", inversedBy="experiment")
+     */
+    protected $protein;
+    
 
     /**
      * Get id
@@ -570,5 +575,28 @@ class Experiment
     public function getTypeArq()
     {
         return $this->typeArq;
+    }
+
+    /**
+     * Set protein
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Protein $protein
+     * @return Experiment
+     */
+    public function setProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $protein = null)
+    {
+        $this->protein = $protein;
+    
+        return $this;
+    }
+
+    /**
+     * Get protein
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Protein 
+     */
+    public function getProtein()
+    {
+        return $this->protein;
     }
 }

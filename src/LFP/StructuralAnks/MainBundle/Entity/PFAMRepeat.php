@@ -140,6 +140,10 @@ class PFAMRepeat
      */
     private $insertions;
 
+    /**
+     *  @ORM\ManyToOne(targetEntity="Protein", inversedBy="pfamRepeats")
+     */
+    protected $protein;
 
     /**
      * Get id
@@ -540,5 +544,28 @@ class PFAMRepeat
     public function getInsertions()
     {
         return $this->insertions;
+    }
+
+    /**
+     * Set protein
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Protein $protein
+     * @return PFAMRepeat
+     */
+    public function setProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $protein = null)
+    {
+        $this->protein = $protein;
+    
+        return $this;
+    }
+
+    /**
+     * Get protein
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Protein 
+     */
+    public function getProtein()
+    {
+        return $this->protein;
     }
 }

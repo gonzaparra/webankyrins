@@ -2,6 +2,8 @@
 
 namespace LFP\StructuralAnks\MainBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -98,6 +100,19 @@ class Structure
      */
     private $buComp;
 
+    /**
+     *  @ORM\OneToMany(targetEntity="Chain", mappedBy="structure")
+     */
+    protected $chains;
+    
+    /**
+     *  @ORM\OneToOne(targetEntity="Publication", mappedBy="structure")
+     */
+    protected $publication;
+    
+    public function __construct() {
+        $this->chains = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -360,5 +375,61 @@ class Structure
     public function getBuComp()
     {
         return $this->buComp;
+    }
+
+    /**
+     * Add chains
+     *
+     * @param Chain $chains
+     * @return Structure
+     */
+    public function addChain(Chain $chains)
+    {
+        $this->chains[] = $chains;
+    
+        return $this;
+    }
+
+    /**
+     * Remove chains
+     *
+     * @param Chain $chains
+     */
+    public function removeChain(Chain $chains)
+    {
+        $this->chains->removeElement($chains);
+    }
+
+    /**
+     * Get chains
+     *
+     * @return Collection 
+     */
+    public function getChains()
+    {
+        return $this->chains;
+    }
+
+    /**
+     * Set publication
+     *
+     * @param Publication $publication
+     * @return Structure
+     */
+    public function setPublication(Publication $publication = null)
+    {
+        $this->publication = $publication;
+    
+        return $this;
+    }
+
+    /**
+     * Get publication
+     *
+     * @return Publication 
+     */
+    public function getPublication()
+    {
+        return $this->publication;
     }
 }

@@ -28,6 +28,10 @@ class CharactPos
      */
     private $charactPos;
 
+    /**
+     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="charactPos")
+     */
+    protected $structuralRepeat;
 
     /**
      * Get id
@@ -60,5 +64,28 @@ class CharactPos
     public function getCharactPos()
     {
         return $this->charactPos;
+    }
+
+    /**
+     * Set structuralRepeat
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeat
+     * @return CharactPos
+     */
+    public function setStructuralRepeat(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeat = null)
+    {
+        $this->structuralRepeat = $structuralRepeat;
+    
+        return $this;
+    }
+
+    /**
+     * Get structuralRepeat
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat 
+     */
+    public function getStructuralRepeat()
+    {
+        return $this->structuralRepeat;
     }
 }

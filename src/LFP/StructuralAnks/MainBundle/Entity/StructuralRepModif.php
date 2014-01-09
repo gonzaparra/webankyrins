@@ -49,7 +49,11 @@ class StructuralRepModif
      */
     private $repNum;
 
-
+    /**
+     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="structuralRepModifs")
+     */
+    protected $structuralRepeat;
+    
     /**
      * Get id
      *
@@ -150,5 +154,28 @@ class StructuralRepModif
     public function getRepNum()
     {
         return $this->repNum;
+    }
+
+    /**
+     * Set structuralRepeat
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeat
+     * @return StructuralRepModif
+     */
+    public function setStructuralRepeat(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat $structuralRepeat = null)
+    {
+        $this->structuralRepeat = $structuralRepeat;
+    
+        return $this;
+    }
+
+    /**
+     * Get structuralRepeat
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\StructuralRepeat 
+     */
+    public function getStructuralRepeat()
+    {
+        return $this->structuralRepeat;
     }
 }

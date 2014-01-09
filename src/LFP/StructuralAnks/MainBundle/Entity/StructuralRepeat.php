@@ -84,7 +84,21 @@ class StructuralRepeat
      */
     private $type;
 
-
+    /**
+     *  @ORM\ManyToOne(targetEntity="Chain", inversedBy="structuralRepeats")
+     */
+    protected $chain;
+    
+    /**
+     *  @ORM\OneToMany(targetEntity="CharactPos", mappedBy="structuralRepeat")
+     */
+    protected $charactPos;
+    
+    /**
+     *  @ORM\OneToMany(targetEntity="StructuralRepModif", mappedBy="structuralRepeat")
+     */
+    protected $structuralRepModifs;
+    
     /**
      * Get id
      *
@@ -300,5 +314,102 @@ class StructuralRepeat
     public function getType()
     {
         return $this->type;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->charactPos = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->structuralRepModifs = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Set chain
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chain
+     * @return StructuralRepeat
+     */
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chain = null)
+    {
+        $this->chain = $chain;
+    
+        return $this;
+    }
+
+    /**
+     * Get chain
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Chain 
+     */
+    public function getChain()
+    {
+        return $this->chain;
+    }
+
+    /**
+     * Add charactPos
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos
+     * @return StructuralRepeat
+     */
+    public function addCharactPo(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos)
+    {
+        $this->charactPos[] = $charactPos;
+    
+        return $this;
+    }
+
+    /**
+     * Remove charactPos
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos
+     */
+    public function removeCharactPo(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos)
+    {
+        $this->charactPos->removeElement($charactPos);
+    }
+
+    /**
+     * Get charactPos
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getCharactPos()
+    {
+        return $this->charactPos;
+    }
+
+    /**
+     * Add structuralRepModifs
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepModif $structuralRepModifs
+     * @return StructuralRepeat
+     */
+    public function addStructuralRepModif(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepModif $structuralRepModifs)
+    {
+        $this->structuralRepModifs[] = $structuralRepModifs;
+    
+        return $this;
+    }
+
+    /**
+     * Remove structuralRepModifs
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\StructuralRepModif $structuralRepModifs
+     */
+    public function removeStructuralRepModif(\LFP\StructuralAnks\MainBundle\Entity\StructuralRepModif $structuralRepModifs)
+    {
+        $this->structuralRepModifs->removeElement($structuralRepModifs);
+    }
+
+    /**
+     * Get structuralRepModifs
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getStructuralRepModifs()
+    {
+        return $this->structuralRepModifs;
     }
 }

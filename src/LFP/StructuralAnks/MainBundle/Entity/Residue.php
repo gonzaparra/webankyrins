@@ -84,6 +84,11 @@ class Residue
      */
     private $chainNConts;
 
+    
+    /**
+     *  @ORM\ManyToOne(targetEntity="Chain", inversedBy="residues")
+     */
+    protected $chain;
 
     /**
      * Get id
@@ -300,5 +305,28 @@ class Residue
     public function getChainNConts()
     {
         return $this->chainNConts;
+    }
+
+    /**
+     * Set chain
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chain
+     * @return Residue
+     */
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chain = null)
+    {
+        $this->chain = $chain;
+    
+        return $this;
+    }
+
+    /**
+     * Get chain
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Chain 
+     */
+    public function getChain()
+    {
+        return $this->chain;
     }
 }
