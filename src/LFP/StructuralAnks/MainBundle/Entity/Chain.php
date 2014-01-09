@@ -143,7 +143,7 @@ class Chain
     protected $residues;
     
     /**
-     *  @ORM\OneToMany(targetEntity="MissingResidues", mappedBy="chain")
+     *  @ORM\OneToMany(targetEntity="MissingRes", mappedBy="chain")
      */
     protected $missingResidues;
     
