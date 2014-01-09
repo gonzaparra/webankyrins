@@ -1,0 +1,7 @@
+parameters:
+#    lfp_structural_anks_main.example.class: LFP\StructuralAnks\MainBundle\Example
+
+services:
+#    lfp_structural_anks_main.example:
+#        class: %lfp_structural_anks_main.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

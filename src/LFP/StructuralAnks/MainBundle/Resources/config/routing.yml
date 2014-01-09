@@ -1,0 +1,3 @@
+lfp_structural_anks_main_homepage:
+    pattern:  /
+    defaults: { _controller: LFPStructuralAnksMainBundle:Default:index }

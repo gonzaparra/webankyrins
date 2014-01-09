@@ -1,0 +1,8 @@
+/nbproject/private/
+/app/logs/
+/app/cache/
+*php~
+/web/bundles/
+.*
+!/.gitignore
+!.htaccess

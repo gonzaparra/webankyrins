@@ -1,0 +1,4 @@
+lfp_structural_anks_main:
+    resource: "@LFPStructuralAnksMainBundle/Resources/config/routing.yml"
+    prefix:   /
+
