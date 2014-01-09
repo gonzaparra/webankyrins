@@ -1,0 +1,7 @@
+select p.*, c.idChain FROM Protein p, Chain c where p.idUniprot=c.idUniprot
+
+select p.*, c.idChain FROM PdbResidue p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
+
+select p.*, c.idChain FROM ChainStructuralProperties p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
+
+select p.*, c.idChain FROM CharactPos p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
