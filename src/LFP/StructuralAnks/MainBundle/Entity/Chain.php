@@ -99,9 +99,9 @@ class Chain
     protected $missingResidues;
     
     /**
-     * @var bool
+     * @var boolean
      *
-     * @ORM\Column(name="nonRedundantSet", type="bool", length=255)
+     * @ORM\Column(name="nonRedundantSet", type="boolean", length=255)
      */
     protected $nonRedundantSet;
     
