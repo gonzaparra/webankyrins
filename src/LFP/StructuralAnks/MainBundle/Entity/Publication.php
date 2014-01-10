@@ -2,6 +2,8 @@
 
 namespace LFP\StructuralAnks\MainBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -27,6 +29,13 @@ class Publication
      * @ORM\Column(name="authors", type="string", length=255, nullable=true)
      */
     private $authors;
+    
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="pubmedId", type="string", length=255, nullable=true)
+     */
+    private $pubmedId;
 
     /**
      * @var string
@@ -90,7 +99,30 @@ class Publication
     {
         return $this->authors;
     }
+    
+    /**
+     * Set pubmedId
+     *
+     * @param string $pubmedId
+     * @return Publication
+     */
+    public function setPubmedId($pubmedId)
+    {
+        $this->pubmedId = $pubmedId;
+    
+        return $this;
+    }
 
+    /**
+     * Get pubmedId
+     *
+     * @return string 
+     */
+    public function getPubmedId()
+    {
+        return $this->pubmedId;
+    }
+    
     /**
      * Set title
      *
@@ -163,10 +195,10 @@ class Publication
     /**
      * Set structure
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structure
+     * @param Structure $structure
      * @return Publication
      */
-    public function setStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structure = null)
+    public function setStructure(Structure $structure = null)
     {
         $this->structure = $structure;
     
@@ -176,7 +208,7 @@ class Publication
     /**
      * Get structure
      *
-     * @return \LFP\StructuralAnks\MainBundle\Entity\Structure 
+     * @return Structure 
      */
     public function getStructure()
     {
@@ -186,10 +218,10 @@ class Publication
     /**
      * Add structures
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structures
+     * @param Structure $structures
      * @return Publication
      */
-    public function addStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structures)
+    public function addStructure(Structure $structures)
     {
         $this->structures[] = $structures;
     
@@ -199,9 +231,9 @@ class Publication
     /**
      * Remove structures
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structures
+     * @param Structure $structures
      */
-    public function removeStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structures)
+    public function removeStructure(Structure $structures)
     {
         $this->structures->removeElement($structures);
     }
@@ -209,7 +241,7 @@ class Publication
     /**
      * Get structures
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return Collection 
      */
     public function getStructures()
     {
