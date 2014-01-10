@@ -50,10 +50,14 @@ class Publication
     private $url;
 
     /**
-     *  @ORM\OneToOne(targetEntity="Structure", inversedBy="publication")
+     *  @ORM\OneToMany(targetEntity="Structure", mappedBy="publication")
      */
-    protected $structure;
+    protected $structures;
 
+    public function __construct() {
+        $this->structures = new ArrayCollection();
+    }
+    
     /**
      * Get id
      *
