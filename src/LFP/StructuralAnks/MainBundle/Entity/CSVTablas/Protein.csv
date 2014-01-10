@@ -1,448 +1,207 @@
-idProtein	IdUniprot	EntryName	ProteinNames	Organism	OrganismID	Length	HasStructure	RepType	SubGroup	idChain
-69	DARPIN_E3_5	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN	831
-70	DARPIN_OFF7	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	836
-71	DARPIN_E3_19	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN	838
-71	DARPIN_E3_19	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN	1241
-72	DARPIN_AR_3A	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	861
-72	DARPIN_AR_3A	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1240
-74	DARPIN_H10_2_G3	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN	862
-74	DARPIN_H10_2_G3	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN	1226
-74	DARPIN_H10_2_G3	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN	1227
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	950
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1175
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1176
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1177
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1178
-75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN	1179
-76	DARPIN_NI3C	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN	951
-77	DARPIN_1D5	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN	960
-77	DARPIN_1D5	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN	1221
-78	DARPIN_3H10	NULL	NULL	NULL	NULL	166	TRUE	Ank	DARPIN	974
-78	DARPIN_3H10	NULL	NULL	NULL	NULL	166	TRUE	Ank	DARPIN	1239
-79	DARPIN_NI3C_Mut5	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	975
-79	DARPIN_NI3C_Mut5	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	1182
-79	DARPIN_NI3C_Mut5	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	1183
-79	DARPIN_NI3C_Mut5	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	1184
-80	DARPIN_NI3C_Mut6	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	976
-80	DARPIN_NI3C_Mut6	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	1237
-80	DARPIN_NI3C_Mut6	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN	1238
-81	DARPIN_NI1C_Mut4	NULL	NULL	NULL	NULL	90	TRUE	Ank	DARPIN	977
-82	DARPIN_3CA1A2N-OH	NULL	NULL	NULL	NULL	109	TRUE	Ank	DARPIN	978
-83	DARPIN_3CA1A2N	NULL	NULL	NULL	NULL	91	TRUE	Ank	DARPIN	979
-84	DARPIN_3ANK	NULL	NULL	NULL	NULL	92	TRUE	Ank	DARPIN	832
-85	DARPIN_4ANK	NULL	NULL	NULL	NULL	92	TRUE	Ank	DARPIN	828
-86	DARPIN_20	NULL	NULL	NULL	NULL	125	TRUE	Ank	DARPIN	983
-135	Q04206	TF65_HUMAN	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Homo sapiens (Human)	9606	551	TRUE	Ank	Partner	469
-135	Q04206	TF65_HUMAN	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Homo sapiens (Human)	9606	551	TRUE	Ank	Partner	471
-136	P19838	NFKB1_HUMAN	Nuclear factor NF-kappa-B p105 subunit(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)	Homo sapiens (Human)	9606	968	TRUE	Ank	Ank	470
-136	P19838	NFKB1_HUMAN	Nuclear factor NF-kappa-B p105 subunit(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)	Homo sapiens (Human)	9606	968	TRUE	Ank	Ank	472
-137	P25963	IKBA_HUMAN	NF-kappa-B inhibitor alpha(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)	Homo sapiens (Human)	9606	317	TRUE	Ank	Ank	473
-137	P25963	IKBA_HUMAN	NF-kappa-B inhibitor alpha(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)	Homo sapiens (Human)	9606	317	TRUE	Ank	Ank	474
-137	P25963	IKBA_HUMAN	NF-kappa-B inhibitor alpha(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)	Homo sapiens (Human)	9606	317	TRUE	Ank	Ank	477
-138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner	475
-138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner	499
-138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner	500
-138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner	512
-138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner	513
-139	P25799	NFKB1_MOUSE	Nuclear factor NF-kappa-B p105 subunit(DNA-binding factor KBF1)(EBP-1)(NF-kappa-B1 p84/NF-kappa-B1 p98)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)(DNA-binding factor KBF1)(EBP-1)(NF-kappa-B1 p84/NF-kappa-B1 p98)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)	Mus musculus (Mouse)	10090	971	TRUE	Ank	Ank	476
-140	Q60773	CDN2D_MOUSE	p19-INK4d	Mus musculus (Mouse)	10090	166	TRUE	Ank	Ank	478
-140	Q60773	CDN2D_MOUSE	p19-INK4d	Mus musculus (Mouse)	10090	166	TRUE	Ank	Ank	485
-141	P55273	CDN2D_HUMAN	p19-INK4d	Homo sapiens (Human)	9606	166	TRUE	Ank	Ank	479
-141	P55273	CDN2D_HUMAN	p19-INK4d	Homo sapiens (Human)	9606	166	TRUE	Ank	Ank	481
-141	P55273	CDN2D_HUMAN	p19-INK4d	Homo sapiens (Human)	9606	166	TRUE	Ank	Ank	483
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	480
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	482
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	484
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	488
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	491
-142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner	617
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	489
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	492
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	494
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	495
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	502
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	503
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	504
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	505
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	506
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	507
-143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank	985
-144	P55271	CDN2B_MOUSE	Cyclin-dependent kinase 4 inhibitor B(p14-INK4b)(p15-INK4b)(p14-INK4b)(p15-INK4b)	Mus musculus (Mouse)	10090	130	TRUE	Ank	Ank	487
-145	O40946	O40946_HHV8		Human herpesvirus 8 (HHV-8)(Kaposis sarcoma-associated herpesvirus)	37296	257	TRUE	Ank	Partner	490
-145	O40946	O40946_HHV8		Human herpesvirus 8 (HHV-8)(Kaposis sarcoma-associated herpesvirus)	37296	257	TRUE	Ank	Partner	493
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	496
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	532
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	534
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	536
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	805
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	807
-146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank	988
-147	P20749	BCL3_HUMAN	Proto-oncogene BCL3	Homo sapiens (Human)	9606	454	TRUE	Ank	Ank	497
-147	P20749	BCL3_HUMAN	Proto-oncogene BCL3	Homo sapiens (Human)	9606	454	TRUE	Ank	Ank	498
-148	Q60778	IKBB_MOUSE	I-kappa-B-beta	Mus musculus (Mouse)	10090	359	TRUE	Ank	Ank	501
-148	Q60778	IKBB_MOUSE	I-kappa-B-beta	Mus musculus (Mouse)	10090	359	TRUE	Ank	Ank	514
-149	P16157	ANK1_HUMAN	Ankyrin-1(Ankyrin-R)(Erythrocyte ankyrin)(Ankyrin-R)(Erythrocyte ankyrin)	Homo sapiens (Human)	9606	1881	TRUE	Ank	Ank	508
-150	P07207	NOTCH_DROME	Neurogenic locus Notch protein	Drosophila melanogaster (Fruit fly)	7227	2703	TRUE	Ank	Ank	509
-150	P07207	NOTCH_DROME	Neurogenic locus Notch protein	Drosophila melanogaster (Fruit fly)	7227	2703	TRUE	Ank	Ank	510
-150	P07207	NOTCH_DROME	Neurogenic locus Notch protein	Drosophila melanogaster (Fruit fly)	7227	2703	TRUE	Ank	Ank	511
-151	O75832	PSD10_HUMAN	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))	Homo sapiens (Human)	9606	226	TRUE	Ank	Ank	515
-151	O75832	PSD10_HUMAN	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))	Homo sapiens (Human)	9606	226	TRUE	Ank	Ank	518
-151	O75832	PSD10_HUMAN	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))	Homo sapiens (Human)	9606	226	TRUE	Ank	Ank	519
-152	P09959	SWI6_YEAST	Regulatory protein SWI6(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	803	TRUE	Ank	Ank	516
-152	P09959	SWI6_YEAST	Regulatory protein SWI6(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	803	TRUE	Ank	Ank	517
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	773
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	774
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	775
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	776
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	777
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	778
-153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank	788
-154	P04637	P53_HUMAN	Cellular tumor antigen p53(Antigen NY-CO-13)(Phosphoprotein p53)(Tumor suppressor p53)(Antigen NY-CO-13)(Phosphoprotein p53)(Tumor suppressor p53)	Homo sapiens (Human)	9606	393	TRUE	Ank	Partner	522
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	523
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	732
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	734
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	736
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	738
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	740
-155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank	742
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	524
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	525
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	543
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	627
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	628
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	811
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	812
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	1003
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	1118
-156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank	1121
-157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank	526
-157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank	655
-157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank	657
-157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank	823
-157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank	825
-158	P43686	PRS6B_HUMAN	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Homo sapiens (Human)	9606	418	TRUE	Ank	Partner	527
-159	Q63570	PRS6B_RAT	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Rattus norvegicus (Rat)	10116	418	TRUE	Ank	Partner	824
-159	Q63570	PRS6B_RAT	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Rattus norvegicus (Rat)	10116	418	TRUE	Ank	Partner	826
-160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner	533
-160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner	535
-160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner	537
-160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner	806
-160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner	808
-161	Q06330	SUH_HUMAN	Recombining binding protein suppressor of hairless(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)	Homo sapiens (Human)	9606	500	TRUE	Ank	Partner	542
-161	Q06330	SUH_HUMAN	Recombining binding protein suppressor of hairless(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)	Homo sapiens (Human)	9606	500	TRUE	Ank	Partner	1002
-161	Q06330	SUH_HUMAN	Recombining binding protein suppressor of hairless(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)	Homo sapiens (Human)	9606	500	TRUE	Ank	Partner	1117
-161	Q06330	SUH_HUMAN	Recombining binding protein suppressor of hairless(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)	Homo sapiens (Human)	9606	500	TRUE	Ank	Partner	1120
-162	Q92585	MAML1_HUMAN	Mastermind-like protein 1	Homo sapiens (Human)	9606	1016	TRUE	Ank	Partner	544
-162	Q92585	MAML1_HUMAN	Mastermind-like protein 1	Homo sapiens (Human)	9606	1016	TRUE	Ank	Partner	1004
-162	Q92585	MAML1_HUMAN	Mastermind-like protein 1	Homo sapiens (Human)	9606	1016	TRUE	Ank	Partner	1119
-162	Q92585	MAML1_HUMAN	Mastermind-like protein 1	Homo sapiens (Human)	9606	1016	TRUE	Ank	Partner	1122
-163	Q8MXE7	Q8MXE7_CAEEL		Caenorhabditis elegans 	6239	671	TRUE	Ank	Partner	545
-164	Q09260	LAG3_CAEEL	Protein lag-3(Abnormal cell lineage protein 3)(Abnormal germline proliferation protein 3)(Abnormal cell lineage protein 3)(Abnormal germline proliferation protein 3)	Caenorhabditis elegans 	6239	490	TRUE	Ank	Partner	546
-165	P14585	LIN12_CAEEL	Abnormal cell lineage protein 12	Caenorhabditis elegans 	6239	1429	TRUE	Ank	Ank	547
-166	O35433	TRPV1_RAT	Transient receptor potential cation channel subfamily V member 1(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)	Rattus norvegicus (Rat)	10116	838	TRUE	Ank	Ank	550
-166	O35433	TRPV1_RAT	Transient receptor potential cation channel subfamily V member 1(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)	Rattus norvegicus (Rat)	10116	838	TRUE	Ank	Ank	632
-167	Q9H9B1	EHMT1_HUMAN	Histone-lysine N-methyltransferase EHMT1(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)	Homo sapiens (Human)	9606	1298	TRUE	Ank	Ank	551
-167	Q9H9B1	EHMT1_HUMAN	Histone-lysine N-methyltransferase EHMT1(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)	Homo sapiens (Human)	9606	1298	TRUE	Ank	Ank	552
-167	Q9H9B1	EHMT1_HUMAN	Histone-lysine N-methyltransferase EHMT1(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)	Homo sapiens (Human)	9606	1298	TRUE	Ank	Ank	553
-168	P68431	H31_HUMAN	Histone H3.1(Histone H3/a)(Histone H3/b)(Histone H3/c)(Histone H3/d)(Histone H3/f)(Histone H3/h)(Histone H3/i)(Histone H3/j)(Histone H3/k)(Histone H3/l)(Histone H3/a)(Histone H3/b)(Histone H3/c)(Histone H3/d)(Histone H3/f)(Histone H3/h)(Histone H3/i)(Histone H3/j)(Histone H3/k)(Histone H3/l)	Homo sapiens (Human)	9606	136	TRUE	Ank	Partner	554
-169	Q99728	BARD1_HUMAN	BRCA1-associated RING domain protein 1	Homo sapiens (Human)	9606	777	TRUE	Ank	Ank	555
-169	Q99728	BARD1_HUMAN	BRCA1-associated RING domain protein 1	Homo sapiens (Human)	9606	777	TRUE	Ank	Ank	556
-171	O22265	SR43C_ARATH	Chromo protein SRP43	Arabidopsis thaliana (Mouse-ear cress)	3702	373	TRUE	Ank	Ank	557
-171	O22265	SR43C_ARATH	Chromo protein SRP43	Arabidopsis thaliana (Mouse-ear cress)	3702	373	TRUE	Ank	Ank	558
-171	O22265	SR43C_ARATH	Chromo protein SRP43	Arabidopsis thaliana (Mouse-ear cress)	3702	373	TRUE	Ank	Ank	707
-172	Q8IUH5	ZDH17_HUMAN	Palmitoyltransferase ZDHHC17(Huntingtin yeast partner H)(Huntingtin-interacting protein 14)(Huntingtin-interacting protein 3)(Huntingtin-interacting protein H)(Putative MAPK-activating protein PM11)(Putative NF-kappa-B-activating protein 205)(Zinc finger DHHC domain-containing protein 17)(Huntingtin yeast partner H)(Huntingtin-interacting protein 14)(Huntingtin-interacting protein 3)(Huntingtin-in	Homo sapiens (Human)	9606	632	TRUE	Ank	Ank	559
-173	A8KA01	A8KA01_HUMAN		Homo sapiens (Human)	9606	622	TRUE	Ank	Ank	560
-173	A8KA01	A8KA01_HUMAN		Homo sapiens (Human)	9606	622	TRUE	Ank	Ank	561
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	562
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	563
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	564
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	565
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	566
-174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank	567
-176	Q00422	GABPA_MOUSE	GA-binding protein alpha chain	Mus musculus (Mouse)	10090	454	TRUE	Ank	Partner	568
-177	Q00420	GABP1_MOUSE	GABP subunit beta-2	Mus musculus (Mouse)	10090	383	TRUE	Ank	Ank	569
-178	Q7SIG6	ASAP2_MOUSE	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 2(Development and differentiation-enhancing factor 2)(Paxillin-associated protein with ARF GAP activity 3)(Pyk2 C-terminus-associated protein)(Development and differentiation-enhancing factor 2)(Paxillin-associated protein with ARF GAP activity 3)(Pyk2 C-terminus-associated protein)	Mus musculus (Mouse)	10090	958	TRUE	Ank	Ank	570
-179	P62775	MTPN_RAT	Myotrophin(Granule cell differentiation protein)(Protein V-1)(Granule cell differentiation protein)(Protein V-1)	Rattus norvegicus (Rat)	10116	118	TRUE	Ank	Ank	571
-179	P62775	MTPN_RAT	Myotrophin(Granule cell differentiation protein)(Protein V-1)(Granule cell differentiation protein)(Protein V-1)	Rattus norvegicus (Rat)	10116	118	TRUE	Ank	Ank	585
-180	P62207	PP1B_CHICK	Serine/threonine-protein phosphatase PP1-beta catalytic subunit	Gallus gallus (Chicken)	9031	327	TRUE	Ank	Partner	572
-181	Q90623	MYPT1_CHICK	Protein phosphatase 1 regulatory subunit 12A(130 kDa myosin-binding subunit of smooth muscle myosin phosphatase)(Myosin phosphatase-targeting subunit 1)(PP1M subunit M110)(Protein phosphatase myosin-binding subunit)(130 kDa myosin-binding subunit of smooth muscle myosin phosphatase)(Myosin phosphatase-targeting subunit 1)(PP1M subunit M110)(Protein phosphatase myosin-binding subunit)	Gallus gallus (Chicken)	9031	1004	TRUE	Ank	Ank	573
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	574
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	575
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	586
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	587
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	669
-182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank	671
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	610
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	611
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	797
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	798
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	799
-183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank	800
-184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank	580
-184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank	581
-184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank	582
-184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank	625
-184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank	626
-185	Q9Y5S1	TRPV2_HUMAN	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)	Homo sapiens (Human)	9606	764	TRUE	Ank	Ank	583
-185	Q9Y5S1	TRPV2_HUMAN	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)	Homo sapiens (Human)	9606	764	TRUE	Ank	Ank	584
-186	Q91WD2	TRPV6_MOUSE	Transient receptor potential cation channel subfamily V member 6(Calcium transport protein 1)(Epithelial calcium channel 2)(Calcium transport protein 1)(Epithelial calcium channel 2)	Mus musculus (Mouse)	10090	727	TRUE	Ank	Ank	588
-187	Q978J0	Y1425_THEVO	Putative ankyrin repeat protein TV1425	Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 	273116	189	TRUE	Ank	Ank	589
-187	Q978J0	Y1425_THEVO	Putative ankyrin repeat protein TV1425	Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 	273116	189	TRUE	Ank	Ank	590
-188	Q8WUF5	IASPP_HUMAN	RelA-associated inhibitor(Inhibitor of ASPP protein)(NFkB-interacting protein 1)(PPP1R13B-like protein)(Inhibitor of ASPP protein)(NFkB-interacting protein 1)(PPP1R13B-like protein)	Homo sapiens (Human)	9606	828	TRUE	Ank	Ank	591
-189	Q96DX5	ASB9_HUMAN	Ankyrin repeat and SOCS box protein 9	Homo sapiens (Human)	9606	294	TRUE	Ank	Ank	999
-189	Q96DX5	ASB9_HUMAN	Ankyrin repeat and SOCS box protein 9	Homo sapiens (Human)	9606	294	TRUE	Ank	Ank	1005
-189	Q96DX5	ASB9_HUMAN	Ankyrin repeat and SOCS box protein 9	Homo sapiens (Human)	9606	294	TRUE	Ank	Ank	1008
-190	Q92882	OSTF1_HUMAN	Osteoclast-stimulating factor 1	Homo sapiens (Human)	9606	214	TRUE	Ank	Ank	593
-190	Q92882	OSTF1_HUMAN	Osteoclast-stimulating factor 1	Homo sapiens (Human)	9606	214	TRUE	Ank	Ank	594
-190	Q92882	OSTF1_HUMAN	Osteoclast-stimulating factor 1	Homo sapiens (Human)	9606	214	TRUE	Ank	Ank	595
-190	Q92882	OSTF1_HUMAN	Osteoclast-stimulating factor 1	Homo sapiens (Human)	9606	214	TRUE	Ank	Ank	596
-191	Q13418	ILK_HUMAN	Integrin-linked protein kinase(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)	Homo sapiens (Human)	9606	452	TRUE	Ank	Ank	597
-191	Q13418	ILK_HUMAN	Integrin-linked protein kinase(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)	Homo sapiens (Human)	9606	452	TRUE	Ank	Ank	601
-191	Q13418	ILK_HUMAN	Integrin-linked protein kinase(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)	Homo sapiens (Human)	9606	452	TRUE	Ank	Ank	813
-192	P48059	LIMS1_HUMAN	LIM and senescent cell antigen-like-containing domain protein 1(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)	Homo sapiens (Human)	9606	325	TRUE	Ank	Partner	598
-192	P48059	LIMS1_HUMAN	LIM and senescent cell antigen-like-containing domain protein 1(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)	Homo sapiens (Human)	9606	325	TRUE	Ank	Partner	814
-193	Q7Z4I7	LIMS2_HUMAN	LIM and senescent cell antigen-like-containing domain protein 2(LIM-like protein 2)(Particularly interesting new Cys-His protein 2)(LIM-like protein 2)(Particularly interesting new Cys-His protein 2)	Homo sapiens (Human)	9606	341	TRUE	Ank	Partner	602
-194	Q6IV60	Q6IV60_9POXV		Vaccinia virus 	10245	284	TRUE	Ank	Ank	603
-194	Q6IV60	Q6IV60_9POXV		Vaccinia virus 	10245	284	TRUE	Ank	Ank	604
-195	E9ADW8	E9ADW8_LEIMA		Leishmania major 	5664	360	TRUE	Ank	Ank	1001
-196	Q15369	ELOC_HUMAN	Transcription elongation factor B polypeptide 1(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)	Homo sapiens (Human)	9606	112	TRUE	Ank	Partner	1006
-196	Q15369	ELOC_HUMAN	Transcription elongation factor B polypeptide 1(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)	Homo sapiens (Human)	9606	112	TRUE	Ank	Partner	1009
-197	Q15370	ELOB_HUMAN	Transcription elongation factor B polypeptide 2(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)	Homo sapiens (Human)	9606	118	TRUE	Ank	Partner	1007
-197	Q15370	ELOB_HUMAN	Transcription elongation factor B polypeptide 2(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)	Homo sapiens (Human)	9606	118	TRUE	Ank	Partner	1010
-198	Q9HBA0	TRPV4_HUMAN	Transient receptor potential cation channel subfamily V member 4(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Vanilloid receptor-related osmotically-activated channel)(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Van	Homo sapiens (Human)	9606	871	TRUE	Ank	Ank	612
-198	Q9HBA0	TRPV4_HUMAN	Transient receptor potential cation channel subfamily V member 4(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Vanilloid receptor-related osmotically-activated channel)(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Van	Homo sapiens (Human)	9606	871	TRUE	Ank	Ank	613
-198	Q9HBA0	TRPV4_HUMAN	Transient receptor potential cation channel subfamily V member 4(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Vanilloid receptor-related osmotically-activated channel)(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Van	Homo sapiens (Human)	9606	871	TRUE	Ank	Ank	756
-198	Q9HBA0	TRPV4_HUMAN	Transient receptor potential cation channel subfamily V member 4(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Vanilloid receptor-related osmotically-activated channel)(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Van	Homo sapiens (Human)	9606	871	TRUE	Ank	Ank	757
-200	P42771	CD2A1_HUMAN	Cyclin-dependent kinase inhibitor 2A, isoforms 1/2/3(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)	Homo sapiens (Human)	9606	156	TRUE	Ank	Ank	618
-200	P42771	CD2A1_HUMAN	Cyclin-dependent kinase inhibitor 2A, isoforms 1/2/3(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)	Homo sapiens (Human)	9606	156	TRUE	Ank	Ank	619
-200	P42771	CD2A1_HUMAN	Cyclin-dependent kinase inhibitor 2A, isoforms 1/2/3(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)	Homo sapiens (Human)	9606	156	TRUE	Ank	Ank	986
-200	P42771	CD2A1_HUMAN	Cyclin-dependent kinase inhibitor 2A, isoforms 1/2/3(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)	Homo sapiens (Human)	9606	156	TRUE	Ank	Ank	989
-201	Q5ZSV0	Q5ZSV0_LEGPH		Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	368	TRUE	Ank	Ank	785
-201	Q5ZSV0	Q5ZSV0_LEGPH		Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	368	TRUE	Ank	Ank	786
-203	P13127	CAZA1_CHICK	F-actin-capping protein subunit alpha-1(Beta-actinin subunit I)(CapZ 36/32)(Beta-actinin subunit I)(CapZ 36/32)	Gallus gallus (Chicken)	9031	286	TRUE	Ank	Partner	652
-203	P13127	CAZA1_CHICK	F-actin-capping protein subunit alpha-1(Beta-actinin subunit I)(CapZ 36/32)(Beta-actinin subunit I)(CapZ 36/32)	Gallus gallus (Chicken)	9031	286	TRUE	Ank	Partner	990
-204	P14315	CAPZB_CHICK	F-actin-capping protein subunit beta isoforms 1 and 2(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)	Gallus gallus (Chicken)	9031	277	TRUE	Ank	Partner	653
-204	P14315	CAPZB_CHICK	F-actin-capping protein subunit beta isoforms 1 and 2(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)	Gallus gallus (Chicken)	9031	277	TRUE	Ank	Partner	991
-205	P62774	MTPN_MOUSE	Myotrophin(Granule cell differentiation protein)(Protein V-1)(Granule cell differentiation protein)(Protein V-1)	Mus musculus (Mouse)	10090	118	TRUE	Ank	Ank	992
-206	Q9NWT6	HIF1N_HUMAN	Hypoxia-inducible factor 1-alpha inhibitor(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)	Homo sapiens (Human)	9606	349	TRUE	Ank	Partner	668
-206	Q9NWT6	HIF1N_HUMAN	Hypoxia-inducible factor 1-alpha inhibitor(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)	Homo sapiens (Human)	9606	349	TRUE	Ank	Partner	670
-206	Q9NWT6	HIF1N_HUMAN	Hypoxia-inducible factor 1-alpha inhibitor(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)	Homo sapiens (Human)	9606	349	TRUE	Ank	Partner	746
-206	Q9NWT6	HIF1N_HUMAN	Hypoxia-inducible factor 1-alpha inhibitor(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)	Homo sapiens (Human)	9606	349	TRUE	Ank	Partner	747
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	634
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	635
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	636
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	637
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	642
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	643
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	644
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	645
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	993
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	994
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	995
-207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner	996
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	679
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	680
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	681
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	682
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	683
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	684
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	689
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	690
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	691
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	692
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	693
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	694
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	695
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	696
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	697
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	699
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	700
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	701
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	702
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	703
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	704
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	705
-208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank	706
-210	P58546	MTPN_HUMAN	Protein V-1	Homo sapiens (Human)	9606	118	TRUE	Ank	Ank	654
-211	P54775	PRS6B_MOUSE	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Mus musculus (Mouse)	10090	418	TRUE	Ank	Partner	656
-211	P54775	PRS6B_MOUSE	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Mus musculus (Mouse)	10090	418	TRUE	Ank	Partner	658
-212	Q838Q8	Q838Q8_ENTFA		Enterococcus faecalis (strain ATCC 700802 / V583) 	226185	201	TRUE	Ank	Ank	1000
-213	Q15027	ACAP1_HUMAN	Centaurin-beta-1	Homo sapiens (Human)	9606	740	TRUE	Ank	Ank	660
-213	Q15027	ACAP1_HUMAN	Centaurin-beta-1	Homo sapiens (Human)	9606	740	TRUE	Ank	Ank	767
-213	Q15027	ACAP1_HUMAN	Centaurin-beta-1	Homo sapiens (Human)	9606	740	TRUE	Ank	Ank	768
-213	Q15027	ACAP1_HUMAN	Centaurin-beta-1	Homo sapiens (Human)	9606	740	TRUE	Ank	Ank	1114
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	662
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	663
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	664
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	665
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	666
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	667
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	758
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	759
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	760
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	761
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	762
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	763
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	764
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	765
-214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner	766
-215	Q9H9E1	ANRA2_HUMAN	RFXANK-like protein 2	Homo sapiens (Human)	9606	313	TRUE	Ank	Ank	672
-215	Q9H9E1	ANRA2_HUMAN	RFXANK-like protein 2	Homo sapiens (Human)	9606	313	TRUE	Ank	Ank	714
-215	Q9H9E1	ANRA2_HUMAN	RFXANK-like protein 2	Homo sapiens (Human)	9606	313	TRUE	Ank	Ank	716
-215	Q9H9E1	ANRA2_HUMAN	RFXANK-like protein 2	Homo sapiens (Human)	9606	313	TRUE	Ank	Ank	720
-218	P78314	3BP2_HUMAN	SH3 domain-binding protein 2	Homo sapiens (Human)	9606	561	TRUE	Ank	Partner	685
-218	P78314	3BP2_HUMAN	SH3 domain-binding protein 2	Homo sapiens (Human)	9606	561	TRUE	Ank	Partner	686
-218	P78314	3BP2_HUMAN	SH3 domain-binding protein 2	Homo sapiens (Human)	9606	561	TRUE	Ank	Partner	687
-218	P78314	3BP2_HUMAN	SH3 domain-binding protein 2	Homo sapiens (Human)	9606	561	TRUE	Ank	Partner	688
-219	Q07820	MCL1_HUMAN	Induced myeloid leukemia cell differentiation protein Mcl-1(Bcl-2-like protein 3)(Bcl-2-related protein EAT/mcl1)(mcl1/EAT)(Bcl-2-like protein 3)(Bcl-2-related protein EAT/mcl1)(mcl1/EAT)	Homo sapiens (Human)	9606	350	TRUE	Ank	Partner	698
-220	P37107	SR54C_ARATH	FFC	Arabidopsis thaliana (Mouse-ear cress)	3702	564	TRUE	Ank	Partner	708
-221	Q6PFX9	TNKS1_MOUSE	Tankyrase-1(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)	Mus musculus (Mouse)	10090	1320	TRUE	Ank	Ank	709
-221	Q6PFX9	TNKS1_MOUSE	Tankyrase-1(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)	Mus musculus (Mouse)	10090	1320	TRUE	Ank	Ank	710
-222	O35625	AXIN1_MOUSE	Axin-1(Axis inhibition protein 1)(Protein Fused)(Axis inhibition protein 1)(Protein Fused)	Mus musculus (Mouse)	10090	863	TRUE	Ank	Partner	711
-223	O14593	RFXK_HUMAN	DNA-binding protein RFXANK(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)	Homo sapiens (Human)	9606	260	TRUE	Ank	Ank	712
-223	O14593	RFXK_HUMAN	DNA-binding protein RFXANK(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)	Homo sapiens (Human)	9606	260	TRUE	Ank	Ank	718
-224	P56524	HDAC4_HUMAN	Histone deacetylase 4	Homo sapiens (Human)	9606	1084	TRUE	Ank	Partner	713
-224	P56524	HDAC4_HUMAN	Histone deacetylase 4	Homo sapiens (Human)	9606	1084	TRUE	Ank	Partner	721
-225	P98158	LRP2_RAT	Low-density lipoprotein receptor-related protein 2(Glycoprotein 330)(Megalin)(Glycoprotein 330)(Megalin)	Rattus norvegicus (Rat)	10116	4660	TRUE	Ank	Partner	715
-225	P98158	LRP2_RAT	Low-density lipoprotein receptor-related protein 2(Glycoprotein 330)(Megalin)(Glycoprotein 330)(Megalin)	Rattus norvegicus (Rat)	10116	4660	TRUE	Ank	Partner	717
-226	P48382	RFX5_HUMAN	Regulatory factor X 5	Homo sapiens (Human)	9606	616	TRUE	Ank	Partner	719
-227	P63086	MK01_RAT	Mitogen-activated protein kinase 1(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)	Rattus norvegicus (Rat)	10116	358	TRUE	Ank	Partner	728
-227	P63086	MK01_RAT	Mitogen-activated protein kinase 1(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)	Rattus norvegicus (Rat)	10116	358	TRUE	Ank	Partner	729
-227	P63086	MK01_RAT	Mitogen-activated protein kinase 1(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)	Rattus norvegicus (Rat)	10116	358	TRUE	Ank	Partner	730
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	731
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	733
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	735
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	737
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	739
-228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner	741
-229	P11818	SPIKE_ADE05	Protein IV	Human adenovirus C serotype 5 (HAdV-5)(Human adenovirus 5)	28285	581	TRUE	Ank	Partner	743
-229	P11818	SPIKE_ADE05	Protein IV	Human adenovirus C serotype 5 (HAdV-5)(Human adenovirus 5)	28285	581	TRUE	Ank	Partner	744
-229	P11818	SPIKE_ADE05	Protein IV	Human adenovirus C serotype 5 (HAdV-5)(Human adenovirus 5)	28285	581	TRUE	Ank	Partner	745
-230	P70280	VAMP7_MOUSE	Synaptobrevin-like protein 1	Mus musculus (Mouse)	10090	220	TRUE	Ank	Partner	748
-231	Q96NW4	ANR27_HUMAN	VPS9 domain-containing protein	Homo sapiens (Human)	9606	1050	TRUE	Ank	Ank	749
-232	D0VWZ0	D0VWZ0_SHEEP		Ovis aries (Sheep)	9940	451	TRUE	Ank	Partner	750
-232	D0VWZ0	D0VWZ0_SHEEP		Ovis aries (Sheep)	9940	451	TRUE	Ank	Partner	752
-232	D0VWZ0	D0VWZ0_SHEEP		Ovis aries (Sheep)	9940	451	TRUE	Ank	Partner	769
-232	D0VWZ0	D0VWZ0_SHEEP		Ovis aries (Sheep)	9940	451	TRUE	Ank	Partner	1026
-233	D0VWY9	D0VWY9_SHEEP		Ovis aries (Sheep)	9940	445	TRUE	Ank	Partner	751
-233	D0VWY9	D0VWY9_SHEEP		Ovis aries (Sheep)	9940	445	TRUE	Ank	Partner	753
-233	D0VWY9	D0VWY9_SHEEP		Ovis aries (Sheep)	9940	445	TRUE	Ank	Partner	770
-233	D0VWY9	D0VWY9_SHEEP		Ovis aries (Sheep)	9940	445	TRUE	Ank	Partner	1027
-250	O88522	NEMO_MOUSE	NF-kappa-B essential modulator(IkB kinase-associated protein 1)(Inhibitor of nuclear factor kappa-B kinase subunit gamma)(NF-kappa-B essential modifier)(IkB kinase-associated protein 1)(Inhibitor of nuclear factor kappa-B kinase subunit gamma)(NF-kappa-B essential modifier)	Mus musculus (Mouse)	10090	412	TRUE	Ank	Partner	815
-251	Q8VC91	Q8VC91_MOUSE		Mus musculus (Mouse)	10090	411	TRUE	Ank	Partner	816
-259	P0AEX9	MALE_ECOLI	Maltose-binding periplasmic protein(MBP)(MMBP)(Maltodextrin-binding protein)(MBP)(MMBP)(Maltodextrin-binding protein)	Escherichia coli (strain K12) 	83333	396	TRUE	Ank	Partner	835
-260	E2DP59	E2DP59_STREE		Streptococcus pneumoniae 	1313	264	TRUE	Ank	Partner	859
-261	P0A3Y5	KKA3_ENTFL	Aminoglycoside 3'-phosphotransferase(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)	Enterococcus faecalis (Streptococcus faecalis)	1351	264	TRUE	Ank	Partner	860
-263	P42575	CASP2_HUMAN	Caspase-2(Neural precursor cell expressed developmentally down-regulated protein 2)(Protease ICH-1)(Neural precursor cell expressed developmentally down-regulated protein 2)(Protease ICH-1)	Homo sapiens (Human)	9606	452	TRUE	Ank	Partner	938
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	939
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	941
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	943
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	945
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	947
-264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner	949
-265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner	940
-265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner	942
-265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner	944
-265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner	946
-265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner	948
-266	NRC	NULL	NULL	NULL	NULL	117	YES	Ank	DARPIN	961
-267	P53350	PLK1_HUMAN	Serine/threonine-protein kinase PLK1(Polo-like kinase 1)(Serine/threonine-protein kinase 13)(Polo-like kinase 1)(Serine/threonine-protein kinase 13)	Homo sapiens (Human)	9606	603	TRUE	Ank	Partner	972
-267	P53350	PLK1_HUMAN	Serine/threonine-protein kinase PLK1(Polo-like kinase 1)(Serine/threonine-protein kinase 13)(Polo-like kinase 1)(Serine/threonine-protein kinase 13)	Homo sapiens (Human)	9606	603	TRUE	Ank	Partner	973
-268	Q9G096	Q9G096_9CAUD		Lactococcus phage TP901-1 	35345	163	TRUE	Ank	Partner	980
-268	Q9G096	Q9G096_9CAUD		Lactococcus phage TP901-1 	35345	163	TRUE	Ank	Partner	981
-268	Q9G096	Q9G096_9CAUD		Lactococcus phage TP901-1 	35345	163	TRUE	Ank	Partner	982
-278	DARPIN-34_I78S	NULL	NULL	NULL	NULL	138	YES	Ank	DARPIN	997
-278	DARPIN-34_I78S	NULL	NULL	NULL	NULL	138	YES	Ank	DARPIN	998
-295	OR266	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN	1019
-295	OR266	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN	1242
-296	OR264	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN	1020
-298	Darpin_D2	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN	1025
-302	P33176	KINH_HUMAN	Kinesin-1 heavy chain(Conventional kinesin heavy chain)(Ubiquitous kinesin heavy chain)(Conventional kinesin heavy chain)(Ubiquitous kinesin heavy chain)	Homo sapiens (Human)	9606	963	TRUE	Ank	Partner	1029
-303	Darpin_D1	NULL	NULL	NULL	0	169	YES	Ank	Ank	1031
-307	1n0q_B	 	 		NULL	NULL	TRUE	Ank	Ank	1073
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1094
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1095
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1099
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1100
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1102
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1103
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1115
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1116
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1185
-323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1186
-324	3b95_P	 	 		NULL	15	TRUE	Ank	peptide	1109
-325	2xzd_G	 	 		NULL	136	TRUE	Ank	Ank	1110
-326	2xzd_H	 	 		NULL	136	TRUE	Ank	Ank	1111
-327	2y0b_G	 	 		NULL	136	TRUE	Ank	Ank	1112
-328	2y0b_H	 	 		NULL	136	TRUE	Ank	Ank	1113
-336	3noc_D	 	 		NULL	169	TRUE	Ank	Ank	1129
-337	3noc_E	 	 		NULL	169	TRUE	Ank	Ank	1130
-338	3nog_D	 	 		NULL	169	TRUE	Ank	Ank	1131
-339	3nog_E	 	 		NULL	169	TRUE	Ank	Ank	1132
-340	3q9n_A	 	 		NULL	141	TRUE	Ank	Ank	1133
-341	3q9n_B	 	 		NULL	141	TRUE	Ank	Ank	1134
-342	3q9n_C	 	 		NULL	158	TRUE	Ank	Ank	1135
-343	3q9n_D	 	 		NULL	158	TRUE	Ank	Ank	1136
-344	3q9u_A	 	 		NULL	141	TRUE	Ank	Ank	1137
-345	3q9u_B	 	 		NULL	141	TRUE	Ank	Ank	1138
-346	3q9u_C	 	 		NULL	158	TRUE	Ank	Ank	1139
-347	3q9u_D	 	 		NULL	158	TRUE	Ank	Ank	1140
-350	3tws_E	 	 		NULL	16	TRUE	Ank	peptide	1145
-351	3tws_F	 	 		NULL	16	TRUE	Ank	peptide	1146
-352	3tws_G	 	 		NULL	16	TRUE	Ank	peptide	1147
-353	3tws_H	 	 		NULL	16	TRUE	Ank	peptide	1148
-354	3twt_E	 	 		NULL	16	TRUE	Ank	peptide	1149
-355	3twt_F	 	 		NULL	16	TRUE	Ank	peptide	1150
-356	3twt_G	 	 		NULL	16	TRUE	Ank	peptide	1151
-357	3twt_H	 	 		NULL	16	TRUE	Ank	peptide	1152
-358	3twv_E	 	 		NULL	16	TRUE	Ank	peptide	1153
-359	3twv_F	 	 		NULL	16	TRUE	Ank	peptide	1154
-360	3twv_G	 	 		NULL	16	TRUE	Ank	peptide	1155
-361	3twv_H	 	 		NULL	16	TRUE	Ank	peptide	1156
-362	3tww_C	 	 		NULL	16	TRUE	Ank	peptide	1157
-363	3tww_D	 	 		NULL	16	TRUE	Ank	peptide	1158
-364	3twx_C	 	 		NULL	16	TRUE	Ank	peptide	1159
-365	3twx_D	 	 		NULL	16	TRUE	Ank	peptide	1160
-366	3zu7_B	 	 		NULL	169	TRUE	Ank	Ank	1161
-367	3zuv_B	 	 		NULL	136	TRUE	Ank	Ank	1162
-368	3zuv_D	 	 		NULL	136	TRUE	Ank	Ank	1163
-369	4atz_D	 	 		NULL	154	TRUE	Ank	Ank	1164
-370	4atz_E	 	 		NULL	154	TRUE	Ank	Ank	1165
-371	4atz_F	 	 		NULL	154	TRUE	Ank	Ank	1166
-372	4b7e_B	 	 		NULL	17	TRUE	Ank	peptide	1167
-373	4b7k_B	 	 		NULL	20	TRUE	Ank	peptide	1168
-374	4drx_E	 	 		NULL	169	TRUE	Ank	Ank	1169
-375	4drx_F	 	 		NULL	169	TRUE	Ank	Ank	1170
-376	4dx5_D	 	 		NULL	169	TRUE	Ank	Ank	1171
-377	4dx5_E	 	 		NULL	169	TRUE	Ank	Ank	1172
-378	4dx7_D	 	 		NULL	169	TRUE	Ank	Ank	1173
-379	4dx7_E	 	 		NULL	169	TRUE	Ank	Ank	1174
-380	3v79_R	 	 		NULL	19	TRUE	Ank	peptide	1187
-383	4f6r_C	 	 		NULL	87	TRUE	Ank	Ank	1194
-384	4f6r_D	 	 		NULL	169	TRUE	Ank	Ank	1195
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1202
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1203
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1204
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1205
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1206
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1207
-385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank	1208
-389	P55210	CASP7_HUMAN	Caspase-7(Apoptotic protease Mch-3)(CMH-1)(ICE-like apoptotic protease 3)(Apoptotic protease Mch-3)(CMH-1)(ICE-like apoptotic protease 3)	Homo sapiens (Human)	9606	303	TRUE	Ank	Partner	1209
-390	4jb8_B	 	 		NULL	97	TRUE	Ank	Ank	1210
-391	4hrn_A	 	 		NULL	136	TRUE	Ank	Ank	1211
-392	4hrn_B	 	 		NULL	136	TRUE	Ank	Ank	1212
-399	4gpm_B	 	 		NULL	169	TRUE	Ank	Ank	1243
-400	3dep_B	 	 		NULL	12	TRUE	Ank	peptide	1244
-401	P04626	ERBB2_HUMAN	Receptor tyrosine-protein kinase erbB-2(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)	Homo sapiens (Human)	9606	1255	TRUE	Ank	Partner	1245
-401	P04626	ERBB2_HUMAN	Receptor tyrosine-protein kinase erbB-2(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)	Homo sapiens (Human)	9606	1255	TRUE	Ank	Partner	1246
-401	P04626	ERBB2_HUMAN	Receptor tyrosine-protein kinase erbB-2(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)	Homo sapiens (Human)	9606	1255	TRUE	Ank	Partner	1256
-402	Q63ZY3	KANK2_HUMAN	KN motif and ankyrin repeat domain-containing protein 2(Ankyrin repeat domain-containing protein 25)(Matrix-remodeling-associated protein 3)(SRC-1-interacting protein)(Ankyrin repeat domain-containing protein 25)(Matrix-remodeling-associated protein 3)(SRC-1-interacting protein)	Homo sapiens (Human)	9606	851	TRUE	Ank	Ank	1249
-403	4hll_A	 	 		NULL	173	TRUE	Ank	Ank	1250
-406	4hrl_A	 	 		NULL	171	TRUE	Ank	Ank	1255
-412	4hrm_B	 	 		NULL	172	TRUE	Ank	Ank	1267
-413	4hrm_D	 	 		NULL	172	TRUE	Ank	Ank	1268
-416	P05750	RS3_YEAST	40S ribosomal protein S3(RP13)(YS3)(RP13)(YS3)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	240	TRUE	Ank	Partner	1273
-417	P46683	YAR1_YEAST	Ankyrin repeat-containing protein YAR1	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	200	TRUE	Ank	Ank	1274
-420	4j7w_A	 	 		NULL	169	TRUE	Ank	Ank	1275
-421	4j7w_B	 	 		NULL	169	TRUE	Ank	Ank	1276
-422	4j8y_A	 	 		NULL	169	TRUE	Ank	Ank	1277
+idProtein	IdUniprot	EntryName	ProteinNames	Organism	OrganismID	Length	HasStructure	RepType	SubGroup
+69	DARPIN_E3_5	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN
+70	DARPIN_OFF7	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN
+71	DARPIN_E3_19	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN
+72	DARPIN_AR_3A	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN
+73	DARPIN_Clone_1108_19	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN
+74	DARPIN_H10_2_G3	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN
+75	DARPIN_AR_F8	NULL	NULL	NULL	NULL	168	TRUE	Ank	DARPIN
+76	DARPIN_NI3C	NULL	NULL	NULL	NULL	165	TRUE	Ank	DARPIN
+77	DARPIN_1D5	NULL	NULL	NULL	NULL	135	TRUE	Ank	DARPIN
+78	DARPIN_3H10	NULL	NULL	NULL	NULL	166	TRUE	Ank	DARPIN
+79	DARPIN_NI3C_Mut5	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN
+80	DARPIN_NI3C_Mut6	NULL	NULL	NULL	NULL	156	TRUE	Ank	DARPIN
+81	DARPIN_NI1C_Mut4	NULL	NULL	NULL	NULL	90	TRUE	Ank	DARPIN
+82	DARPIN_3CA1A2N-OH	NULL	NULL	NULL	NULL	109	TRUE	Ank	DARPIN
+83	DARPIN_3CA1A2N	NULL	NULL	NULL	NULL	91	TRUE	Ank	DARPIN
+84	DARPIN_3ANK	NULL	NULL	NULL	NULL	92	TRUE	Ank	DARPIN
+85	DARPIN_4ANK	NULL	NULL	NULL	NULL	92	TRUE	Ank	DARPIN
+86	DARPIN_20	NULL	NULL	NULL	NULL	125	TRUE	Ank	DARPIN
+135	Q04206	TF65_HUMAN	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Homo sapiens (Human)	9606	551	TRUE	Ank	Partner
+136	P19838	NFKB1_HUMAN	Nuclear factor NF-kappa-B p105 subunit(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)(DNA-binding factor KBF1)(EBP-1)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)	Homo sapiens (Human)	9606	968	TRUE	Ank	Ank
+137	P25963	IKBA_HUMAN	NF-kappa-B inhibitor alpha(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)(I-kappa-B-alpha)(Major histocompatibility complex enhancer-binding protein MAD3)	Homo sapiens (Human)	9606	317	TRUE	Ank	Ank
+138	Q04207	TF65_MOUSE	Transcription factor p65(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)(Nuclear factor NF-kappa-B p65 subunit)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 3)	Mus musculus (Mouse)	10090	549	TRUE	Ank	Partner
+139	P25799	NFKB1_MOUSE	Nuclear factor NF-kappa-B p105 subunit(DNA-binding factor KBF1)(EBP-1)(NF-kappa-B1 p84/NF-kappa-B1 p98)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)(DNA-binding factor KBF1)(EBP-1)(NF-kappa-B1 p84/NF-kappa-B1 p98)(Nuclear factor of kappa light polypeptide gene enhancer in B-cells 1)	Mus musculus (Mouse)	10090	971	TRUE	Ank	Ank
+140	Q60773	CDN2D_MOUSE	p19-INK4d	Mus musculus (Mouse)	10090	166	TRUE	Ank	Ank
+141	P55273	CDN2D_HUMAN	p19-INK4d	Homo sapiens (Human)	9606	166	TRUE	Ank	Ank
+142	Q00534	CDK6_HUMAN	Cyclin-dependent kinase 6(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)(Cell division protein kinase 6)(Serine/threonine-protein kinase PLSTIRE)	Homo sapiens (Human)	9606	326	TRUE	Ank	Partner
+143	P42773	CDN2C_HUMAN	Cyclin-dependent kinase 4 inhibitor C(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)(Cyclin-dependent kinase 6 inhibitor)(p18-INK4c)(p18-INK6)	Homo sapiens (Human)	9606	168	TRUE	Ank	Ank
+144	P55271	CDN2B_MOUSE	Cyclin-dependent kinase 4 inhibitor B(p14-INK4b)(p15-INK4b)(p14-INK4b)(p15-INK4b)	Mus musculus (Mouse)	10090	130	TRUE	Ank	Ank
+145	O40946	O40946_HHV8		Human herpesvirus 8 (HHV-8)(Kaposis sarcoma-associated herpesvirus)	37296	257	TRUE	Ank	Partner
+146	P50086	PSD10_YEAST	Proteasome non-ATPase subunit 6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	228	TRUE	Ank	Ank
+147	P20749	BCL3_HUMAN	Proto-oncogene BCL3	Homo sapiens (Human)	9606	454	TRUE	Ank	Ank
+148	Q60778	IKBB_MOUSE	I-kappa-B-beta	Mus musculus (Mouse)	10090	359	TRUE	Ank	Ank
+149	P16157	ANK1_HUMAN	Ankyrin-1(Ankyrin-R)(Erythrocyte ankyrin)(Ankyrin-R)(Erythrocyte ankyrin)	Homo sapiens (Human)	9606	1881	TRUE	Ank	Ank
+150	P07207	NOTCH_DROME	Neurogenic locus Notch protein	Drosophila melanogaster (Fruit fly)	7227	2703	TRUE	Ank	Ank
+151	O75832	PSD10_HUMAN	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))(26S proteasome regulatory subunit p28)(Gankyrin)(p28(GANK))	Homo sapiens (Human)	9606	226	TRUE	Ank	Ank
+152	P09959	SWI6_YEAST	Regulatory protein SWI6(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)(Cell-cycle box factor subunit SWI6)(MBF subunit P90)(Trans-acting activator of HO endonuclease gene)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	803	TRUE	Ank	Ank
+153	Q05823	RN5A_HUMAN	2-5A-dependent ribonuclease(Ribonuclease 4)(Ribonuclease L)(Ribonuclease 4)(Ribonuclease L)	Homo sapiens (Human)	9606	741	TRUE	Ank	Ank
+154	P04637	P53_HUMAN	Cellular tumor antigen p53(Antigen NY-CO-13)(Phosphoprotein p53)(Tumor suppressor p53)(Antigen NY-CO-13)(Phosphoprotein p53)(Tumor suppressor p53)	Homo sapiens (Human)	9606	393	TRUE	Ank	Partner
+155	Q13625	ASPP2_HUMAN	Apoptosis-stimulating of p53 protein 2(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)(Bcl2-binding protein)(Renal carcinoma antigen NY-REN-51)(Tumor suppressor p53-binding protein 2)	Homo sapiens (Human)	9606	1128	TRUE	Ank	Ank
+156	P46531	NOTC1_HUMAN	Translocation-associated notch protein TAN-1	Homo sapiens (Human)	9606	2555	TRUE	Ank	Ank
+157	Q9Z2X2	PSD10_MOUSE	26S proteasome non-ATPase regulatory subunit 10(26S proteasome regulatory subunit p28)(Gankyrin)(26S proteasome regulatory subunit p28)(Gankyrin)	Mus musculus (Mouse)	10090	231	TRUE	Ank	Ank
+158	P43686	PRS6B_HUMAN	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Homo sapiens (Human)	9606	418	TRUE	Ank	Partner
+159	Q63570	PRS6B_RAT	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Rattus norvegicus (Rat)	10116	418	TRUE	Ank	Partner
+160	P33298	PRS6B_YEAST	26S protease regulatory subunit 6B homolog(Protein YNT1)(Tat-binding homolog 2)(Protein YNT1)(Tat-binding homolog 2)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	428	TRUE	Ank	Partner
+161	Q06330	SUH_HUMAN	Recombining binding protein suppressor of hairless(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)(CBF-1)(J kappa-recombination signal-binding protein)(RBP-J kappa)(Renal carcinoma antigen NY-REN-30)	Homo sapiens (Human)	9606	500	TRUE	Ank	Partner
+162	Q92585	MAML1_HUMAN	Mastermind-like protein 1	Homo sapiens (Human)	9606	1016	TRUE	Ank	Partner
+163	Q8MXE7	Q8MXE7_CAEEL		Caenorhabditis elegans 	6239	671	TRUE	Ank	Partner
+164	Q09260	LAG3_CAEEL	Protein lag-3(Abnormal cell lineage protein 3)(Abnormal germline proliferation protein 3)(Abnormal cell lineage protein 3)(Abnormal germline proliferation protein 3)	Caenorhabditis elegans 	6239	490	TRUE	Ank	Partner
+165	P14585	LIN12_CAEEL	Abnormal cell lineage protein 12	Caenorhabditis elegans 	6239	1429	TRUE	Ank	Ank
+166	O35433	TRPV1_RAT	Transient receptor potential cation channel subfamily V member 1(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)(Capsaicin receptor)(Osm-9-like TRP channel 1)(Vanilloid receptor 1)(Vanilloid receptor type 1-like)	Rattus norvegicus (Rat)	10116	838	TRUE	Ank	Ank
+167	Q9H9B1	EHMT1_HUMAN	Histone-lysine N-methyltransferase EHMT1(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)(Euchromatic histone-lysine N-methyltransferase 1)(G9a-like protein 1)(Histone H3-K9 methyltransferase 5)(Lysine N-methyltransferase 1D)	Homo sapiens (Human)	9606	1298	TRUE	Ank	Ank
+168	P68431	H31_HUMAN	Histone H3.1(Histone H3/a)(Histone H3/b)(Histone H3/c)(Histone H3/d)(Histone H3/f)(Histone H3/h)(Histone H3/i)(Histone H3/j)(Histone H3/k)(Histone H3/l)(Histone H3/a)(Histone H3/b)(Histone H3/c)(Histone H3/d)(Histone H3/f)(Histone H3/h)(Histone H3/i)(Histone H3/j)(Histone H3/k)(Histone H3/l)	Homo sapiens (Human)	9606	136	TRUE	Ank	Partner
+169	Q99728	BARD1_HUMAN	BRCA1-associated RING domain protein 1	Homo sapiens (Human)	9606	777	TRUE	Ank	Ank
+170	Q53F80	Q53F80_HUMAN		Homo sapiens (Human)	9606	777	TRUE	Ank	Ank
+171	O22265	SR43C_ARATH	Chromo protein SRP43	Arabidopsis thaliana (Mouse-ear cress)	3702	373	TRUE	Ank	Ank
+172	Q8IUH5	ZDH17_HUMAN	Palmitoyltransferase ZDHHC17(Huntingtin yeast partner H)(Huntingtin-interacting protein 14)(Huntingtin-interacting protein 3)(Huntingtin-interacting protein H)(Putative MAPK-activating protein PM11)(Putative NF-kappa-B-activating protein 205)(Zinc finger DHHC domain-containing protein 17)(Huntingtin yeast partner H)(Huntingtin-interacting protein 14)(Huntingtin-interacting protein 3)(Huntingtin-in	Homo sapiens (Human)	9606	632	TRUE	Ank	Ank
+173	A8KA01	A8KA01_HUMAN		Homo sapiens (Human)	9606	622	TRUE	Ank	Ank
+174	Q9DFS3	Q9DFS3_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank
+175	F1NYW1	F1NYW1_CHICK		Gallus gallus (Chicken)	9031	852	TRUE	Ank	Ank
+176	Q00422	GABPA_MOUSE	GA-binding protein alpha chain	Mus musculus (Mouse)	10090	454	TRUE	Ank	Partner
+177	Q00420	GABP1_MOUSE	GABP subunit beta-2	Mus musculus (Mouse)	10090	383	TRUE	Ank	Ank
+178	Q7SIG6	ASAP2_MOUSE	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 2(Development and differentiation-enhancing factor 2)(Paxillin-associated protein with ARF GAP activity 3)(Pyk2 C-terminus-associated protein)(Development and differentiation-enhancing factor 2)(Paxillin-associated protein with ARF GAP activity 3)(Pyk2 C-terminus-associated protein)	Mus musculus (Mouse)	10090	958	TRUE	Ank	Ank
+179	P62775	MTPN_RAT	Myotrophin(Granule cell differentiation protein)(Protein V-1)(Granule cell differentiation protein)(Protein V-1)	Rattus norvegicus (Rat)	10116	118	TRUE	Ank	Ank
+180	P62207	PP1B_CHICK	Serine/threonine-protein phosphatase PP1-beta catalytic subunit	Gallus gallus (Chicken)	9031	327	TRUE	Ank	Partner
+181	Q90623	MYPT1_CHICK	Protein phosphatase 1 regulatory subunit 12A(130 kDa myosin-binding subunit of smooth muscle myosin phosphatase)(Myosin phosphatase-targeting subunit 1)(PP1M subunit M110)(Protein phosphatase myosin-binding subunit)(130 kDa myosin-binding subunit of smooth muscle myosin phosphatase)(Myosin phosphatase-targeting subunit 1)(PP1M subunit M110)(Protein phosphatase myosin-binding subunit)	Gallus gallus (Chicken)	9031	1004	TRUE	Ank	Ank
+182	Q01705	NOTC1_MOUSE	Neurogenic locus notch homolog protein 1(Motch A)(mT14)(p300)(Motch A)(mT14)(p300)	Mus musculus (Mouse)	10090	2531	TRUE	Ank	Ank
+183	Q8TDY4	ASAP3_HUMAN	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)(Development and differentiation-enhancing factor-like 1)(Protein up-regulated in liver cancer 1)	Homo sapiens (Human)	9606	903	TRUE	Ank	Ank
+184	Q9WUD2	TRPV2_RAT	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Stretch-activated channel 2B)(Vanilloid receptor-like protein 1)	Rattus norvegicus (Rat)	10116	761	TRUE	Ank	Ank
+185	Q9Y5S1	TRPV2_HUMAN	Transient receptor potential cation channel subfamily V member 2(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)(Osm-9-like TRP channel 2)(Vanilloid receptor-like protein 1)	Homo sapiens (Human)	9606	764	TRUE	Ank	Ank
+186	Q91WD2	TRPV6_MOUSE	Transient receptor potential cation channel subfamily V member 6(Calcium transport protein 1)(Epithelial calcium channel 2)(Calcium transport protein 1)(Epithelial calcium channel 2)	Mus musculus (Mouse)	10090	727	TRUE	Ank	Ank
+187	Q978J0	Y1425_THEVO	Putative ankyrin repeat protein TV1425	Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 	273116	189	TRUE	Ank	Ank
+188	Q8WUF5	IASPP_HUMAN	RelA-associated inhibitor(Inhibitor of ASPP protein)(NFkB-interacting protein 1)(PPP1R13B-like protein)(Inhibitor of ASPP protein)(NFkB-interacting protein 1)(PPP1R13B-like protein)	Homo sapiens (Human)	9606	828	TRUE	Ank	Ank
+189	Q96DX5	ASB9_HUMAN	Ankyrin repeat and SOCS box protein 9	Homo sapiens (Human)	9606	294	TRUE	Ank	Ank
+190	Q92882	OSTF1_HUMAN	Osteoclast-stimulating factor 1	Homo sapiens (Human)	9606	214	TRUE	Ank	Ank
+191	Q13418	ILK_HUMAN	Integrin-linked protein kinase(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)(59 kDa serine/threonine-protein kinase)(ILK-1)(ILK-2)(p59ILK)	Homo sapiens (Human)	9606	452	TRUE	Ank	Ank
+192	P48059	LIMS1_HUMAN	LIM and senescent cell antigen-like-containing domain protein 1(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)(Particularly interesting new Cys-His protein 1)(Renal carcinoma antigen NY-REN-48)	Homo sapiens (Human)	9606	325	TRUE	Ank	Partner
+193	Q7Z4I7	LIMS2_HUMAN	LIM and senescent cell antigen-like-containing domain protein 2(LIM-like protein 2)(Particularly interesting new Cys-His protein 2)(LIM-like protein 2)(Particularly interesting new Cys-His protein 2)	Homo sapiens (Human)	9606	341	TRUE	Ank	Partner
+194	Q6IV60	Q6IV60_9POXV		Vaccinia virus 	10245	284	TRUE	Ank	Ank
+195	E9ADW8	E9ADW8_LEIMA		Leishmania major 	5664	360	TRUE	Ank	Ank
+196	Q15369	ELOC_HUMAN	Transcription elongation factor B polypeptide 1(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)(Elongin 15 kDa subunit)(Elongin-C)(RNA polymerase II transcription factor SIII subunit C)(SIII p15)	Homo sapiens (Human)	9606	112	TRUE	Ank	Partner
+197	Q15370	ELOB_HUMAN	Transcription elongation factor B polypeptide 2(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)(Elongin 18 kDa subunit)(Elongin-B)(RNA polymerase II transcription factor SIII subunit B)(SIII p18)	Homo sapiens (Human)	9606	118	TRUE	Ank	Partner
+198	Q9HBA0	TRPV4_HUMAN	Transient receptor potential cation channel subfamily V member 4(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Vanilloid receptor-related osmotically-activated channel)(Osm-9-like TRP channel 4)(Transient receptor potential protein 12)(Vanilloid receptor-like channel 2)(Vanilloid receptor-like protein 2)(Van	Homo sapiens (Human)	9606	871	TRUE	Ank	Ank
+200	P42771	CD2A1_HUMAN	Cyclin-dependent kinase inhibitor 2A, isoforms 1/2/3(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)(Cyclin-dependent kinase 4 inhibitor A)(Multiple tumor suppressor 1)(p16-INK4a)	Homo sapiens (Human)	9606	156	TRUE	Ank	Ank
+201	Q5ZSV0	Q5ZSV0_LEGPH		Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	368	TRUE	Ank	Ank
+203	P13127	CAZA1_CHICK	F-actin-capping protein subunit alpha-1(Beta-actinin subunit I)(CapZ 36/32)(Beta-actinin subunit I)(CapZ 36/32)	Gallus gallus (Chicken)	9031	286	TRUE	Ank	Partner
+204	P14315	CAPZB_CHICK	F-actin-capping protein subunit beta isoforms 1 and 2(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)(Beta-actinin subunit II)(CapZ 36/32)(CapZ B1 and B2)	Gallus gallus (Chicken)	9031	277	TRUE	Ank	Partner
+205	P62774	MTPN_MOUSE	Myotrophin(Granule cell differentiation protein)(Protein V-1)(Granule cell differentiation protein)(Protein V-1)	Mus musculus (Mouse)	10090	118	TRUE	Ank	Ank
+206	Q9NWT6	HIF1N_HUMAN	Hypoxia-inducible factor 1-alpha inhibitor(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)(Factor inhibiting HIF-1)(Hypoxia-inducible factor asparagine hydroxylase)	Homo sapiens (Human)	9606	349	TRUE	Ank	Partner
+207	P42574	CASP3_HUMAN	Caspase-3(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)(Apopain)(Cysteine protease CPP32)(Protein Yama)(SREBP cleavage activity 1)	Homo sapiens (Human)	9606	277	TRUE	Ank	Partner
+208	Q9H2K2	TNKS2_HUMAN	Tankyrase-2(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like protein)(Tankyrase-related protein)(ADP-ribosyltransferase diphtheria toxin-like 6)(Poly [ADP-ribose] polymerase 5B)(TNKS-2)(TRF1-interacting ankyrin-related ADP-ribose polymerase 2)(Tankyrase II)(Tankyrase-like 	Homo sapiens (Human)	9606	1166	TRUE	Ank	Ank
+209	Q14790	CASP8_HUMAN	Caspase-8(Apoptotic cysteine protease)(Apoptotic protease Mch-5)(CAP4)(FADD-homologous ICE/ced-3-like protease)(FADD-like ICE)(ICE-like apoptotic protease 5)(MORT1-associated ced-3 homolog)(Apoptotic cysteine protease)(Apoptotic protease Mch-5)(CAP4)(FADD-homologous ICE/ced-3-like protease)(FADD-like ICE)(ICE-like apoptotic protease 5)(MORT1-associated ced-3 homolog)	Homo sapiens (Human)	9606	479	TRUE	Ank	Partner
+210	P58546	MTPN_HUMAN	Protein V-1	Homo sapiens (Human)	9606	118	TRUE	Ank	Ank
+211	P54775	PRS6B_MOUSE	26S protease regulatory subunit 6B(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)(26S proteasome AAA-ATPase subunit RPT3)(CIP21)(MB67-interacting protein)(MIP224)(Proteasome 26S subunit ATPase 4)(Tat-binding protein 7)	Mus musculus (Mouse)	10090	418	TRUE	Ank	Partner
+212	Q838Q8	Q838Q8_ENTFA		Enterococcus faecalis (strain ATCC 700802 / V583) 	226185	201	TRUE	Ank	Ank
+213	Q15027	ACAP1_HUMAN	Centaurin-beta-1	Homo sapiens (Human)	9606	740	TRUE	Ank	Ank
+214	P31224	ACRB_ECOLI	Acriflavine resistance protein B	Escherichia coli (strain K12) 	83333	1049	TRUE	Ank	Partner
+215	Q9H9E1	ANRA2_HUMAN	RFXANK-like protein 2	Homo sapiens (Human)	9606	313	TRUE	Ank	Ank
+216	C7NDE2	C7NDE2_LEPBD		Leptotrichia buccalis (strain ATCC 14201 / DSM 1135 / JCM 12969 / NCTC 10249) 	523794	183	TRUE	Ank	Ank
+217	P05556	ITB1_HUMAN	Integrin beta-1(Fibronectin receptor subunit beta)(VLA-4 subunit beta)(Fibronectin receptor subunit beta)(VLA-4 subunit beta)	Homo sapiens (Human)	9606	798	TRUE	Ank	Partner
+218	P78314	3BP2_HUMAN	SH3 domain-binding protein 2	Homo sapiens (Human)	9606	561	TRUE	Ank	Partner
+219	Q07820	MCL1_HUMAN	Induced myeloid leukemia cell differentiation protein Mcl-1(Bcl-2-like protein 3)(Bcl-2-related protein EAT/mcl1)(mcl1/EAT)(Bcl-2-like protein 3)(Bcl-2-related protein EAT/mcl1)(mcl1/EAT)	Homo sapiens (Human)	9606	350	TRUE	Ank	Partner
+220	P37107	SR54C_ARATH	FFC	Arabidopsis thaliana (Mouse-ear cress)	3702	564	TRUE	Ank	Partner
+221	Q6PFX9	TNKS1_MOUSE	Tankyrase-1(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)(ADP-ribosyltransferase diphtheria toxin-like 5)(TRF1-interacting ankyrin-related ADP-ribose polymerase 1)	Mus musculus (Mouse)	10090	1320	TRUE	Ank	Ank
+222	O35625	AXIN1_MOUSE	Axin-1(Axis inhibition protein 1)(Protein Fused)(Axis inhibition protein 1)(Protein Fused)	Mus musculus (Mouse)	10090	863	TRUE	Ank	Partner
+223	O14593	RFXK_HUMAN	DNA-binding protein RFXANK(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)(Ankyrin repeat family A protein 1)(Regulatory factor X subunit B)(Regulatory factor X-associated ankyrin-containing protein)	Homo sapiens (Human)	9606	260	TRUE	Ank	Ank
+224	P56524	HDAC4_HUMAN	Histone deacetylase 4	Homo sapiens (Human)	9606	1084	TRUE	Ank	Partner
+225	P98158	LRP2_RAT	Low-density lipoprotein receptor-related protein 2(Glycoprotein 330)(Megalin)(Glycoprotein 330)(Megalin)	Rattus norvegicus (Rat)	10116	4660	TRUE	Ank	Partner
+226	P48382	RFX5_HUMAN	Regulatory factor X 5	Homo sapiens (Human)	9606	616	TRUE	Ank	Partner
+227	P63086	MK01_RAT	Mitogen-activated protein kinase 1(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)(ERT1)(Extracellular signal-regulated kinase 2)(MAP kinase isoform p42)(Mitogen-activated protein kinase 2)	Rattus norvegicus (Rat)	10116	358	TRUE	Ank	Partner
+228	O15350	P73_HUMAN	Tumor protein p73(p53-like transcription factor)(p53-related protein)(p53-like transcription factor)(p53-related protein)	Homo sapiens (Human)	9606	636	TRUE	Ank	Partner
+229	P11818	SPIKE_ADE05	Protein IV	Human adenovirus C serotype 5 (HAdV-5)(Human adenovirus 5)	28285	581	TRUE	Ank	Partner
+230	P70280	VAMP7_MOUSE	Synaptobrevin-like protein 1	Mus musculus (Mouse)	10090	220	TRUE	Ank	Partner
+231	Q96NW4	ANR27_HUMAN	VPS9 domain-containing protein	Homo sapiens (Human)	9606	1050	TRUE	Ank	Ank
+232	D0VWZ0	D0VWZ0_SHEEP		Ovis aries (Sheep)	9940	451	TRUE	Ank	Partner
+233	D0VWY9	D0VWY9_SHEEP		Ovis aries (Sheep)	9940	445	TRUE	Ank	Partner
+250	O88522	NEMO_MOUSE	NF-kappa-B essential modulator(IkB kinase-associated protein 1)(Inhibitor of nuclear factor kappa-B kinase subunit gamma)(NF-kappa-B essential modifier)(IkB kinase-associated protein 1)(Inhibitor of nuclear factor kappa-B kinase subunit gamma)(NF-kappa-B essential modifier)	Mus musculus (Mouse)	10090	412	TRUE	Ank	Partner
+251	Q8VC91	Q8VC91_MOUSE		Mus musculus (Mouse)	10090	411	TRUE	Ank	Partner
+259	P0AEX9	MALE_ECOLI	Maltose-binding periplasmic protein(MBP)(MMBP)(Maltodextrin-binding protein)(MBP)(MMBP)(Maltodextrin-binding protein)	Escherichia coli (strain K12) 	83333	396	TRUE	Ank	Partner
+260	E2DP59	E2DP59_STREE		Streptococcus pneumoniae 	1313	264	TRUE	Ank	Partner
+261	P0A3Y5	KKA3_ENTFL	Aminoglycoside 3'-phosphotransferase(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)	Enterococcus faecalis (Streptococcus faecalis)	1351	264	TRUE	Ank	Partner
+262	P0A3Y6	KKA3_STAAU	Aminoglycoside 3'-phosphotransferase(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)(APH(3')III)(Kanamycin kinase, type III)(Neomycin-kanamycin phosphotransferase type III)	Staphylococcus aureus 	1280	263	TRUE	Ank	Partner
+263	P42575	CASP2_HUMAN	Caspase-2(Neural precursor cell expressed developmentally down-regulated protein 2)(Protease ICH-1)(Neural precursor cell expressed developmentally down-regulated protein 2)(Protease ICH-1)	Homo sapiens (Human)	9606	452	TRUE	Ank	Partner
+264	B4E085	B4E085_HUMAN		Homo sapiens (Human)	9606	202	TRUE	Ank	Partner
+265	B4E0I5	B4E0I5_HUMAN	HASH(0x5d2bfe8)	Homo sapiens (Human)	9606	336	TRUE	Ank	Partner
+266	NRC	NULL	NULL	NULL	NULL	117	YES	Ank	DARPIN
+267	P53350	PLK1_HUMAN	Serine/threonine-protein kinase PLK1(Polo-like kinase 1)(Serine/threonine-protein kinase 13)(Polo-like kinase 1)(Serine/threonine-protein kinase 13)	Homo sapiens (Human)	9606	603	TRUE	Ank	Partner
+268	Q9G096	Q9G096_9CAUD		Lactococcus phage TP901-1 	35345	163	TRUE	Ank	Partner
+278	DARPIN-34_I78S	NULL	NULL	NULL	NULL	138	YES	Ank	DARPIN
+295	OR266	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN
+296	OR264	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN
+297	DARPin_E2_79	NULL	NULL	NULL	NULL	137	YES	Ank	DARPIN
+298	Darpin_D2	NULL	NULL	NULL	NULL	172	YES	Ank	DARPIN
+302	P33176	KINH_HUMAN	Kinesin-1 heavy chain(Conventional kinesin heavy chain)(Ubiquitous kinesin heavy chain)(Conventional kinesin heavy chain)(Ubiquitous kinesin heavy chain)	Homo sapiens (Human)	9606	963	TRUE	Ank	Partner
+303	Darpin_D1	NULL	NULL	NULL	0	169	YES	Ank	Ank
+307	1n0q_B	 	 		NULL	NULL	TRUE	Ank	Ank
+323	DNA	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+324	3b95_P	 	 		NULL	15	TRUE	Ank	peptide
+325	2xzd_G	 	 		NULL	136	TRUE	Ank	Ank
+326	2xzd_H	 	 		NULL	136	TRUE	Ank	Ank
+327	2y0b_G	 	 		NULL	136	TRUE	Ank	Ank
+328	2y0b_H	 	 		NULL	136	TRUE	Ank	Ank
+336	3noc_D	 	 		NULL	169	TRUE	Ank	Ank
+337	3noc_E	 	 		NULL	169	TRUE	Ank	Ank
+338	3nog_D	 	 		NULL	169	TRUE	Ank	Ank
+339	3nog_E	 	 		NULL	169	TRUE	Ank	Ank
+340	3q9n_A	 	 		NULL	141	TRUE	Ank	Ank
+341	3q9n_B	 	 		NULL	141	TRUE	Ank	Ank
+342	3q9n_C	 	 		NULL	158	TRUE	Ank	Ank
+343	3q9n_D	 	 		NULL	158	TRUE	Ank	Ank
+344	3q9u_A	 	 		NULL	141	TRUE	Ank	Ank
+345	3q9u_B	 	 		NULL	141	TRUE	Ank	Ank
+346	3q9u_C	 	 		NULL	158	TRUE	Ank	Ank
+347	3q9u_D	 	 		NULL	158	TRUE	Ank	Ank
+350	3tws_E	 	 		NULL	16	TRUE	Ank	peptide
+351	3tws_F	 	 		NULL	16	TRUE	Ank	peptide
+352	3tws_G	 	 		NULL	16	TRUE	Ank	peptide
+353	3tws_H	 	 		NULL	16	TRUE	Ank	peptide
+354	3twt_E	 	 		NULL	16	TRUE	Ank	peptide
+355	3twt_F	 	 		NULL	16	TRUE	Ank	peptide
+356	3twt_G	 	 		NULL	16	TRUE	Ank	peptide
+357	3twt_H	 	 		NULL	16	TRUE	Ank	peptide
+358	3twv_E	 	 		NULL	16	TRUE	Ank	peptide
+359	3twv_F	 	 		NULL	16	TRUE	Ank	peptide
+360	3twv_G	 	 		NULL	16	TRUE	Ank	peptide
+361	3twv_H	 	 		NULL	16	TRUE	Ank	peptide
+362	3tww_C	 	 		NULL	16	TRUE	Ank	peptide
+363	3tww_D	 	 		NULL	16	TRUE	Ank	peptide
+364	3twx_C	 	 		NULL	16	TRUE	Ank	peptide
+365	3twx_D	 	 		NULL	16	TRUE	Ank	peptide
+366	3zu7_B	 	 		NULL	169	TRUE	Ank	Ank
+367	3zuv_B	 	 		NULL	136	TRUE	Ank	Ank
+368	3zuv_D	 	 		NULL	136	TRUE	Ank	Ank
+369	4atz_D	 	 		NULL	154	TRUE	Ank	Ank
+370	4atz_E	 	 		NULL	154	TRUE	Ank	Ank
+371	4atz_F	 	 		NULL	154	TRUE	Ank	Ank
+372	4b7e_B	 	 		NULL	17	TRUE	Ank	peptide
+373	4b7k_B	 	 		NULL	20	TRUE	Ank	peptide
+374	4drx_E	 	 		NULL	169	TRUE	Ank	Ank
+375	4drx_F	 	 		NULL	169	TRUE	Ank	Ank
+376	4dx5_D	 	 		NULL	169	TRUE	Ank	Ank
+377	4dx5_E	 	 		NULL	169	TRUE	Ank	Ank
+378	4dx7_D	 	 		NULL	169	TRUE	Ank	Ank
+379	4dx7_E	 	 		NULL	169	TRUE	Ank	Ank
+380	3v79_R	 	 		NULL	19	TRUE	Ank	peptide
+381	3v79_X	 	 		NULL	18	TRUE	Ank	peptide
+382	3v79_Y	 	 		NULL	18	TRUE	Ank	peptide
+383	4f6r_C	 	 		NULL	87	TRUE	Ank	Ank
+384	4f6r_D	 	 		NULL	169	TRUE	Ank	Ank
+385	Q5ZXN6	ANKX_LEGPH	Ankyrin repeat-containing protein X	Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513) 	272624	949	TRUE	Ank	Ank
+389	P55210	CASP7_HUMAN	Caspase-7(Apoptotic protease Mch-3)(CMH-1)(ICE-like apoptotic protease 3)(Apoptotic protease Mch-3)(CMH-1)(ICE-like apoptotic protease 3)	Homo sapiens (Human)	9606	303	TRUE	Ank	Partner
+390	4jb8_B	 	 		NULL	97	TRUE	Ank	Ank
+391	4hrn_A	 	 		NULL	136	TRUE	Ank	Ank
+392	4hrn_B	 	 		NULL	136	TRUE	Ank	Ank
+399	4gpm_B	 	 		NULL	169	TRUE	Ank	Ank
+400	3dep_B	 	 		NULL	12	TRUE	Ank	peptide
+401	P04626	ERBB2_HUMAN	Receptor tyrosine-protein kinase erbB-2(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)(Metastatic lymph node gene 19 protein)(Proto-oncogene Neu)(Proto-oncogene c-ErbB-2)(Tyrosine kinase-type cell surface receptor HER2)(p185erbB2)	Homo sapiens (Human)	9606	1255	TRUE	Ank	Partner
+402	Q63ZY3	KANK2_HUMAN	KN motif and ankyrin repeat domain-containing protein 2(Ankyrin repeat domain-containing protein 25)(Matrix-remodeling-associated protein 3)(SRC-1-interacting protein)(Ankyrin repeat domain-containing protein 25)(Matrix-remodeling-associated protein 3)(SRC-1-interacting protein)	Homo sapiens (Human)	9606	851	TRUE	Ank	Ank
+403	4hll_A	 	 		NULL	173	TRUE	Ank	Ank
+406	4hrl_A	 	 		NULL	171	TRUE	Ank	Ank
+412	4hrm_B	 	 		NULL	172	TRUE	Ank	Ank
+413	4hrm_D	 	 		NULL	172	TRUE	Ank	Ank
+416	P05750	RS3_YEAST	40S ribosomal protein S3(RP13)(YS3)(RP13)(YS3)	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	240	TRUE	Ank	Partner
+417	P46683	YAR1_YEAST	Ankyrin repeat-containing protein YAR1	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Bakers yeast)	559292	200	TRUE	Ank	Ank
+420	4j7w_A	 	 		NULL	169	TRUE	Ank	Ank
+421	4j7w_B	 	 		NULL	169	TRUE	Ank	Ank
+422	4j8y_A	 	 		NULL	169	TRUE	Ank	Ank
