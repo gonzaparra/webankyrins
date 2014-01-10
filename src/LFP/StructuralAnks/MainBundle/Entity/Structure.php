@@ -26,77 +26,84 @@ class Structure
     /**
      * @var string
      *
-     * @ORM\Column(name="pdbId", type="string", length=255)
+     * @ORM\Column(name="pdbId", type="string", length=255, nullable=true)
      */
     private $pdbId;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="keywords", type="string", length=255)
+     * @ORM\Column(name="keywords", type="string", length=255, nullable=true)
      */
     private $keywords;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=255)
+     * @ORM\Column(name="title", type="string", length=255, nullable=true)
      */
     private $title;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="pubDate", type="datetime")
+     * @ORM\Column(name="pubDate", type="datetime", nullable=true)
      */
     private $pubDate;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="method", type="string", length=255)
+     * @ORM\Column(name="method", type="string", length=255, nullable=true)
      */
     private $method;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="resolution", type="float", length=255)
+     * @ORM\Column(name="resolution", type="float", nullable=true)
      */
-    private $resolution;
+    private $resolution=null;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="overallFrustration", type="string", length=255)
+     * @ORM\Column(name="overallFrustration", type="string", length=255, nullable=true)
      */
     private $overallFrustration;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="subGroup", type="string", length=255)
+     * @ORM\Column(name="subGroup", type="string", length=255, nullable=true)
      */
     private $subGroup;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="mainRepeat", type="string", length=255, nullable=true)
+     */
+    private $mainRepeat;
+
+    /**
      * @var integer
      *
-     * @ORM\Column(name="nChains", type="integer")
+     * @ORM\Column(name="nChains", type="integer", nullable=true)
      */
     private $nChains;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="bu", type="string", length=255)
+     * @ORM\Column(name="bu", type="string", length=255, nullable=true)
      */
     private $bu;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="buComp", type="string", length=255)
+     * @ORM\Column(name="buComp", type="string", length=255, nullable=true)
      */
     private $buComp;
 
@@ -242,7 +249,7 @@ class Structure
     /**
      * Set resolution
      *
-     * @param string $resolution
+     * @param float $resolution
      * @return Structure
      */
     public function setResolution($resolution)
@@ -255,7 +262,7 @@ class Structure
     /**
      * Get resolution
      *
-     * @return string 
+     * @return float 
      */
     public function getResolution()
     {
@@ -431,5 +438,28 @@ class Structure
     public function getPublication()
     {
         return $this->publication;
+    }
+
+    /**
+     * Set mainRepeat
+     *
+     * @param string $mainRepeat
+     * @return Structure
+     */
+    public function setMainRepeat($mainRepeat)
+    {
+        $this->mainRepeat = $mainRepeat;
+    
+        return $this;
+    }
+
+    /**
+     * Get mainRepeat
+     *
+     * @return string 
+     */
+    public function getMainRepeat()
+    {
+        return $this->mainRepeat;
     }
 }
