@@ -1,0 +1,266 @@
+idExperiment;Technique;CualCuant;EquilCinet;UniprotRef;DerivedFrom;Variant;DeltaG;DeltaGError;m;mError;PH;Temp;Buffer;Denaturant;Tm;PMID;NStates;HasStructure;TypeArq;idProtein
+1;CD;Quant;Equilibrium;P55273;P19INK4D;wildtype;6.52;NULL;2.12;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;3;YES;Ank;141
+2;Fluor;Quant;Equilibrium;P55273;P19INK4D;wildtype;6.64;NULL;2.18;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;3;YES;Ank;141
+3;CD;Quant;Equilibrium;P55273;P19INK4D;F86W;6.31;NULL;2.07;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;NULL;NO;Ank;141
+4;Fluor;Quant;Equilibrium;P55273;P19INK4D;F86W;6.33;NULL;2.03;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;NULL;NO;Ank;141
+5;CD;Quant;Equilibrium;P55273;P19INK4D;ANK1-4. H96W;2.96;NULL;1.82;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;NULL;NO;Ank;141
+6;CD;Quant;Equilibrium;P55273;P19INK4D;ANK3-5;2.21;NULL;1.15;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;NULL;NO;Ank;141
+7;Fluor;Quant;Equilibrium;P55273;P19INK4D;Ank3-5;2.3;NULL;1.2;NULL;7.4;15;20mM phosphate;Urea;NULL;17804013;NULL;NO;Ank;141
+8;CD;Quant;Equilibrium ;P62775;Myotrophin;wildtype;5.41;0.13;1.9;0.05;5;20;10mM succinate; 1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+9;CD;Quant;Equilibrium ;P62775;Myotrophin;wildtype;5.13;0.23;1.58;0.07;7;20;10mM phosphate; 1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+10;CD;Quant;Equilibrium ;P62775;Myotrophin;wildtype;3.73;0.18;1.33;0.06;9;20;10mM Ches; 1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+11;Fluor;Quant;Equilibrium ;P62775;Myotrophin;wildtype;5.46;1.03;1.95;0.35;5;20;10mM succinate; 1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+12;Fluor;Quant;Equilibrium ;P62775;Myotrophin;wildtype;5.26;0.21;1.62;0.06;7;20;10mM phosphate;1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+13;Fluor;Quant;Equilibrium ;P62775;Myotrophin;wildtype;3.87;0.17;1.44;0.06;9;20;10mM Ches; 1mM EDTA; 20uM TCEP;Urea;NULL;12079376;2;YES;Ank;179
+14;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.74;0.07;2.86;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;YES;Ank;150
+15;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.64;0.08;1.84;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;YES;Ank;150
+16;CD;Quant;Equilibrium;P07207;Notch;Nank1-5;3.21;0.09;1.78;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+17;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5;3.29;0.03;1.84;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+18;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1;7.31;0.17;1.98;0.1;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+19;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1;7.5;0.09;2.05;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+20;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2;13.02;0.03;2.28;0.07;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+21;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2;13.25;0.4;2.3;0.07;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+22;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C3;12.6;0.12;1.67;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+23;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C3;13.66;0.58;1.83;0.08;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;17067634;NULL;NO;Ank;150
+24;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;6.65;0.04;2.85;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;YES;Ank;150
+25;CD;Quant;Equilibrium;P07207;Notch;Nank1-6;2.85;0.03;1.76;0.01;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+26;CD;Quant;Equilibrium;P07207;Notch;Nank1-5;2.69;0.04;1.73;0.03;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+27;CD;Quant;Equilibrium;P07207;Notch;Nank1-4;-0.37;NULL;0.85;NULL;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+28;CD;Quant;Equilibrium;P07207;Notch;Nank4-7;-0.089;NULL;2.12;NULL;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+29;CD;Quant;Equilibrium;P07207;Notch;Nank3-7;1.81;0.09;1.58;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+30;CD;Quant;Equilibrium;P07207;Notch;Nank2-7;4.96;0.04;2.36;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+31;CD;Quant;Equilibrium;P07207;Notch;Nank2-6;1.96;0.002;1.58;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+32;CD;Quant;Equilibrium;P07207;Notch;Nank2-5;1.73;0.03;1.39;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+33;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;6.78;0.6;2.91;0.03;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;YES;Ank;150
+34;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-6;3.01;0.03;1.85;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+35;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5;2.84;0.16;1.67;0.08;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+36;Fluor;Quant;Equilibrium;P07207;Notch;Nank3-7;1.7;0.23;1.67;0.08;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+37;Fluor;Quant;Equilibrium;P07207;Notch;Nank2-7;5.05;0.04;2.44;0.03;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+38;Fluor;Quant;Equilibrium;P07207;Notch;Nank2-6;2.03;0.02;1.67;0.02;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+39;Fluor;Quant;Equilibrium;P07207;Notch;Nank2-5;1.54;0.03;1.34;0.01;8;15;25mM Tris-HCl;Urea;NULL;15377792;NULL;NO;Ank;150
+40;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.49;0.07;2.89;0.07;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;YES;Ank;150
+41;CD;Quant;Equilibrium;P07207;Notch;Nank1-6;5.09;0.02;2.46;0.01;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+42;CD;Quant;Equilibrium;P07207;Notch;Nank1-5;3.55;0.07;1.99;0.02;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+43;CD;Quant;Equilibrium;P07207;Notch;Nank1-4;6.34;0.08;2.76;0.05;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+44;CD;Quant;Equilibrium;P07207;Notch;Nank4-7;5.83;0.09;2.66;0.06;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+45;CD;Quant;Equilibrium;P07207;Notch;Nank1-4;5.86;0.06;2.68;0.03;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+46;CD;Quant;Equilibrium;P07207;Notch;Nank4-7;3.77;0.04;2.93;0.04;8;20;25 mM Tris-HCl; 150mM NaCl;Urea;NULL;17360387;NULL;NO;Ank;150
+47;CD;Quant;Equilibrium;P07207;Notch;Nank51;7.74;0.07;2.89;0.04;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+48;CD;Quant;Equilibrium;P07207;Notch;Nank52;8.57;0.21;2.89;0.05;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+49;CD;Quant;Equilibrium;P07207;Notch;Nank53;6.92;0.03;2.32;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+50;CD;Quant;Equilibrium;P07207;Notch;Nank54;5.28;0.04;1.77;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+51;Fluor;Quant;Equilibrium;P07207;Notch;Nank51;7.64;0.08;2.86;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+52;Fluor;Quant;Equilibrium;P07207;Notch;Nank52;8.62;0.1;2.95;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+53;Fluor;Quant;Equilibrium;P07207;Notch;Nank53;7.41;0.08;2.5;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+54;Fluor;Quant;Equilibrium;P07207;Notch;Nank54;5.9;0.15;1.99;0.06;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;15504409;NULL;NO;Ank;150
+55;CD;Quant;Equilibrium;P42771;P16-Model;wildtype;3.7;0.1;1.9;0.01;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;9917418;NULL;NO;Ank;200
+56;CD;Quant;Equilibrium;P42771;P16-Model;D74N;1.7;0.21;1.2;0.1;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;9917418;NULL;NO;Ank;200
+57;CD;Quant;Equilibrium;P42771;P16-Model;P81L;3.7;0.21;1.1;0.35;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;9917418;NULL;NO;Ank;200
+58;CD;Quant;Equilibrium;P42771;P16-Model;D84N;3.6;0.1;2;0.2;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;9917418;NULL;NO;Ank;200
+59;CD;Quant;Equilibrium;O75832;Gankyrin;Gankyrin-wildtype;3.99;0.5;2.47;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;46.8;20398677;2;YES;Ank;151
+60;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH1A-T42A;4.3;0.5;2.7;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;47.6;20398677;NULL;NO;Ank;151
+61;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH1AB-T42A/H45A;5.93;0.5;4.41;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;44.7;20398677;NULL;NO;Ank;151
+62;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH2A-S75A;7.09;0.5;3.99;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;50.3;20398677;NULL;NO;Ank;151
+63;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH2AB-S75A/H78A;5.53;0.5;3.54;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;47.2;20398677;NULL;NO;Ank;151
+64;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH3A-T108A;1.31;0.5;1.04;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;43.4;20398677;NULL;NO;Ank;151
+65;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH5A-T174A;3.23;0.5;2.27;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;47.6;20398677;NULL;NO;Ank;151
+66;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH5AB-T174A/H177A;3.24;0.5;2.05;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;46.5;20398677;NULL;NO;Ank;151
+67;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH6A-T207A;3.24;0.5;2.16;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;47.5;20398677;NULL;NO;Ank;151
+68;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinTPLH6AB-T207A/Q210A;2.86;0.5;1.53;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;47.1;20398677;NULL;NO;Ank;151
+69;CD;Quant;Equilibrium;O75832;Gankyrin;Gankyrin S75A-S75T;6.83;0.5;2.01;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;55.9;20398677;NULL;NO;Ank;151
+70;CD;Quant;Equilibrium;O75832;Gankyrin;GankyrinH11Q-H111Q;2.69;0.5;1.26;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;45.8;20398677;NULL;NO;Ank;151
+71;CD;Quant;Equilibrium;P42771;P16;P16-wildtype;1.94;0.5;3.23;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;46;20398677;2;YES;Ank;200
+72;CD;Quant;Equilibrium;P42771;P16;P16TPLH2-R80T;4.229;0.5;4.1;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;50.9;20398677;NULL;NO;Ank;200
+73;CD;Quant;Equilibrium;P42771;P16;P16TPLH3-L113/D116H;1.903;0.5;4.35;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;36.3;20398677;NULL;NO;Ank;200
+74;CD;Quant;Equilibrium;P42771;P16;P16TPLH2-3-R80T/L113T/D116H;2.487;0.5;4.13;0.5;7.4;25;20mM sodium borate buffer + 40uM DTT;Urea;44.4;20398677;NULL;NO;Ank;200
+75;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype;6.3;0.2;2.06;NULL;7.5;5;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+76;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype;6.1;0.2;2.06;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+77;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype;5.8;0.2;2.06;NULL;7.5;15;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+78;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype;5.7;0.2;2.06;NULL;7.5;20;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+79;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype;5.9;0.2;2.06;NULL;7.5;25;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+80;Fluor;Quant;Equilibrium;P25963;IkBalpha;wildtype;6.5;0.1;2.12;NULL;7.5;5;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+81;Fluor;Quant;Equilibrium;P25963;IkBalpha;wildtype;6.2;0.1;2.12;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+82;Fluor;Quant;Equilibrium;P25963;IkBalpha;wildtype;6;0.1;2.12;NULL;7.5;15;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+83;Fluor;Quant;Equilibrium;P25963;IkBalpha;wildtype;5.9;0.1;2.12;NULL;7.5;20;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+84;Fluor;Quant;Equilibrium;P25963;IkBalpha;wildtype;6.3;0.1;2.12;NULL;7.5;25;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;3;YES;Ank;137
+85;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – wildtype;6.5;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+86;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – S76T/F77P;6.9;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+87;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – v93L;8.6;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+88;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – Q111G;8.4;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+89;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – T113S;5.6;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+90;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – L117V;5.5;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+91;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – N122G;7.5;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+92;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – A127V;6.8;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+93;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – L131V;4.7;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+94;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – T146S;4.9;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+95;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – V160A;6.7;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+96;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – lL163V;5.2;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+97;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – T164L;7.3;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+98;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – T185S;5.7;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+99;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – C186P;7.2;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+100;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - G194A;5.4;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+101;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - V203L;7.3;0.2;2.19;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+102;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W – wildtype;6.9;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+103;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - S76T/F77P;7.5;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+104;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - v93L;9.1;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+105;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - Q111G;9.2;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+106;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - T113S;6.1;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+107;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - L117V;5.8;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+108;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - N122G;8.2;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+109;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - A127V;7.3;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+110;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - L131V;5;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+111;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - T146S;5.3;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+112;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - V160A;7.2;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+113;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - lL163V;5.6;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+114;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - T164L;7.8;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+115;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - T185S;6.1;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+116;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - C186P;7.7;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+117;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - G194A;5.8;0.1;2.35;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+118;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-206 W  - V203L;7.8;0.1;2.13;NULL;7.5;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+119;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – wildtype;7.1;0.2;2.13;NULL;7.6;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;YES;Ank;137
+120;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – W258F;7.2;0.3;2.13;NULL;7.7;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+121;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – Q111G;8.7;0.3;2.13;NULL;7.8;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+122;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – T164L;7.5;0.3;2.13;NULL;7.9;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+123;CD;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W -  V203L;7.41;0.3;2.13;NULL;7.1;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+124;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – wildtype;7.41;0.3;2.2;NULL;7.11;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;YES;Ank;137
+125;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – W258F;7.41;0.3;2.2;NULL;7.12;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+126;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – Q111G;9.2;0.3;2.2;NULL;7.13;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+127;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W – T164L;7.5;0.3;2.2;NULL;7.14;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+128;Fluor;Quant;Equilibrium;P25963;IkBalpha;Ikba 67-287 W -  V203L;7.41;0.3;2.2;NULL;7.15;10;10mM NaHPO4; 50 mM NcaCl; 1mM DDT; 0.5mM EDTA;Urea;NULL;21329696;NULL;NO;Ank;137
+129;CD;Quant;Equilibrium;P42771;P16;A30G;2.51;0.19;1.86;0.12;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+130;CD;Quant;Equilibrium;P42771;P16;A36G;3.5;0.15;1.39;0.09;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+131;CD;Quant;Equilibrium;P42771;P16;S43A;2.62;0.24;1.52;0.13;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+132;CD;Quant;Equilibrium;P42771;P16;V51A;2.98;0.12;1.53;0.04;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+133;CD;Quant;Equilibrium;P42771;P16;M54L;3.27;0.26;1.32;0.17;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+134;CD;Quant;Equilibrium;P42771;P16;A60G;4;0.2;1.52;0.18;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+135;CD;Quant;Equilibrium;P42771;P16;A73G;3.059;0.14;1.53;0.07;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+136;CD;Quant;Equilibrium;P42771;P16;A76G;2.42;0.46;1.65;0.28;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+137;CD;Quant;Equilibrium;P42771;P16;A86G;3.94;0.18;1.76;0.17;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+138;CD;Quant;Equilibrium;P42771;P16;V95A;3.18;0.17;1.51;0.1;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+139;CD;Quant;Equilibrium;P42771;P16;A102G;3.55;0.15;1.53;0.09;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+140;CD;Quant;Equilibrium;P42771;P16;V106A;3.14;0.22;1.59;0.15;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+141;CD;Quant;Equilibrium;P42771;P16;A109G;2.55;0.2;1.73;0.11;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+142;CD;Quant;Equilibrium;P42771;P16;V115A;2.97;0.21;1.45;0.12;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+143;CD;Quant;Equilibrium;P42771;P16;V126A;2.89;0.15;1.76;0.08;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+144;CD;Quant;Equilibrium;P42771;P16;A127G;3.16;0.19;1.88;0.15;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+145;CD;Quant;Equilibrium;P42771;P16;A133G;2.99;0.23;1.72;0.17;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+146;CD;Quant;Equilibrium;P42771;P16;A134G;2.43;0.19;1.53;0.09;7.5;25;5uM in 15mM sodium phosphate; 1mM DDT and 100 mM NaCl;Urea;NULL;12517341;NULL;NO;Ank;200
+147;CD;Quant;Equilibrium;P07207;Notch;Nank1-5;3.21;0.09;1.78;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+148;CD;Quant;Equilibrium;P07207;Notch;Nank1-5(AG1);3.06;0.06;1.83;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+149;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1;7.31;0.17;1.98;0.1;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+150;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG1);8.21;0.06;2.25;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+151;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG2);3.72;0.09;1.77;0.04;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+152;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG3);3.61;0.13;1.84;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+153;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG4);5.52;0.04;2.32;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+154;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG5);5.71;0.09;2.22;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+155;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AGC1);5.68;0.06;2.18;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+156;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2;13.02;0.03;2.28;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+157;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG1);12.8;0.12;2.21;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+158;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG4);10.1;0.05;2.14;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+159;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG5);11.9;0.07;2.44;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+160;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AGC1);11.8;0.08;2.45;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+161;CD;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AGC2);11.7;0.04;2.5;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+162;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5;3.29;0.03;1.84;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+163;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5(AG1);3.17;0.13;1.89;0.05;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+164;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1;7.5;0.09;2.05;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+165;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG1);8.16;0.24;2.22;0.07;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+166;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG2);3.88;0.09;1.85;0.05;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+167;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG3);4;0.16;2.01;0.07;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+168;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG4);5.69;0.11;2.41;0.4;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+169;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AG5);5.77;0.07;2.26;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+170;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C1(AGC1);5.66;0.08;2.17;0.02;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+171;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2;13.25;0.4;2.3;0.07;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+172;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG1);12.62;0.09;2.17;0.01;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+173;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG2);8.98;NULL;1.78;NULL;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+174;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG3);8.12;0.22;1.64;0.04;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+175;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG4);9.59;0.1;2.06;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+176;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AG5);11.46;0.28;2.35;0.05;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+177;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AGC1);11.65;0.13;2.41;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+178;Fluor;Quant;Equilibrium;P07207;Notch;Nank1-5C2(AGC2);11.61;0.14;2.48;0.03;8;20;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;18396879;NULL;NO;Ank;150
+179;CD;Quant;Equilibrium;P07207;Notch;PA1;8.17;0.09;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+180;CD;Quant;Equilibrium;P07207;Notch;PA3;7.76;0.06;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+181;CD;Quant;Equilibrium;P07207;Notch;PA4;7.75;0.06;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+182;CD;Quant;Equilibrium;P07207;Notch;PA6;7.04;0.03;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+183;CD;Quant;Equilibrium;P07207;Notch;PA7;6.52;0.05;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+184;CD;Quant;Equilibrium;P07207;Notch;SP2;4.78;0.04;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+185;CD;Quant;Equilibrium;P07207;Notch;SP2AP5;8.38;0.03;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+186;CD;Quant;Equilibrium;P07207;Notch;PA134;6.95;0.06;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+187;CD;Quant;Equilibrium;P07207;Notch;PA1346;6.22;0.01;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+188;CD;Quant;Equilibrium;P07207;Notch;PA13467;4.15;0.09;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+189;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;8.24;0.05;NULL;NULL;8;14.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;YES;Ank;150
+190;CD;Quant;Equilibrium;P07207;Notch;PA1;8.11;0.09;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+191;CD;Quant;Equilibrium;P07207;Notch;PA3;7.62;0.03;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+192;CD;Quant;Equilibrium;P07207;Notch;PA4;7.49;0.09;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+193;CD;Quant;Equilibrium;P07207;Notch;PA6;6.8;0.05;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+194;CD;Quant;Equilibrium;P07207;Notch;PA7;6.3;0.04;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+195;CD;Quant;Equilibrium;P07207;Notch;SP2;4.66;0.01;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+196;CD;Quant;Equilibrium;P07207;Notch;SP2AP5;8.18;0.04;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+197;CD;Quant;Equilibrium;P07207;Notch;PA134;6.76;0.03;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+198;CD;Quant;Equilibrium;P07207;Notch;PA1346;5.94;0.02;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+199;CD;Quant;Equilibrium;P07207;Notch;PA13467;3.93;0.09;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+200;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;8.09;0.07;NULL;NULL;8;16.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;YES;Ank;150
+201;CD;Quant;Equilibrium;P07207;Notch;PA1;7.82;0.06;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+202;CD;Quant;Equilibrium;P07207;Notch;PA3;7.32;0.01;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+203;CD;Quant;Equilibrium;P07207;Notch;PA4;7.25;0.06;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+204;CD;Quant;Equilibrium;P07207;Notch;PA6;6.56;0.01;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+205;CD;Quant;Equilibrium;P07207;Notch;PA7;6.06;0.05;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+206;CD;Quant;Equilibrium;P07207;Notch;SP2;4.42;0.03;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+207;CD;Quant;Equilibrium;P07207;Notch;SP2AP5;7.91;0.02;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+208;CD;Quant;Equilibrium;P07207;Notch;PA134;6.46;0.07;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+209;CD;Quant;Equilibrium;P07207;Notch;PA1346;5.6;0.03;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+210;CD;Quant;Equilibrium;P07207;Notch;PA13467;3.61;0.05;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+211;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.82;0.05;NULL;NULL;8;18.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;YES;Ank;150
+212;CD;Quant;Equilibrium;P07207;Notch;PA1;7.82;0.06;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+213;CD;Quant;Equilibrium;P07207;Notch;PA3;6.92;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+214;CD;Quant;Equilibrium;P07207;Notch;PA4;6.9;0.04;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+215;CD;Quant;Equilibrium;P07207;Notch;PA6;6.34;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+216;CD;Quant;Equilibrium;P07207;Notch;PA7;5.83;0.04;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+217;CD;Quant;Equilibrium;P07207;Notch;SP2;4.08;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+218;CD;Quant;Equilibrium;P07207;Notch;SP2AP5;7.62;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+219;CD;Quant;Equilibrium;P07207;Notch;PA134;6.12;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+220;CD;Quant;Equilibrium;P07207;Notch;PA1346;5.18;0.03;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+221;CD;Quant;Equilibrium;P07207;Notch;PA13467;3.15;0.1;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+222;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.52;0.04;NULL;NULL;8;20.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;YES;Ank;150
+223;CD;Quant;Equilibrium;P07207;Notch;PA1;7.34;0.03;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+224;CD;Quant;Equilibrium;P07207;Notch;PA3;6.6;0.02;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+225;CD;Quant;Equilibrium;P07207;Notch;PA4;6.6;0.09;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+226;CD;Quant;Equilibrium;P07207;Notch;PA6;5.96;0.03;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+227;CD;Quant;Equilibrium;P07207;Notch;PA7;5.43;0.02;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+228;CD;Quant;Equilibrium;P07207;Notch;SP2;3.82;0.02;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+229;CD;Quant;Equilibrium;P07207;Notch;SP2AP5;7.25;0.02;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+230;CD;Quant;Equilibrium;P07207;Notch;PA134;7.73;0.06;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+231;CD;Quant;Equilibrium;P07207;Notch;PA1346;4.72;0.03;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+232;CD;Quant;Equilibrium;P07207;Notch;PA13467;2.74;0.1;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;NO;Ank;150
+233;CD;Quant;Equilibrium;P07207;Notch;Nank1-7 - wildtype;7.16;0.02;NULL;NULL;8;22.15;25mM Tris-HCl; 150 mM NaCl;Urea;NULL;16131666;NULL;YES;Ank;150
+234;CD;Quant;Equilibrium;Q978J0;TV1425;wildtype;12.57;0.43;5.78;0.31;8;15;0.1 mM TCEP;GdmCl;79;18305166;3;YES;Ank;187
+235;CD;Quant;Equilibrium;DARPIN_E3_5;E2_5;wildtype;11.4;0.7;3.29;0.19;7.4;23;50mN Tris-HCL; 150 mM NaCl;GdmCl;70;12566564;2;YES;Darpin;69
+237;CD;Quant;Equilibrium;DARPIN_E3_5;E3_5;wildtype;14.84;1.98;3;0.37;7.4;23;50mN Tris-HCL; 150 mM NaCl;GdmCl;66;12566564;2;NO;Darpin;69
+238;CD;Quant;Equilibrium;DARPIN_E3_19;E3_19;wildtype;9.59;0.51;3.33;0.17;7.4;23;50mN Tris-HCL; 150 mM NaCl;GdmCl;NULL;12566564;2;YES;Darpin;71
+240;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;wildtype;10.1;0.4;2.7;0.1;4.25;20;50 mM NaCl; 1mM EDTA; 10mM succinate;GdmCl;NULL;14600203;2;YES;Darpin;85
+241;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;4ANK-TALR;4.47;0.31;2.23;0.15;4;20;500 mM NaCl; 1mM EDTA; 10mM succinate;GdmCl;NULL;14600203;2;NO;Darpin;85
+242;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;4ANK-TALR;7.62;0.63;1.94;0.16;5;20;500 mM NaCl; 1mM EDTA; 10mM succinate;GdmCl;NULL;14600203;2;NO;Darpin;85
+243;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;4ANK-TALR;8.57;0.8;1.69;0.16;6;20;500 mM NaCl; 1mM EDTA; 10mM phosphate;GdmCl;NULL;14600203;2;NO;Darpin;85
+244;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;4ANK-TALR;12.26;0.82;1.77;0.12;7;20;500 mM NaCl; 1mM EDTA; 10mM phosphate;GdmCl;NULL;14600203;2;NO;Darpin;85
+245;CD;Quant;Equilibrium;DARPIN_4ANK;4ANK;4ANK-TALR;0.81;0.51;1.25;0.17;7;20;500 mM Na2SO4; 1mM EDTA; 10mM phosphate;GdmCl;NULL;14600203;2;NO;Darpin;85
+247;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype (67-287);6.8;0.5;1.9;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;45.3;17174335;3;YES;Ank;137
+248;CD;Quant;Equilibrium;P25963;IkBalpha;Q111G;9.1;0.8;2;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;50.1;17174335;3;NO;Ank;137
+249;CD;Quant;Equilibrium;P25963;IkBalpha;A133W;3.7;0.4;1.3;0.1;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;36.9;17174335;3;NO;Ank;137
+250;Fluor;Quant;Equilibrium;P25963;IkBalpha;A133W;3.5;0.2;1.2;0.07;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;NULL;17174335;3;NO;Ank;137
+251;CD;Quant;Equilibrium;P25963;IkBalpha;C186P;8.9;1.1;2.4;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;49.8;17174335;3;NO;Ank;137
+252;CD;Quant;Equilibrium;P25963;IkBalpha;L205W;3.1;1.03;1.5;0.6;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;38.8;17174335;3;NO;Ank;137
+253;CD;Quant;Equilibrium;P25963;IkBalpha;A220P;7;0.6;2;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;46.8;17174335;3;NO;Ank;137
+254;CD;Quant;Equilibrium;P25963;IkBalpha;C239W;5.6;0.8;1.8;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;42.8;17174335;3;NO;Ank;137
+255;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P;8.3;0.8;2.2;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;51.9;17174335;3;NO;Ank;137
+256;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-A133W;5.7;0.7;1.7;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;43.2;17174335;3;NO;Ank;137
+257;Fluor;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-A133W;5.7;0.1;1.71;0.03;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;NULL;17174335;3;NO;Ank;137
+258;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-Q111G;11.3;1.4;2.3;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;56.8;17174335;3;NO;Ank;137
+259;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype (67-206);6.7;0.6;2.1;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;Urea;45.1;17174335;3;NO;Ank;137
+260;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype (67-287);8.1;0.5;3.7;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;45.3;17174335;3;YES;Ank;137
+261;CD;Quant;Equilibrium;P25963;IkBalpha;Q111G;12.2;0.9;4.6;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;50.1;17174335;3;NO;Ank;137
+262;CD;Quant;Equilibrium;P25963;IkBalpha;C186P;9.7;0.8;4.2;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;49.8;17174335;3;NO;Ank;137
+263;CD;Quant;Equilibrium;P25963;IkBalpha;A220P;8.6;0.5;4;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;46.8;17174335;3;NO;Ank;137
+264;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P;10.9;0.7;4.8;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;51.9;17174335;3;NO;Ank;137
+265;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-A133W;7.41;0.7;3.6;0.3;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;43.2;17174335;3;NO;Ank;137
+266;Fluor;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-A133W;7.1;0.5;3.4;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;NULL;17174335;3;NO;Ank;137
+267;CD;Quant;Equilibrium;P25963;IkBalpha;C186P-A220P-Q111G;11.1;0.4;4.2;0.2;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;56.8;17174335;3;NO;Ank;137
+268;CD;Quant;Equilibrium;P25963;IkBalpha;wildtype (67-206);7.7;0.3;4;0.1;7.5;25;25mM Tris-HCl; 50 mM NaCl; 1 mM DTT; 0.5 mM EDTA;GdmCl;45.1;17174335;3;NO;Ank;137
