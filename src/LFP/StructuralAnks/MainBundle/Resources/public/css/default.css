@@ -366,7 +366,7 @@ ul.contact li a.icon-rss:before
 	#header-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
 		background: #FFC000 url(images/overlay.png) repeat;
 	}
 
@@ -389,7 +389,7 @@ ul.contact li a.icon-rss:before
 
 	#logo
 	{
-		padding: 5em 0em;
+		padding: 1em 0em;
 		text-align: center;
 	}
 	
@@ -453,7 +453,7 @@ ul.contact li a.icon-rss:before
 	{
 		display: inline-block;
 		margin-left: 0.50em;
-		padding: 2em 1.5em 1em 1.5em;
+		padding: 1em 1.5em 1em 1em;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		font-size: 0.90em;

@@ -106,7 +106,7 @@ class Structure
     protected $chains;
     
     /**
-     *  @ORM\OneToOne(targetEntity="Publication", mappedBy="structure")
+     *  @ORM\ManyToOne(targetEntity="Publication", inversedBy="structure")
      */
     protected $publication;
     
