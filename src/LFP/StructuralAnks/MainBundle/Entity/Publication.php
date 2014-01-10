@@ -182,4 +182,37 @@ class Publication
     {
         return $this->structure;
     }
+
+    /**
+     * Add structures
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structures
+     * @return Publication
+     */
+    public function addStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structures)
+    {
+        $this->structures[] = $structures;
+    
+        return $this;
+    }
+
+    /**
+     * Remove structures
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Structure $structures
+     */
+    public function removeStructure(\LFP\StructuralAnks\MainBundle\Entity\Structure $structures)
+    {
+        $this->structures->removeElement($structures);
+    }
+
+    /**
+     * Get structures
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getStructures()
+    {
+        return $this->structures;
+    }
 }
