@@ -24,56 +24,56 @@ class FrustrationCont
     /**
      * @var integer
      *
-     * @ORM\Column(name="state", type="integer")
+     * @ORM\Column(name="state", type="integer", nullable=true)
      */
     private $state;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confMinFrst", type="integer")
+     * @ORM\Column(name="confMinFrst", type="integer", nullable=true)
      */
     private $confMinFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confNeuFrst", type="integer")
+     * @ORM\Column(name="confNeuFrst", type="integer", nullable=true)
      */
     private $confNeuFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confMaxFrst", type="integer")
+     * @ORM\Column(name="confMaxFrst", type="integer", nullable=true)
      */
     private $confMaxFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="mutMinFrst", type="integer")
+     * @ORM\Column(name="mutMinFrst", type="integer", nullable=true)
      */
     private $mutMinFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="mutNeuFrst", type="integer")
+     * @ORM\Column(name="mutNeuFrst", type="integer", nullable=true)
      */
     private $mutNeuFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="mutMaxFrst", type="integer")
+     * @ORM\Column(name="mutMaxFrst", type="integer", nullable=true)
      */
     private $mutMaxFrst;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="nConts", type="integer")
+     * @ORM\Column(name="nConts", type="integer", nullable=true)
      */
     private $nConts;
 

@@ -24,7 +24,7 @@ class MissingRes
     /**
      * @var integer
      *
-     * @ORM\Column(name="resNum", type="integer")
+     * @ORM\Column(name="resNum", type="integer", nullable=true)
      */
     private $resNum;
 

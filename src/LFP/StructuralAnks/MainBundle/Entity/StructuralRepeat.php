@@ -24,63 +24,63 @@ class StructuralRepeat
     /**
      * @var integer
      *
-     * @ORM\Column(name="start", type="integer")
+     * @ORM\Column(name="start", type="integer", nullable=true)
      */
     private $start;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="end", type="integer")
+     * @ORM\Column(name="end", type="integer", nullable=true)
      */
     private $end;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confStart", type="integer")
+     * @ORM\Column(name="confStart", type="integer", nullable=true)
      */
     private $confStart;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confEnd", type="integer")
+     * @ORM\Column(name="confEnd", type="integer", nullable=true)
      */
     private $confEnd;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="length", type="integer")
+     * @ORM\Column(name="length", type="integer", nullable=true)
      */
     private $length;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="confLength", type="integer")
+     * @ORM\Column(name="confLength", type="integer", nullable=true)
      */
     private $confLength;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="consensus", type="string", length=255)
+     * @ORM\Column(name="consensus", type="string", length=255, nullable=true)
      */
     private $consensus;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="cannonicalConts", type="integer")
+     * @ORM\Column(name="cannonicalConts", type="integer", nullable=true)
      */
     private $cannonicalConts;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=255)
+     * @ORM\Column(name="type", type="string", length=255, nullable=true)
      */
     private $type;
 

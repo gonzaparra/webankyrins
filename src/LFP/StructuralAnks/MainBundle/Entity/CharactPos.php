@@ -24,7 +24,7 @@ class CharactPos
     /**
      * @var integer
      *
-     * @ORM\Column(name="charactPos", type="integer")
+     * @ORM\Column(name="charactPos", type="integer", nullable=true)
      */
     private $charactPos;
 

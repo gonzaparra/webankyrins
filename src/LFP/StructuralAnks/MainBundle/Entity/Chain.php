@@ -31,84 +31,84 @@ class Chain
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=255)
+     * @ORM\Column(name="type", type="string", length=255, nullable=true)
      */
     protected $type;
     
     /**
      * @var string
      *
-     * @ORM\Column(name="SubGroup", type="string", length=255)
+     * @ORM\Column(name="SubGroup", type="string", length=255, nullable=true)
      */
     protected $subGroup;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="length", type="integer", length=255)
+     * @ORM\Column(name="length", type="integer", length=255, nullable=true)
      */
     protected $length;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="nReps", type="integer", length=255)
+     * @ORM\Column(name="nReps", type="integer", length=255, nullable=true)
      */
     protected $nReps;
     
     /**
      * @var string
      *
-     * @ORM\Column(name="frustrationPath", type="string", length=255)
+     * @ORM\Column(name="frustrationPath", type="string", length=255, nullable=true)
      */
     protected $frustrationPath;
     
     /**
      * @var string
      *
-     * @ORM\Column(name="pdbFilePath", type="string", length=255)
+     * @ORM\Column(name="pdbFilePath", type="string", length=255, nullable=true)
      */
     protected $pdbFilePath;
     
     /**
      * @var string
      *
-     * @ORM\Column(name="pdbFastaPath", type="string", length=255)
+     * @ORM\Column(name="pdbFastaPath", type="string", length=255, nullable=true)
      */
     protected $pdbFastaPath;
     
     /**
      * @var integer
      *
-     * @ORM\Column(name="startStructFrac", type="integer", length=255)
+     * @ORM\Column(name="startStructFrac", type="integer", length=255, nullable=true)
      */
     protected $startStructFrac;
     
     /**
      * @var integer
      *
-     * @ORM\Column(name="endStructFrac", type="integer", length=255)
+     * @ORM\Column(name="endStructFrac", type="integer", length=255, nullable=true)
      */
     protected $endStructFrac;
     
     /**
      * @var integer
      *
-     * @ORM\Column(name="missingResiduesCount", type="integer", length=255)
+     * @ORM\Column(name="missingResiduesCount", type="integer", length=255, nullable=true)
      */
     protected $missingResiduesCount;
     
     /**
      * @var boolean
      *
-     * @ORM\Column(name="nonRedundantSet", type="boolean", length=255)
+     * @ORM\Column(name="nonRedundantSet", type="boolean", length=255, nullable=true)
      */
     protected $nonRedundantSet;
     
     /**
      * @var string
      *
-     * @ORM\Column(name="observations", type="string", length=255)
+     * @ORM\Column(name="observations", type="string", length=255, nullable=true)
      */
     protected $observations;
 

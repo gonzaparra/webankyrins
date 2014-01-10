@@ -24,91 +24,91 @@ class Experiment
     /**
      * @var string
      *
-     * @ORM\Column(name="technique", type="string", length=255)
+     * @ORM\Column(name="technique", type="string", length=255, nullable=true)
      */
     private $technique;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="cualCuant", type="string", length=255)
+     * @ORM\Column(name="cualCuant", type="string", length=255, nullable=true)
      */
     private $cualCuant;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="equilCinet", type="string", length=255)
+     * @ORM\Column(name="equilCinet", type="string", length=255, nullable=true)
      */
     private $equilCinet;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="derivedFrom", type="string", length=255)
+     * @ORM\Column(name="derivedFrom", type="string", length=255, nullable=true)
      */
     private $derivedFrom;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="variant", type="string", length=255)
+     * @ORM\Column(name="variant", type="string", length=255, nullable=true)
      */
     private $variant;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="deltaG", type="float")
+     * @ORM\Column(name="deltaG", type="float", nullable=true)
      */
     private $deltaG;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="deltaGError", type="float")
+     * @ORM\Column(name="deltaGError", type="float", nullable=true)
      */
     private $deltaGError;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="m", type="float")
+     * @ORM\Column(name="m", type="float", nullable=true)
      */
     private $m;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="mError", type="float")
+     * @ORM\Column(name="mError", type="float", nullable=true)
      */
     private $mError;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="ph", type="float")
+     * @ORM\Column(name="ph", type="float", nullable=true)
      */
     private $ph;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="temp", type="float")
+     * @ORM\Column(name="temp", type="float", nullable=true)
      */
     private $temp;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="buffer", type="string", length=255)
+     * @ORM\Column(name="buffer", type="string", length=255, nullable=true)
      */
     private $buffer;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="denaturant", type="string", length=255)
+     * @ORM\Column(name="denaturant", type="string", length=255, nullable=true)
      */
     private $denaturant;
 
@@ -122,28 +122,28 @@ class Experiment
     /**
      * @var string
      *
-     * @ORM\Column(name="pmid", type="string", length=255)
+     * @ORM\Column(name="pmid", type="string", length=255, nullable=true)
      */
     private $pmid;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="nStates", type="integer")
+     * @ORM\Column(name="nStates", type="integer", nullable=true)
      */
     private $nStates;
 
     /**
      * @var boolean
      *
-     * @ORM\Column(name="hasStructure", type="boolean")
+     * @ORM\Column(name="hasStructure", type="boolean", nullable=true)
      */
     private $hasStructure;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="typeArq", type="string", length=255)
+     * @ORM\Column(name="typeArq", type="string", length=255, nullable=true)
      */
     private $typeArq;
 

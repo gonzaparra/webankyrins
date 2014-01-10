@@ -33,70 +33,70 @@ class Structure
     /**
      * @var string
      *
-     * @ORM\Column(name="keywords", type="string", length=255)
+     * @ORM\Column(name="keywords", type="string", length=255, nullable=true)
      */
     private $keywords;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=255)
+     * @ORM\Column(name="title", type="string", length=255, nullable=true)
      */
     private $title;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="pubDate", type="datetime")
+     * @ORM\Column(name="pubDate", type="datetime", nullable=true)
      */
     private $pubDate;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="method", type="string", length=255)
+     * @ORM\Column(name="method", type="string", length=255, nullable=true)
      */
     private $method;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="resolution", type="float", length=255)
+     * @ORM\Column(name="resolution", type="float", length=255, nullable=true)
      */
     private $resolution;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="overallFrustration", type="string", length=255)
+     * @ORM\Column(name="overallFrustration", type="string", length=255, nullable=true)
      */
     private $overallFrustration;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="subGroup", type="string", length=255)
+     * @ORM\Column(name="subGroup", type="string", length=255, nullable=true)
      */
     private $subGroup;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="nChains", type="integer")
+     * @ORM\Column(name="nChains", type="integer", nullable=true)
      */
     private $nChains;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="bu", type="string", length=255)
+     * @ORM\Column(name="bu", type="string", length=255, nullable=true)
      */
     private $bu;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="buComp", type="string", length=255)
+     * @ORM\Column(name="buComp", type="string", length=255, nullable=true)
      */
     private $buComp;
 

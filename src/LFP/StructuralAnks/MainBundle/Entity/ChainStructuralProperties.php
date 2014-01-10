@@ -24,42 +24,42 @@ class ChainStructuralProperties
     /**
      * @var float
      *
-     * @ORM\Column(name="tileability", type="float")
+     * @ORM\Column(name="tileability", type="float", nullable=true)
      */
     private $tileability;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="contactOrder", type="float")
+     * @ORM\Column(name="contactOrder", type="float", nullable=true)
      */
     private $contactOrder;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="sasa", type="float")
+     * @ORM\Column(name="sasa", type="float", nullable=true)
      */
     private $sasa;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="deltaSasa", type="float")
+     * @ORM\Column(name="deltaSasa", type="float", nullable=true)
      */
     private $deltaSasa;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="rGyr", type="float")
+     * @ORM\Column(name="rGyr", type="float", nullable=true)
      */
     private $rGyr;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="icsRepeats", type="float")
+     * @ORM\Column(name="icsRepeats", type="float", nullable=true)
      */
     private $icsRepeats;
 

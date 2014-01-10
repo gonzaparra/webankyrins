@@ -31,56 +31,56 @@ class Residue
     /**
      * @var string
      *
-     * @ORM\Column(name="resId", type="string", length=255)
+     * @ORM\Column(name="resId", type="string", length=255, nullable=true)
      */
     private $resId;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="dssp", type="string", length=255)
+     * @ORM\Column(name="dssp", type="string", length=255, nullable=true)
      */
     private $dssp;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="perresMutFrstVal", type="float")
+     * @ORM\Column(name="perresMutFrstVal", type="float", nullable=true)
      */
     private $perresMutFrstVal;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="sasa", type="float")
+     * @ORM\Column(name="sasa", type="float", nullable=true)
      */
     private $sasa;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="energy", type="float")
+     * @ORM\Column(name="energy", type="float", nullable=true)
      */
     private $energy;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="pasta", type="float")
+     * @ORM\Column(name="pasta", type="float", nullable=true)
      */
     private $pasta;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="disorder", type="float")
+     * @ORM\Column(name="disorder", type="float", nullable=true)
      */
     private $disorder;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="chainNConts", type="integer")
+     * @ORM\Column(name="chainNConts", type="integer", nullable=true)
      */
     private $chainNConts;
 

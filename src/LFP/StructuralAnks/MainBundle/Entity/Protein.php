@@ -34,49 +34,49 @@ class Protein
     /**
      * @var string
      *
-     * @ORM\Column(name="entryName", type="string", length=255)
+     * @ORM\Column(name="entryName", type="string", length=255, nullable=true)
      */
     private $entryName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="proteinNames", type="string", length=255)
+     * @ORM\Column(name="proteinNames", type="string", length=255, nullable=true)
      */
     private $proteinNames;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="organism", type="string", length=255)
+     * @ORM\Column(name="organism", type="string", length=255, nullable=true)
      */
     private $organism;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="organismId", type="integer")
+     * @ORM\Column(name="organismId", type="integer", nullable=true)
      */
     private $organismId;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="length", type="integer")
+     * @ORM\Column(name="length", type="integer", nullable=true)
      */
     private $length;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="repType", type="string", length=255)
+     * @ORM\Column(name="repType", type="string", length=255, nullable=true)
      */
     private $repType;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="subGroup", type="string", length=255)
+     * @ORM\Column(name="subGroup", type="string", length=255, nullable=true)
      */
     private $subGroup;
 

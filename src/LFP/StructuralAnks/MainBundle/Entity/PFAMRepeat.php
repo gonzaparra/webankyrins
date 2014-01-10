@@ -24,119 +24,119 @@ class PFAMRepeat
     /**
      * @var integer
      *
-     * @ORM\Column(name="pfamRepeat", type="integer")
+     * @ORM\Column(name="pfamRepeat", type="integer", nullable=true)
      */
     private $pfamRepeat;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="status", type="string", length=255)
+     * @ORM\Column(name="status", type="string", length=255, nullable=true)
      */
     private $status;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="score", type="float")
+     * @ORM\Column(name="score", type="float", nullable=true)
      */
     private $score;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="bias", type="float")
+     * @ORM\Column(name="bias", type="float", nullable=true)
      */
     private $bias;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="cEValue", type="float")
+     * @ORM\Column(name="cEValue", type="float", nullable=true)
      */
     private $cEValue;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="iEValue", type="float")
+     * @ORM\Column(name="iEValue", type="float", nullable=true)
      */
     private $iEValue;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="hmmFrom", type="integer")
+     * @ORM\Column(name="hmmFrom", type="integer", nullable=true)
      */
     private $hmmFrom;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="hmmTo", type="integer")
+     * @ORM\Column(name="hmmTo", type="integer", nullable=true)
      */
     private $hmmTo;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="aliFrom", type="integer")
+     * @ORM\Column(name="aliFrom", type="integer", nullable=true)
      */
     private $aliFrom;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="aliTo", type="integer")
+     * @ORM\Column(name="aliTo", type="integer", nullable=true)
      */
     private $aliTo;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="envFrom", type="integer")
+     * @ORM\Column(name="envFrom", type="integer", nullable=true)
      */
     private $envFrom;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="envTo", type="integer")
+     * @ORM\Column(name="envTo", type="integer", nullable=true)
      */
     private $envTo;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="aliHmm", type="string", length=255)
+     * @ORM\Column(name="aliHmm", type="string", length=255, nullable=true)
      */
     private $aliHmm;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="aliRep", type="string", length=255)
+     * @ORM\Column(name="aliRep", type="string", length=255, nullable=true)
      */
     private $aliRep;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="consensus", type="string", length=255)
+     * @ORM\Column(name="consensus", type="string", length=255, nullable=true)
      */
     private $consensus;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="deletions", type="string", length=255)
+     * @ORM\Column(name="deletions", type="string", length=255, nullable=true)
      */
     private $deletions;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="insertions", type="string", length=255)
+     * @ORM\Column(name="insertions", type="string", length=255, nullable=true)
      */
     private $insertions;
 
