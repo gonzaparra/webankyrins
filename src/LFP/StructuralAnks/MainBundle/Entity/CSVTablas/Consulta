@@ -5,3 +5,7 @@ select p.*, c.idChain FROM PdbResidue p, Chain c where p.PdbID=c.PdbID AND p.Cha
 select p.*, c.idChain FROM ChainStructuralProperties p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
 
 select p.*, c.idChain FROM CharactPos p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
+
+select p.*, c.idChain FROM StructuralRepeat p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
+
+select p.*, c.idChain FROM StructuralRepModif p, Chain c where p.PdbID=c.PdbID AND p.Chain=c.Chain
