@@ -26,7 +26,7 @@ class Structure
     /**
      * @var string
      *
-     * @ORM\Column(name="pdbId", type="string", length=255)
+     * @ORM\Column(name="pdbId", type="string", length=255, nullable=true)
      */
     private $pdbId;
 
@@ -63,7 +63,7 @@ class Structure
      *
      * @ORM\Column(name="resolution", type="float", length=255, nullable=true)
      */
-    private $resolution;
+    private $resolution=null;
 
     /**
      * @var string
@@ -80,6 +80,13 @@ class Structure
     private $subGroup;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="mainRepeat", type="string", length=255, nullable=true)
+     */
+    private $mainRepeat;
+
+    /**
      * @var integer
      *
      * @ORM\Column(name="nChains", type="integer", nullable=true)
@@ -87,9 +94,9 @@ class Structure
     private $nChains;
 
     /**
-     * @var string
+     * @var integer
      *
-     * @ORM\Column(name="bu", type="string", length=255, nullable=true)
+     * @ORM\Column(name="bu", type="integer", nullable=true)
      */
     private $bu;
 
@@ -242,7 +249,7 @@ class Structure
     /**
      * Set resolution
      *
-     * @param string $resolution
+     * @param float $resolution
      * @return Structure
      */
     public function setResolution($resolution)
@@ -255,7 +262,7 @@ class Structure
     /**
      * Get resolution
      *
-     * @return string 
+     * @return float 
      */
     public function getResolution()
     {
@@ -334,7 +341,7 @@ class Structure
     /**
      * Set bu
      *
-     * @param string $bu
+     * @param integer $bu
      * @return Structure
      */
     public function setBu($bu)
@@ -347,7 +354,7 @@ class Structure
     /**
      * Get bu
      *
-     * @return string 
+     * @return integer 
      */
     public function getBu()
     {
@@ -431,5 +438,28 @@ class Structure
     public function getPublication()
     {
         return $this->publication;
+    }
+
+    /**
+     * Set mainRepeat
+     *
+     * @param string $mainRepeat
+     * @return Structure
+     */
+    public function setMainRepeat($mainRepeat)
+    {
+        $this->mainRepeat = $mainRepeat;
+    
+        return $this;
+    }
+
+    /**
+     * Get mainRepeat
+     *
+     * @return string 
+     */
+    public function getMainRepeat()
+    {
+        return $this->mainRepeat;
     }
 }

@@ -50,7 +50,7 @@ class StructuralRepModif
     private $repNum;
 
     /**
-     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="structuralRepModifs", nullable=true)
+     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="structuralRepModifs")
      */
     protected $structuralRepeat;
     
