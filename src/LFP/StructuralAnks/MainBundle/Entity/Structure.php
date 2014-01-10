@@ -94,9 +94,9 @@ class Structure
     private $nChains;
 
     /**
-     * @var string
+     * @var integer
      *
-     * @ORM\Column(name="bu", type="string", length=255, nullable=true)
+     * @ORM\Column(name="bu", type="integer", nullable=true)
      */
     private $bu;
 
@@ -341,7 +341,7 @@ class Structure
     /**
      * Set bu
      *
-     * @param string $bu
+     * @param integer $bu
      * @return Structure
      */
     public function setBu($bu)
@@ -354,7 +354,7 @@ class Structure
     /**
      * Get bu
      *
-     * @return string 
+     * @return integer 
      */
     public function getBu()
     {
