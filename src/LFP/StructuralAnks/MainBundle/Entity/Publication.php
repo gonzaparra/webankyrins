@@ -24,28 +24,28 @@ class Publication
     /**
      * @var string
      *
-     * @ORM\Column(name="authors", type="string", length=255)
+     * @ORM\Column(name="authors", type="string", length=255, nullable=true)
      */
     private $authors;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=255)
+     * @ORM\Column(name="title", type="string", length=255, nullable=true)
      */
     private $title;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="journal", type="string", length=255)
+     * @ORM\Column(name="journal", type="string", length=255, nullable=true)
      */
     private $journal;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="url", type="string", length=255)
+     * @ORM\Column(name="url", type="string", length=255, nullable=true)
      */
     private $url;
 

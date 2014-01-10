@@ -24,33 +24,33 @@ class StructuralRepModif
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=255)
+     * @ORM\Column(name="type", type="string", length=255, nullable=true)
      */
     private $type;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="start", type="integer")
+     * @ORM\Column(name="start", type="integer", nullable=true)
      */
     private $start;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="length", type="integer")
+     * @ORM\Column(name="length", type="integer", nullable=true)
      */
     private $length;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="repNum", type="integer")
+     * @ORM\Column(name="repNum", type="integer", nullable=true)
      */
     private $repNum;
 
     /**
-     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="structuralRepModifs")
+     *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="structuralRepModifs", nullable=true)
      */
     protected $structuralRepeat;
     

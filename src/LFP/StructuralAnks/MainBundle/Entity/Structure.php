@@ -61,7 +61,7 @@ class Structure
     /**
      * @var float
      *
-     * @ORM\Column(name="resolution", type="float", nullable=true)
+     * @ORM\Column(name="resolution", type="float", length=255, nullable=true)
      */
     private $resolution=null;
 
