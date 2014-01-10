@@ -59,9 +59,9 @@ class Structure
     private $method;
 
     /**
-     * @var string
+     * @var float
      *
-     * @ORM\Column(name="resolution", type="string", length=255)
+     * @ORM\Column(name="resolution", type="float", length=255)
      */
     private $resolution;
 
