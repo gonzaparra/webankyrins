@@ -14,6 +14,7 @@
 	 */
 	class LoadPublicationData implements FixtureInterface, ContainerAwareInterface, OrderedFixtureInterface
 	{
+            
 		/**
 		 * @var ContainerInterface
 		 */
