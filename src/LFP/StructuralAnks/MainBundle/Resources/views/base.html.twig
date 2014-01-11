@@ -54,8 +54,8 @@ Released   : 20131117
                                 {% set current = 'Home' %}
                             {% endif %}
 
-                            <li {% if current == 'Home'%}class="current_page_item"{%endif%}><a href="#" accesskey="1" title="">Home</a></li>
-                            <li {% if current == 'Browse'%}class="current_page_item"{%endif%}><a href="#" accesskey="2" title="">Browse</a></li>
+                            <li {% if current == 'Home'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_home')}}" accesskey="1" title="">Home</a></li>
+                            <li {% if current == 'Browse'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_browse')}}" accesskey="2" title="">Browse</a></li>
                             <li {% if current == 'About'%}class="current_page_item"{%endif%}><a href="#" accesskey="3" title="">About</a></li>
                             <li {% if current == 'Contact'%}class="current_page_item"{%endif%}><a href="#" accesskey="4" title="">Contact</a></li>
 			</ul>
