@@ -107,10 +107,11 @@ class GODef
      * @param \LFP\StructuralAnks\MainBundle\Entity\Protein $proteins
      * @return GODef
      */
-    public function addProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $proteins)
+    public function addProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $proteins  = null)
     {
-        $this->proteins[] = $proteins;
-    
+        if($proteins){
+            $this->proteins[] = $proteins;
+        }
         return $this;
     }
 
