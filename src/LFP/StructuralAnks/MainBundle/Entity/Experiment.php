@@ -42,6 +42,13 @@ class Experiment
      */
     private $equilCinet;
 
+        /**
+     * @var string
+     *
+     * @ORM\Column(name="uniprotRef", type="string", length=255, nullable=true)
+     */
+    private $uniprotRef;
+    
     /**
      * @var string
      *
@@ -232,6 +239,29 @@ class Experiment
         return $this->equilCinet;
     }
 
+     /**
+     * Set uniprotRef
+     *
+     * @param string $uniprotRef
+     * @return Experiment
+     */
+    public function setUniprotRef($uniprotRef)
+    {
+        $this->uniprotRef = $uniprotRef;
+    
+        return $this;
+    }
+
+    /**
+     * Get uniprotRef
+     *
+     * @return string 
+     */
+    public function getUniprotRef()
+    {
+        return $this->uniprotRef;
+    }
+    
     /**
      * Set derivedFrom
      *
