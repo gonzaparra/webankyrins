@@ -17,7 +17,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new LFP\StructuralAnks\MainBundle\LFPStructuralAnksMainBundle(),
-            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle()
+//            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle()
             
         );
 
