@@ -21,7 +21,7 @@ def newExperiment(numero,linea):
 			$s->setEquilCinet("%s");"""%linea[3].strip()
 	if(linea[4].strip() and linea[4].strip() != "NULL"):
 		texto += """
-			$s->setUniprotRef($doctrine->getRepository('LFPStructuralAnksMainBundle:Protein')->findOneByUniprot("%s"));"""%linea[4].strip()
+			$s->setProtein($doctrine->getRepository('LFPStructuralAnksMainBundle:Protein')->findOneByUniprot("%s"));"""%linea[4].strip()
 	if(linea[5].strip() and linea[5].strip() != "NULL"):
 		texto += """
 			$s->setDerivedFrom("%s");"""%linea[5].strip()
