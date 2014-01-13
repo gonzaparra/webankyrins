@@ -3301,7 +3301,7 @@ class appDevDebugProjectContainer extends Container
             'kernel.root_dir' => '/var/www/webankyrins/app',
             'kernel.environment' => 'dev',
             'kernel.debug' => true,
-            'kernel.name' => 'app',
+            'kernel.name' => 'ap_',
             'kernel.cache_dir' => '/var/www/webankyrins/app/cache/dev',
             'kernel.logs_dir' => '/var/www/webankyrins/app/logs',
             'kernel.bundles' => array(
