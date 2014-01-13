@@ -27,6 +27,14 @@ class HomeController extends Controller
      */
     public function browseAction()
     {
-        return array();
+        /* Save entity manager in $em */
+        $em = $this->getDoctrine()->getManager();
+        
+        /* Get all pdb structures */
+        $pdbs = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->findAll();
+        
+        return array(
+            'pdbs' => $pdbs
+            );
     }
 }

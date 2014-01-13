@@ -3,5 +3,17 @@
 {%set current = 'Browse'%}
 
 {%block container%}
-Este es el browser
+
+    <div id="browser-accordion" class="browse-results-scroll">
+        
+    {% for pdb in pdbs %}
+        <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
+        <div>
+            {%for chain in pdb.chains %}
+                {{chain.chain}}<br/>
+            {% endfor %}
+        </div>
+    {% endfor %}
+    </div>
+
 {%endblock%}
