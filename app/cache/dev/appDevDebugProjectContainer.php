@@ -3301,7 +3301,7 @@ class appDevDebugProjectContainer extends Container
             'kernel.root_dir' => '/var/www/webankyrins/app',
             'kernel.environment' => 'dev',
             'kernel.debug' => true,
-            'kernel.name' => 'ap_',
+            'kernel.name' => 'app',
             'kernel.cache_dir' => '/var/www/webankyrins/app/cache/dev',
             'kernel.logs_dir' => '/var/www/webankyrins/app/logs',
             'kernel.bundles' => array(
@@ -3314,7 +3314,6 @@ class appDevDebugProjectContainer extends Container
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
                 'LFPStructuralAnksMainBundle' => 'LFP\\StructuralAnks\\MainBundle\\LFPStructuralAnksMainBundle',
-                'DoctrineFixturesBundle' => 'Doctrine\\Bundle\\FixturesBundle\\DoctrineFixturesBundle',
                 'AcmeDemoBundle' => 'Acme\\DemoBundle\\AcmeDemoBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SensioDistributionBundle' => 'Sensio\\Bundle\\DistributionBundle\\SensioDistributionBundle',
