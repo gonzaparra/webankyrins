@@ -101,7 +101,7 @@ class Chain
     /**
      * @var boolean
      *
-     * @ORM\Column(name="nonRedundantSet", type="boolean", length=255, nullable=true)
+     * @ORM\Column(name="nonRedundantSet", type="boolean", length=255)
      */
     protected $nonRedundantSet;
     
@@ -430,7 +430,7 @@ class Chain
      * @param \bool $nonRedundantSet
      * @return Chain
      */
-    public function setNonRedundantSet(\bool $nonRedundantSet)
+    public function setNonRedundantSet($nonRedundantSet)
     {
         $this->nonRedundantSet = $nonRedundantSet;
     

@@ -65,7 +65,7 @@ class ChainStructuralProperties
 
 
     /**
-     *  @ORM\OneToOne(targetEntity="ChainStructuralProperties", inversedBy="chainStructuralProperties")
+     *  @ORM\OneToOne(targetEntity="Chain", inversedBy="chainStructuralProperties")
      */
     protected $chain;
     
@@ -221,10 +221,10 @@ class ChainStructuralProperties
     /**
      * Set chain
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chain
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Chain $chain
      * @return ChainStructuralProperties
      */
-    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties $chain = null)
+    public function setChain(\LFP\StructuralAnks\MainBundle\Entity\Chain $chain = null)
     {
         $this->chain = $chain;
     
@@ -234,7 +234,7 @@ class ChainStructuralProperties
     /**
      * Get chain
      *
-     * @return \LFP\StructuralAnks\MainBundle\Entity\ChainStructuralProperties 
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Chain 
      */
     public function getChain()
     {

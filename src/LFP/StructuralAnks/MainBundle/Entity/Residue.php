@@ -24,7 +24,7 @@ class Residue
     /**
      * @var string
      *
-     * @ORM\Column(name="uniprotPos", type="string", length=255)
+     * @ORM\Column(name="uniprotPos", type="integer", length=255)
      */
     private $uniprotPos;
 
