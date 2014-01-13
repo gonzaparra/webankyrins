@@ -42,12 +42,6 @@ class Experiment
      */
     private $equilCinet;
 
-        /**
-     * @var string
-     *
-     * @ORM\Column(name="uniprotRef", type="string", length=255, nullable=true)
-     */
-    private $uniprotRef;
     
     /**
      * @var string
@@ -122,7 +116,7 @@ class Experiment
     /**
      * @var float
      *
-     * @ORM\Column(name="tm", type="float")
+     * @ORM\Column(name="tm", type="float", nullable=true)
      */
     private $tm;
 
@@ -155,7 +149,7 @@ class Experiment
     private $typeArq;
 
     /**
-     *  @ORM\OneToOne(targetEntity="Protein", inversedBy="experiment")
+     *  @ORM\ManyToOne(targetEntity="Protein", inversedBy="experiment")
      */
     protected $protein;
     
@@ -239,28 +233,6 @@ class Experiment
         return $this->equilCinet;
     }
 
-     /**
-     * Set uniprotRef
-     *
-     * @param string $uniprotRef
-     * @return Experiment
-     */
-    public function setUniprotRef($uniprotRef)
-    {
-        $this->uniprotRef = $uniprotRef;
-    
-        return $this;
-    }
-
-    /**
-     * Get uniprotRef
-     *
-     * @return string 
-     */
-    public function getUniprotRef()
-    {
-        return $this->uniprotRef;
-    }
     
     /**
      * Set derivedFrom
@@ -628,5 +600,35 @@ class Experiment
     public function getProtein()
     {
         return $this->protein;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->protein = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add protein
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Protein $protein
+     * @return Experiment
+     */
+    public function addProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $protein)
+    {
+        $this->protein[] = $protein;
+    
+        return $this;
+    }
+
+    /**
+     * Remove protein
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Protein $protein
+     */
+    public function removeProtein(\LFP\StructuralAnks\MainBundle\Entity\Protein $protein)
+    {
+        $this->protein->removeElement($protein);
     }
 }

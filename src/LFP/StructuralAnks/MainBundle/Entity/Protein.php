@@ -81,7 +81,7 @@ class Protein
     private $subGroup;
 
     /**
-     *  @ORM\OneToOne(targetEntity="Experiment", mappedBy="protein")
+     *  @ORM\OneToMany(targetEntity="Experiment", mappedBy="protein")
      */
     protected $experiment;
     
@@ -105,6 +105,7 @@ class Protein
         $this->chains = new ArrayCollection();
         $this->pfamRepeats = new ArrayCollection();
         $this->goDefs = new ArrayCollection();
+        $this->experiments = new ArrayCollection();
     }
     
 
@@ -422,5 +423,28 @@ class Protein
     public function getGoDefs()
     {
         return $this->goDefs;
+    }
+
+    /**
+     * Add experiment
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment
+     * @return Protein
+     */
+    public function addExperiment(\LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment)
+    {
+        $this->experiment[] = $experiment;
+    
+        return $this;
+    }
+
+    /**
+     * Remove experiment
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment
+     */
+    public function removeExperiment(\LFP\StructuralAnks\MainBundle\Entity\Experiment $experiment)
+    {
+        $this->experiment->removeElement($experiment);
     }
 }
