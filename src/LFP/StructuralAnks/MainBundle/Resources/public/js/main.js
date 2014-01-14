@@ -7,8 +7,10 @@
 $(document).ready(function() {
     $(function() {
         $( "#browser-accordion" ).accordion({
-            collapsible:true,
-            active: true,
+//            collapsible:true,
+//            active: true,
+            heightStyle: "content",
+            clearStyle: true
         });
     });    
 });
