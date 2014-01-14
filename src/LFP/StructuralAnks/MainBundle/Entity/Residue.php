@@ -89,9 +89,9 @@ class Residue
      *  @ORM\ManyToOne(targetEntity="Chain", inversedBy="residues")
      */
     protected $chain;
-
+    
     /**
-     *  @ORM\OneToOne(targetEntity="CharactPos", mappedBy="residue")
+     *  @ORM\OneToMany(targetEntity="CharactPos", mappedBy="residue")
      */
     protected $charactPos;
     
@@ -336,22 +336,41 @@ class Residue
     }
 
     /**
-     * Set charactPos
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->charactPos = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add charactPos
      *
      * @param \LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos
      * @return Residue
      */
-    public function setCharactPos(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos = null)
+    public function addCharactPos(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos =null)
     {
-        $this->charactPos = $charactPos;
-    
+        if($charactPos){
+            $this->charactPos[] = $charactPos;
+        }
         return $this;
+    }
+
+    /**
+     * Remove charactPos
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos
+     */
+    public function removeCharactPos(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos)
+    {
+        $this->charactPos->removeElement($charactPos);
     }
 
     /**
      * Get charactPos
      *
-     * @return \LFP\StructuralAnks\MainBundle\Entity\CharactPos 
+     * @return \Doctrine\Common\Collections\Collection 
      */
     public function getCharactPos()
     {
