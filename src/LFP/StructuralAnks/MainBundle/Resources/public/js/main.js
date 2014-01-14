@@ -8,7 +8,8 @@ $(document).ready(function() {
     $(function() {
         $( "#browser-accordion" ).accordion({
             collapsible:true,
-            active: true,
+            active:false,
+            heightStyle: "content"
         });
     });    
 });

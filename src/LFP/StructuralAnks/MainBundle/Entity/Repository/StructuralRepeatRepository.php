@@ -7,8 +7,10 @@ use Doctrine\ORM\EntityRepository;
 
 class StructuralRepeatRepository extends EntityRepository {
     /**
-     * Find employees by departments
-     * @param array $departments an array of department objects
+     * Find Residues by pdbId, chain and repNum
+     * @param string $pdb pdbId
+     * @param string $chain chain letter of a structure
+     * @param string $repnum repNum of StructuralRepeat
      */
     public function findByPdbChainRepnum($pdb, $chain, $repnum) {
         $qb = $this->getEntityManager()->getRepository('LFPStructuralAnksMainBundle:StructuralRepeat')->createQueryBuilder('sr')
@@ -21,8 +23,6 @@ class StructuralRepeatRepository extends EntityRepository {
             ->andWhere('sr.repNum = :repnum')
             ->setParameter('repnum', $repnum)
             ;
-            
-
         return $qb->getQuery()->getSingleResult();
     }
 }

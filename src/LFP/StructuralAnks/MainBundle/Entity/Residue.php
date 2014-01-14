@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Residue
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="LFP\StructuralAnks\MainBundle\Entity\Repository\ResidueRepository")
  */
 class Residue
 {
@@ -90,6 +90,11 @@ class Residue
      */
     protected $chain;
 
+    /**
+     *  @ORM\OneToOne(targetEntity="CharactPos", mappedBy="residue")
+     */
+    protected $charactPos;
+    
     /**
      * Get id
      *
@@ -328,5 +333,28 @@ class Residue
     public function getChain()
     {
         return $this->chain;
+    }
+
+    /**
+     * Set charactPos
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos
+     * @return Residue
+     */
+    public function setCharactPos(\LFP\StructuralAnks\MainBundle\Entity\CharactPos $charactPos = null)
+    {
+        $this->charactPos = $charactPos;
+    
+        return $this;
+    }
+
+    /**
+     * Get charactPos
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\CharactPos 
+     */
+    public function getCharactPos()
+    {
+        return $this->charactPos;
     }
 }

@@ -34,6 +34,11 @@ class CharactPos
     protected $structuralRepeat;
 
     /**
+     *  @ORM\OneToOne(targetEntity="Residue", inversedBy="charactPos")
+     */
+    protected $residue;
+    
+    /**
      * Get id
      *
      * @return integer 
@@ -87,5 +92,28 @@ class CharactPos
     public function getStructuralRepeat()
     {
         return $this->structuralRepeat;
+    }
+
+    /**
+     * Set residue
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Residue $residue
+     * @return CharactPos
+     */
+    public function setResidue(\LFP\StructuralAnks\MainBundle\Entity\Residue $residue = null)
+    {
+        $this->residue = $residue;
+    
+        return $this;
+    }
+
+    /**
+     * Get residue
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Residue 
+     */
+    public function getResidue()
+    {
+        return $this->residue;
     }
 }
