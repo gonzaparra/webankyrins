@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Structure
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="LFP\StructuralAnks\MainBundle\Entity\Repository\StructureRepository")
  */
 class Structure
 {
