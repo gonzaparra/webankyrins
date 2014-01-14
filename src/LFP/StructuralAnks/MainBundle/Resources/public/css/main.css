@@ -8,12 +8,29 @@ and open the template in the editor.
     Author     : darkx
 */
 
-.main-box
-{
-    min-height: 20em;
+.ui-accordion .ui-accordion-header {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0.3em 0.3em 0.3em 2em !important;
+}
+
+.ui-accordion .ui-accordion-content {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0.3em 0.5em !important;
 }
 
 .browse-results-scroll{
     overflow: auto;
     height: 400px;
+    width: 900px;
+    margin: 0 auto;
 }
+
+.main-box
+{
+    min-height: 20em;
+}
+
+
+

@@ -34,7 +34,7 @@ class HomeController extends Controller
         $em = $this->getDoctrine()->getManager();
         
         /* Get all pdb structures */
-        $pdbs = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->findAll();
+        $pdbs = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->getSortedStructures();
         
         return array(
             'pdbs' => $pdbs
