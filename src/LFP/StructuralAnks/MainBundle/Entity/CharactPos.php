@@ -32,7 +32,12 @@ class CharactPos
      *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="charactPos")
      */
     protected $structuralRepeat;
-
+    
+    /**
+     *  @ORM\ManyToOne(targetEntity="Residue", inversedBy="charactPos")
+     */
+    protected $residue;
+    
     /**
      * Get id
      *
@@ -49,10 +54,11 @@ class CharactPos
      * @param integer $charactPos
      * @return CharactPos
      */
-    public function setCharactPos($charactPos)
+    public function setCharactPos($charactPos = null)
     {
-        $this->charactPos = $charactPos;
-    
+        if($charactPos){
+            $this->charactPos = $charactPos;
+        }
         return $this;
     }
 
@@ -87,5 +93,30 @@ class CharactPos
     public function getStructuralRepeat()
     {
         return $this->structuralRepeat;
+    }
+
+   
+
+    /**
+     * Set residue
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\Residue $residue
+     * @return CharactPos
+     */
+    public function setResidue(\LFP\StructuralAnks\MainBundle\Entity\Residue $residue = null)
+    {
+        $this->residue = $residue;
+    
+        return $this;
+    }
+
+    /**
+     * Get residue
+     *
+     * @return \LFP\StructuralAnks\MainBundle\Entity\Residue 
+     */
+    public function getResidue()
+    {
+        return $this->residue;
     }
 }

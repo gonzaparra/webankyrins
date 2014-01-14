@@ -401,28 +401,20 @@ class Chain
         return $this->endStructFrac;
     }
 
-    /**
-     * Set missingResidues
-     *
-     * @param integer $missingResidues
-     * @return Chain
-     */
-    public function setMissingResidues($missingResidues)
-    {
-        $this->missingResidues = $missingResidues;
-    
-        return $this;
-    }
+//    /**
+//     * Set missingResidues
+//     *
+//     * @param integer $missingResidues
+//     * @return Chain
+//     */
+//    public function setMissingResidues($missingResidues)
+//    {
+//        $this->missingResidues = $missingResidues;
+//    
+//        return $this;
+//    }
 
-    /**
-     * Get missingResidues
-     *
-     * @return integer 
-     */
-    public function getMissingResidues()
-    {
-        return $this->missingResidues;
-    }
+    
 
     /**
      * Set nonRedundantSet
@@ -550,12 +542,22 @@ class Chain
     }
 
     /**
+     * Get missingResidues
+     *
+     * @return integer 
+     */
+    public function getMissingResidues()
+    {
+        return $this->missingResidues;
+    }
+    
+    /**
      * Add missingResidues
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
      * @return Chain
      */
-    public function addMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues)
+    public function addMissingResidues(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
     {
         $this->missingResidues[] = $missingResidues;
     
@@ -565,9 +567,9 @@ class Chain
     /**
      * Remove missingResidues
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
      */
-    public function removeMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingResidues $missingResidues)
+    public function removeMissingResidues(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
     {
         $this->missingResidues->removeElement($missingResidues);
     }
@@ -695,5 +697,28 @@ class Chain
     public function getStructure()
     {
         return $this->structure;
+    }
+
+    /**
+     * Add missingResidues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
+     * @return Chain
+     */
+    public function addMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
+    {
+        $this->missingResidues[] = $missingResidues;
+    
+        return $this;
+    }
+
+    /**
+     * Remove missingResidues
+     *
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
+     */
+    public function removeMissingResidue(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
+    {
+        $this->missingResidues->removeElement($missingResidues);
     }
 }
