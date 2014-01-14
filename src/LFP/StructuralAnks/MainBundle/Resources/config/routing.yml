@@ -7,5 +7,5 @@ ankyrins_browse:
     defaults: { _controller: LFPStructuralAnksMainBundle:Home:browse }
     
 ankyrins_show:
-    pattern:  /show/{pdbId}/
+    pattern:  /show/{pdbId}/{chainId}
     defaults: { _controller: LFPStructuralAnksMainBundle:Home:show }    

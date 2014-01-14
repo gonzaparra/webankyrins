@@ -43,21 +43,18 @@ class HomeController extends Controller
     }
     
     /**
-     * @Route("/show/{pdbId}",name="ankyrins_show")
+     * @Route("/show/{pdbId}/{chainId}",name="ankyrins_show")
      * @Template()
      */
-    public function showAction($pdbId)
+    public function showAction($pdbId, $chainId)
     {
         /* Save entity manager in $em */
         $em = $this->getDoctrine()->getManager();
         
         /* Get all pdb structures */
-        $pdb = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->findOneById($pdbId);
-        $chains = $pdb->getChains();
-        $options = array();
-        foreach($chains as $chain){
-            $options[] = $this->createsChartsOptions($chain);
-        }
+        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
+        $options = $this->createsChartsOptions($chain);
+
         var_dump($options);die;
         
         
@@ -69,17 +66,20 @@ class HomeController extends Controller
     /**
      * Returns an array with options necessary for chart creation
      */
-    public function createsChartOptions($chain){
+    public function createsChartsOptions($chain){
         $miniOptions = array();
         $miniOptions['chartID'] = '#chart'.$chain->getChain();
         $resNames = array();
         $sasa = array();
         $energy = array();
+//        var_dump($chain->getResidues());
         foreach($chain->getResidues() as $r){
             $resNames[] = $r->getResId();
             $sasa[] = $r->getSasa();
             $energy[] = $r->getEnergy();
         }
+        
+        $miniOptions['xAxisCategories'] = $resNames;
         $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
         $miniOptions['energy'] = $this->getNormalizedValues($energy);
 
@@ -96,6 +96,7 @@ class HomeController extends Controller
         foreach($a as $val){
             $normArray[] = $this->normalizeZeroOne($val, $minValue, $maxValue);
         }
+        return $normArray;
     }
     
     /**
