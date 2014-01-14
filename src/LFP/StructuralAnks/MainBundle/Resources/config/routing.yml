@@ -9,3 +9,7 @@ ankyrins_browse:
 ankyrins_show:
     pattern:  /show/{pdbId}/
     defaults: { _controller: LFPStructuralAnksMainBundle:Home:show }    
+    
+ankyrins_popup:
+    pattern:  /popup/{id}
+    defaults: { _controller: LFPStructuralAnksMainBundle:Home:popup }    

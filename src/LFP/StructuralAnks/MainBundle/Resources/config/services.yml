@@ -5,3 +5,7 @@ services:
 #    lfp_structural_anks_main.example:
 #        class: %lfp_structural_anks_main.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+    main.twig.get_contents_extension:
+        class: LFP\StructuralAnks\MainBundle\Twig\GetContentsExtension
+        tags:
+            - { name: twig.extension }

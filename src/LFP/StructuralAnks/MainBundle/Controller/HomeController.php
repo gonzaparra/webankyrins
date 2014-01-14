@@ -43,6 +43,19 @@ class HomeController extends Controller
     }
     
     /**
+     * @Route("/popup/{pdbId}",name="ankyrins_popup")
+     * @Template()
+     */
+    public function popupAction($id)
+    {
+        $pdb = $this->getDoctrine()->getRepository('LFPStructuralAnksMainBundle:Structure')->findOneById($id);
+        
+        return array(
+            'pdb' => $pdb
+            );
+    }
+    
+    /**
      * @Route("/show/{pdbId}",name="ankyrins_show")
      * @Template()
      */
