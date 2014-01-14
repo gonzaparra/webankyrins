@@ -37,4 +37,16 @@ class HomeController extends Controller
             'pdbs' => $pdbs
             );
     }
+    
+    /**
+     * @Route("/show/{pdbId}",name="ankyrins_show")
+     * @Template()
+     */
+    public function showAction($pdbId)
+    {
+        
+        return array(
+            'pdbId' => $pdbId,
+            );
+    }
 }

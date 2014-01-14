@@ -12,6 +12,7 @@
     {% for pdb in pdbs %}
         <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
         <div>
+            <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId})}}">{{pdb.pdbId}}</a>
             {%for chain in pdb.chains %}
                 {{chain.chain}}<br/>
             {% endfor %}
