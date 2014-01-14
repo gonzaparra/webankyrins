@@ -7,9 +7,8 @@
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/highcharts.js ') }}" type="text/javascript"></script>    
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/modules/exporting.js ') }}" type="text/javascript"></script>    
     <script src="{{ asset('bundles/lfpstructuralanksmain/jmol/jmol.js') }}" type="text/javascript"></script>
-    {% for op in jscharts%}
-        {% include 'LFPStructuralAnksMainBundle:Home:jscharts.html.twig' with {'options':op}%}
-    {% endfor%}
+    {% include 'LFPStructuralAnksMainBundle:Home:jscharts.html.twig' with {'options':chartOptions}%}
+    
 {% endblock %}
 
 
@@ -31,6 +30,6 @@
             <param name="perspectiveDepth" value="false">
         </object>
 </div>
-<div id="charts" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 {%endblock%}
