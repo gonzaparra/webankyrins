@@ -1,8 +1,9 @@
 /nbproject/private/
 /app/logs/
-/app/cache/
+/app/cache/*
 *php~
 /web/bundles/
 .*
 !/.gitignore
 !.htaccess
+src/LFP/StructuralAnks/MainBundle/Resources/public/jmol/anksdb
