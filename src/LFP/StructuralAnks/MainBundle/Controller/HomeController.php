@@ -53,12 +53,10 @@ class HomeController extends Controller
         
         /* Get all pdb structures */
         $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
-        $options = $this->createsChartsOptions($chain);
+        $chartOptions = $this->createsChartsOptions($chain);
 
-        var_dump($options);die;
-        
-        
         return array(
+            'chartOptions' => $chartOptions,
             'pdbId' => $pdbId,
             );
     }
@@ -68,18 +66,18 @@ class HomeController extends Controller
      */
     public function createsChartsOptions($chain){
         $miniOptions = array();
-        $miniOptions['chartID'] = '#chart'.$chain->getChain();
-        $resNames = array();
+        $miniOptions['divID'] = '#chart'.$chain->getChain();
+        $resNames = '[';
         $sasa = array();
         $energy = array();
-//        var_dump($chain->getResidues());
         foreach($chain->getResidues() as $r){
-            $resNames[] = $r->getResId();
+            $resNames = $resNames.$r->getResId().',';
             $sasa[] = $r->getSasa();
             $energy[] = $r->getEnergy();
         }
         
-        $miniOptions['xAxisCategories'] = $resNames;
+        
+        $miniOptions['xAxisCategories'] = $resNames.']';
         $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
         $miniOptions['energy'] = $this->getNormalizedValues($energy);
 
@@ -87,16 +85,16 @@ class HomeController extends Controller
     }
     
     /**
-     * Returns an Array with values between Zero and One
+     * Returns an string with values between Zero and One
      */
     public function getNormalizedValues($a){
         $minValue = min($a);
         $maxValue = max($a);
-        $normArray = array();
+        $text = '[';
         foreach($a as $val){
-            $normArray[] = $this->normalizeZeroOne($val, $minValue, $maxValue);
+            $$text = $text.$this->normalizeZeroOne($val, $minValue, $maxValue).',';
         }
-        return $normArray;
+        return $text.']';
     }
     
     /**
