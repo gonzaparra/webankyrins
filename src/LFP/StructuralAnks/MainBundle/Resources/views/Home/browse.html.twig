@@ -9,7 +9,7 @@
     {% for pdb in pdbs %}
         <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
         <div>
-            <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId})}}">{{pdb.pdbId}}</a><br>
+            
             <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">Window</a></span>
             {%for chain in pdb.chains %}
                 <a href="{{path('ankyrins_show',{'pdbId':pdb.id, 'chainId':chain.id})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
