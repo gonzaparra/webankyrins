@@ -20,13 +20,8 @@
                 <param name="perspectiveDepth" value="false">
             </object>
         </div>
-        <script>
-            
-            jmolRadioGroup([
-                ["select *;color cpk","cpk","isChecked"],
-                ["select *;color green","green"],
-                ["select *;color red","red"]
-            ],"<br>");
-        </script>
+        <INPUT TYPE="button" VALUE="Get mol in Jmol" onClick="
+                document.jmol.loadInline('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}')
+        ">
     </body>
 </html>
