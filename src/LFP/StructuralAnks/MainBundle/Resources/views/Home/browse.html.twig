@@ -12,7 +12,8 @@
             <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId})}}">{{pdb.pdbId}}</a><br>
             <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">Window</a></span>
             {%for chain in pdb.chains %}
-                {{chain.chain}}<br/>
+                <a href="{{path('ankyrins_show',{'pdbId':pdb.id, 'chainId':chain.id})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
+                <br/>
             {% endfor %}
         </div>
     {% endfor %}

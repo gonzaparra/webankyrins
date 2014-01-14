@@ -1,0 +1,45 @@
+
+    <script type="text/javascript">
+$(function () {
+        $({{options.divID}}).highcharts({
+            title: {
+                text: 'Gráficos comparativos',
+                x: -20 //center
+            },
+            subtitle: {
+                text: 'Source: WorldClimate.com',
+                x: -20
+            },
+            xAxis: {
+                categories: {{options.xAxisCategories}}
+            },
+            yAxis: {
+                title: {
+                    text: 'Temperature (°C)'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: '°C'
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+            series: [{
+                name: 'SASA',
+                data: {{options.sasa}}
+            }, {
+                name: 'Energy',
+                data: {{options.energy}}
+            }]
+        });
+    });
+    
+    </script>
