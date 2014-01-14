@@ -8,9 +8,9 @@
 <div id="browser-accordion" class="browse-results-scroll">
     {% for pdb in pdbs %}
         <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
-        <div>
+        <div style="text-align: left">
+            <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">PDB Info</a></span><br>
             
-            <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">Window</a></span>
             {%for chain in pdb.chains %}
                 <a href="{{path('ankyrins_show',{'pdbId':pdb.id, 'chainId':chain.id})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
                 <br/>
