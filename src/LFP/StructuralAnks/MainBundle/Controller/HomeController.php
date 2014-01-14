@@ -18,9 +18,10 @@ class HomeController extends Controller
      */
     public function indexAction()
     {
-//        $doctrine = $this->get('doctrine');
+        $doctrine = $this->get('doctrine');
+        $was = $doctrine->getRepository('LFPStructuralAnksMainBundle:Residue')->findByPdbChainUniprotpos('2V4H', 'C', 19);
 //        $was = $doctrine->getRepository('LFPStructuralAnksMainBundle:StructuralRepeat')->findByPdbChainRepnum('2V4H', 'C', 1);
-//        var_dump($was);
+        var_dump($was);
         return array();
     }
     

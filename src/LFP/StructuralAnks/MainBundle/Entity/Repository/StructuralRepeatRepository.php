@@ -23,6 +23,6 @@ class StructuralRepeatRepository extends EntityRepository {
             ->andWhere('sr.repNum = :repnum')
             ->setParameter('repnum', $repnum)
             ;
-        return $qb->getQuery()->getSingleResult();
+        return $qb->getQuery()->getOneOrNullResult();
     }
 }

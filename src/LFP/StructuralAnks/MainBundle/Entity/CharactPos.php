@@ -32,9 +32,9 @@ class CharactPos
      *  @ORM\ManyToOne(targetEntity="StructuralRepeat", inversedBy="charactPos")
      */
     protected $structuralRepeat;
-
+    
     /**
-     *  @ORM\OneToOne(targetEntity="Residue", inversedBy="charactPos")
+     *  @ORM\ManyToOne(targetEntity="Residue", inversedBy="charactPos")
      */
     protected $residue;
     
@@ -54,10 +54,11 @@ class CharactPos
      * @param integer $charactPos
      * @return CharactPos
      */
-    public function setCharactPos($charactPos)
+    public function setCharactPos($charactPos = null)
     {
-        $this->charactPos = $charactPos;
-    
+        if($charactPos){
+            $this->charactPos = $charactPos;
+        }
         return $this;
     }
 
@@ -93,6 +94,8 @@ class CharactPos
     {
         return $this->structuralRepeat;
     }
+
+   
 
     /**
      * Set residue

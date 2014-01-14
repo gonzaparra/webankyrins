@@ -21,8 +21,8 @@ class ResidueRepository extends EntityRepository {
             ->andWhere('s.pdbId = :pdbId')
             ->setParameter('pdbId', $pdb)
             ->andWhere('r.uniprotPos = :uniprotPos')
-            ->setParameter('uniprotPos', $unipritPos)
+            ->setParameter('uniprotPos', $uniprotPos)
             ;
-        return $qb->getQuery()->getSingleResult();
+        return $qb->getQuery()->getOneOrNullResult();
     }
 }
