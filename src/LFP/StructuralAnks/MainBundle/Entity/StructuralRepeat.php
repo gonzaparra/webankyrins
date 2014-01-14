@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * StructuralRepeat
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="LFP\StructuralAnks\MainBundle\Entity\Repository\StructuralRepeatRepository")
  */
 class StructuralRepeat
 {
@@ -27,6 +27,13 @@ class StructuralRepeat
      * @ORM\Column(name="start", type="integer", nullable=true)
      */
     private $start;
+    
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="repnum", type="integer", nullable=true)
+     */
+    private $repNum;
 
     /**
      * @var integer
@@ -130,6 +137,28 @@ class StructuralRepeat
     public function getStart()
     {
         return $this->start;
+    }
+    /**
+     * Set repNum
+     *
+     * @param integer $repnum
+     * @return StructuralRepeat
+     */
+    public function setRepNum($repnum)
+    {
+        $this->repNum = $repnum;
+    
+        return $this;
+    }
+
+    /**
+     * Get repnum
+     *
+     * @return integer 
+     */
+    public function getRepNum()
+    {
+        return $this->repNum;
     }
 
     /**
