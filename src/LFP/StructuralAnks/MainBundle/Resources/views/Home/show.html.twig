@@ -6,6 +6,7 @@
     {{ parent() }}
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/highcharts.js ') }}" type="text/javascript"></script>    
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/modules/exporting.js ') }}" type="text/javascript"></script>    
+    <script src="{{ asset('bundles/lfpstructuralanksmain/jmol/jmol.js') }}" type="text/javascript"></script>
     {% for op in jscharts%}
         {% include 'LFPStructuralAnksMainBundle:Home:jscharts.html.twig' with {'options':op}%}
     {% endfor%}
