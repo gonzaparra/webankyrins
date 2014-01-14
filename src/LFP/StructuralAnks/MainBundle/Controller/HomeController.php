@@ -18,10 +18,10 @@ class HomeController extends Controller
      */
     public function indexAction()
     {
-        $doctrine = $this->get('doctrine');
-        $was = $doctrine->getRepository('LFPStructuralAnksMainBundle:Residue')->findByPdbChainUniprotpos('2V4H', 'C', 19);
+//        $doctrine = $this->get('doctrine');
+//        $was = $doctrine->getRepository('LFPStructuralAnksMainBundle:Residue')->findByPdbChainUniprotpos('2V4H', 'C', 19);
 //        $was = $doctrine->getRepository('LFPStructuralAnksMainBundle:StructuralRepeat')->findByPdbChainRepnum('2V4H', 'C', 1);
-        var_dump($was);
+//        var_dump($was);
         return array();
     }
     
@@ -48,9 +48,60 @@ class HomeController extends Controller
      */
     public function showAction($pdbId)
     {
+        /* Save entity manager in $em */
+        $em = $this->getDoctrine()->getManager();
+        
+        /* Get all pdb structures */
+        $pdb = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->findOneById($pdbId);
+        $chains = $pdb->getChains();
+        $options = array();
+        foreach($chains as $chain){
+            $options[] = $this->createsChartsOptions($chain);
+        }
+        var_dump($options);die;
+        
         
         return array(
             'pdbId' => $pdbId,
             );
+    }
+    
+    /**
+     * Returns an array with options necessary for chart creation
+     */
+    public function createsChartOptions($chain){
+        $miniOptions = array();
+        $miniOptions['chartID'] = '#chart'.$chain->getChain();
+        $resNames = array();
+        $sasa = array();
+        $energy = array();
+        foreach($chain->getResidues() as $r){
+            $resNames[] = $r->getResId();
+            $sasa[] = $r->getSasa();
+            $energy[] = $r->getEnergy();
+        }
+        $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
+        $miniOptions['energy'] = $this->getNormalizedValues($energy);
+
+        return $miniOptions;
+    }
+    
+    /**
+     * Returns an Array with values between Zero and One
+     */
+    public function getNormalizedValues($a){
+        $minValue = min($a);
+        $maxValue = max($a);
+        $normArray = array();
+        foreach($a as $val){
+            $normArray[] = $this->normalizeZeroOne($val, $minValue, $maxValue);
+        }
+    }
+    
+    /**
+     * Returns a Normalized Value between Zero and One
+     */
+    public function normalizeZeroOne($x, $min, $max){
+        return abs(($x-$min)/($max-$min));
     }
 }
