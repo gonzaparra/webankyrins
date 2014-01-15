@@ -95,6 +95,7 @@ class HomeController extends Controller
         $miniOptions['xAxisCategories'] = null;
         $miniOptions['sasa'] = null;
         $miniOptions['energy'] = null;
+        $miniOptions['mutFrustVal'] = null;
         $miniOptions['showChart'] = False;
         
         $num = 0;
@@ -107,6 +108,7 @@ class HomeController extends Controller
             $resNames = $resNames."'".$code[$r->getResId()]."',";
             $sasa[] = $r->getSasa();
             $energy[] = $r->getEnergy();
+            $mutFrustVal[] = $r->getPerresMutFrstVal();
             $num = $num + 1;
 //            }
 //            else{
@@ -120,6 +122,7 @@ class HomeController extends Controller
             $miniOptions['xAxisCategories'] = $resNames.']';
             $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
             $miniOptions['energy'] = $this->getNormalizedValues($energy);
+            $miniOptions['mutFrustVal'] = $this->getNormalizedValues($mutFrustVal);
         }
 
         return $miniOptions;
