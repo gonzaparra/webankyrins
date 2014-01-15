@@ -96,11 +96,14 @@ class HomeController extends Controller
         $miniOptions['sasa'] = null;
         $miniOptions['energy'] = null;
         $miniOptions['mutFrustVal'] = null;
+        $miniOptions['pasta'] = null;
         $miniOptions['showChart'] = False;
         
         $num = 0;
         $sasa = array();
         $energy = array();
+        $mutFrustVal = array();
+        $pasta = array();
         foreach($chain->getResidues() as $r){
 //            if(array_key_exists($r->getResId(), $code)){
                 
@@ -109,6 +112,7 @@ class HomeController extends Controller
             $sasa[] = $r->getSasa();
             $energy[] = $r->getEnergy();
             $mutFrustVal[] = $r->getPerresMutFrstVal();
+            $pasta[] = $r->getPasta();
             $num = $num + 1;
 //            }
 //            else{
@@ -116,13 +120,14 @@ class HomeController extends Controller
 //            }
         }
         
-        
+        var_dump( $num);
         if($num > 0){
             $miniOptions['showChart'] = True;
             $miniOptions['xAxisCategories'] = $resNames.']';
-            $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
-            $miniOptions['energy'] = $this->getNormalizedValues($energy);
-            $miniOptions['mutFrustVal'] = $this->getNormalizedValues($mutFrustVal);
+            $miniOptions['sasa'] = $this->getFormatedValues($sasa);
+            $miniOptions['energy'] = $this->getFormatedValues($energy);
+            $miniOptions['mutFrustVal'] = $this->getFormatedValues($mutFrustVal);
+            $miniOptions['pasta'] = $this->getFormatedValues($pasta);
         }
 
         return $miniOptions;
@@ -131,21 +136,19 @@ class HomeController extends Controller
     /**
      * Returns an string with values between Zero and One
      */
-    public function getNormalizedValues($a){
-        $minValue = min($a);
-        $maxValue = max($a);
+    public function getFormatedValues($a){
         $text = '[';
         foreach($a as $val){
-            $text = $text.$this->normalizeZeroOne($val, $minValue, $maxValue).',';
+            $text = $text.$val.',';
         }
         return $text.']';
     }
-    
-    /**
-     * Returns a Normalized Value between Zero and One
-     */
-    public function normalizeZeroOne($x, $min, $max){
-//        return round(abs(($x-$min)/($max-$min)), 3);
-        return round($x);
-    }
+//    
+//    /**
+//     * Returns a Normalized Value between Zero and One
+//     */
+//    public function normalizeZeroOne($x, $min, $max){
+////        return round(abs(($x-$min)/($max-$min)), 3);
+//        return round($x);
+//    }
 }
