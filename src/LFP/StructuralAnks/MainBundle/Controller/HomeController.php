@@ -64,13 +64,16 @@ class HomeController extends Controller
         /* Save entity manager in $em */
         $em = $this->getDoctrine()->getManager();
         
+        $pdb = $this->getDoctrine()->getRepository('LFPStructuralAnksMainBundle:Structure')->findOneById($pdbId);
+        
         /* Get all pdb structures */
         $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
         $chartOptions = $this->createsChartsOptions($chain);
 
         return array(
             'chartOptions' => $chartOptions,
-            'pdbId' => $pdbId,
+            'pdb' => $pdb,
+            'chain'=>$chain
             );
     }
     
