@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Chain
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="LFP\StructuralAnks\MainBundle\Entity\Repository\ChainRepository")
  */
 class Chain
 {
