@@ -2,7 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="{{ asset('bundles/lfpstructuralanksmain/js/jquery-1.9.1.js ') }}" type="text/javascript"></script>   
+        <script src="{{ asset('bundles/lfpstructuralanksmain/js/jquery-ui-1.10.3.custom.js ') }}" type="text/javascript"></script>    
         <script src="{{ asset('bundles/lfpstructuralanksmain/jmol/jmol.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('bundles/lfpstructuralanksmain/js/main.js') }}" type="text/javascript"></script>
+        <link href="{{ asset('bundles/lfpstructuralanksmain/css/main.css') }}" type="text/css" rel="stylesheet" />
     </head>
     <body>
         <div>
@@ -13,18 +17,21 @@
             </script>
             <object name="jmol" id="jmol" code="JmolApplet" archive="{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}" width="400" height="333" type="application/x-java-applet">
                 <param name="progressbar" value="true">
-                <param name="bgcolor" value="#000000">
-                <param name="style" value="wireframe">
-                <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}">
+                <param name="bgcolor" value="#ffffff">
+                <param name="style" value="cartoon">
+                <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }};">
                 <param name="wireframeRotation" value="false">
                 <param name="perspectiveDepth" value="false">
             </object>
         </div>
+        <div id="toggle-button">[Frustración]</div>
+        <div id="toggle-container">
         <input type="radio" name="options1" value="Configurational frustration" onClick="
                 document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}')
                     ">Configurational frustration<br>
         <input type="radio" name="options1" value="Mutational frustration" onClick="
                 document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_mfrst.jmol')|getContents }}')
                     ">Mutational frustration<br>
+        </div>
     </body>
 </html>

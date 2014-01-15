@@ -5,13 +5,17 @@
  */
 
 $(document).ready(function() {
+    $("#toggle-button").click(function(){
+        $("#toggle-container").toggle();
+    });
     $(function() {
         $( "#browser-accordion" ).accordion({
             collapsible:true,
             active:false,
             heightStyle: "content"
         });
-    });    
+    });
+
 });
 
 

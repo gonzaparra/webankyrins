@@ -24,13 +24,48 @@
 
 
 {%block container%} 
-<p>Pdb: {{pdb.pdbId}}</p>
-<h2>Protein Tiling </h2>    
-<div id="chain_tiling"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Delta_'~pdb.pdbId | lower~'_'~chain.chain~'_normalized.png') }}" width="400px" /></div>
-<h2>Repeats Logo at length 33 </h2> 
-<div id="chain_logo"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Logo_'~pdb.pdbId | lower~'_'~chain.chain~'.png') }}" width="400px" /></div>
-<h2> Energy Tiling </h2> 
-<div id="chain_phase"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/'~pdb.pdbId | lower~'_'~chain.chain~'_OutPut_FrstPhase.png') }}" width="400px" /></div>
+<h1>Pdb chain summary {{pdb.pdbId}} {{chain.chain}}</h1>
+<br />
+<div class="div-center" id="head-table-container">
+    <table id="head-table">
+        <tr>
+            <th>PdbID</th>
+            <th>Chain</th>
+            <th>Length</th>
+            <th>Type</th>
+            <th>Rgyr</th>
+            <th>Tileability</th>
+            <th>Contact Order</th>
+            <th>SASA</th>
+            <th>ICS Repeats</th>
+            
+        </tr>
+        <tr>
+            <td>{{pdb.pdbId}}</td>
+            <td>{{chain.chain}}</td>
+            <td>{{chain.residues|length}}</td>
+            <td>{{chain.type}}</td>
+            <td>{{chain.chainStructuralProperties.rGyr}}</td>
+            <td>{{chain.chainStructuralProperties.tileability}}</td>
+            <td>{{chain.chainStructuralProperties.contactOrder}}</td>
+            <td>{{chain.chainStructuralProperties.sasa}}</td>
+            <td>{{chain.chainStructuralProperties.icsRepeats}}</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div class="show-image">
+    <h2>Protein Tiling </h2>    
+    <div id="chain_tiling"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Delta_'~pdb.pdbId | lower~'_'~chain.chain~'_normalized.png') }}" width="450px" /></div>
+</div>
+<div class="show-image">    
+    <h2> Energy Tiling </h2> 
+    <div id="chain_phase"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/'~pdb.pdbId | lower~'_'~chain.chain~'_OutPut_FrstPhase.png') }}" width="450px" /></div>
+</div>
+<div class="show-image">    
+    <h2>Repeats Logo at length 33 </h2> 
+    <div id="chain_logo"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Logo_'~pdb.pdbId | lower~'_'~chain.chain~'.png') }}" width="800px" /></div>
+</div>
 
 <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 {#<div id="jmol">

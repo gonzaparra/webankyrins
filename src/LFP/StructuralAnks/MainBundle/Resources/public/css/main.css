@@ -32,5 +32,43 @@ and open the template in the editor.
     min-height: 20em;
 }
 
+.div-center
+{
+    margin: 0 auto;
+}
+.show-image
+{
+    display: inline-block;
+    vertical-align: top;
+}
 
 
+#head-table-container
+{    
+    width: 600px;
+}
+
+#head-table
+{
+    border: 1px #6F6F6F solid;
+    border-collapse: collapse;
+}
+
+#head-table th, #head-table td
+{
+    border: 1px #6F6F6F solid;
+    padding: 5px;
+}
+#head-table th
+{
+    background: #ddd;
+}
+#head-table td
+{
+    background: #eeeeee;
+}
+
+#toggle-container
+{
+    display: none;
+}
