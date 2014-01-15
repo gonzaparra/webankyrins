@@ -20,6 +20,7 @@ class GetContentsExtension extends \Twig_Extension
     public function getContentsFilter($filename)
     {
         $content = file_get_contents($filename);
+        $content = preg_replace('~\n~', ' ', $content);
         return $content;
     }
 
