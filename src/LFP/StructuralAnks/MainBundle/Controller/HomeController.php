@@ -78,21 +78,49 @@ class HomeController extends Controller
      * Returns an array with options necessary for chart creation
      */
     public function createsChartsOptions($chain){
+        
+        //three letter code to one letter code
+        $code = array('ALA' => 'A', 'ARG' => 'R', 'ASN' => 'N', 'ASP' => 'D',
+                      'ASX' => 'B', 'CYS' => 'C', 'GLU' => 'E', 'GLN' => 'Q',
+                      'GLX' => 'Z', 'GLY' => 'G', 'HIS' => 'H', 'ILE' => 'I',
+                      'LEU' => 'L', 'LYS' => 'K', 'MET' => 'M', 'PHE' => 'F',
+                      'PRO' => 'P', 'SER' => 'S', 'THR' => 'T', 'TRP' => 'W',
+                      'TYR' => 'Y', 'VAL' => 'V', null => 'X');
+        
+        
         $miniOptions = array();
         $miniOptions['divID'] = '#chart'.$chain->getChain();
         $resNames = '[';
+        
+        $miniOptions['xAxisCategories'] = null;
+        $miniOptions['sasa'] = null;
+        $miniOptions['energy'] = null;
+        $miniOptions['showChart'] = False;
+        
+        $num = 0;
         $sasa = array();
         $energy = array();
         foreach($chain->getResidues() as $r){
-            $resNames = $resNames.$r->getResId().',';
+//            if(array_key_exists($r->getResId(), $code)){
+                
+            
+            $resNames = $resNames."'".$code[$r->getResId()]."',";
             $sasa[] = $r->getSasa();
             $energy[] = $r->getEnergy();
+            $num = $num + 1;
+//            }
+//            else{
+//                var_dump($r);die;
+//            }
         }
         
         
-        $miniOptions['xAxisCategories'] = $resNames.']';
-        $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
-        $miniOptions['energy'] = $this->getNormalizedValues($energy);
+        if($num > 0){
+            $miniOptions['showChart'] = True;
+            $miniOptions['xAxisCategories'] = $resNames.']';
+            $miniOptions['sasa'] = $this->getNormalizedValues($sasa);
+            $miniOptions['energy'] = $this->getNormalizedValues($energy);
+        }
 
         return $miniOptions;
     }
@@ -105,7 +133,7 @@ class HomeController extends Controller
         $maxValue = max($a);
         $text = '[';
         foreach($a as $val){
-            $$text = $text.$this->normalizeZeroOne($val, $minValue, $maxValue).',';
+            $text = $text.$this->normalizeZeroOne($val, $minValue, $maxValue).',';
         }
         return $text.']';
     }
@@ -114,6 +142,7 @@ class HomeController extends Controller
      * Returns a Normalized Value between Zero and One
      */
     public function normalizeZeroOne($x, $min, $max){
-        return abs(($x-$min)/($max-$min));
+//        return round(abs(($x-$min)/($max-$min)), 3);
+        return round($x);
     }
 }
