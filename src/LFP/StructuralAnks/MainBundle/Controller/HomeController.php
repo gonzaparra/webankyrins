@@ -63,8 +63,8 @@ class HomeController extends Controller
     {
         /* Save entity manager in $em */
         $em = $this->getDoctrine()->getManager();
-        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->getChainByCode($pdbId,$chainId);
-        
+        $chains = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->getChainByCode($pdbId,$chainId);
+        $chain=$chains[0];
 //        echo var_dump($chain);die();
         
         /* Get all pdb structures */

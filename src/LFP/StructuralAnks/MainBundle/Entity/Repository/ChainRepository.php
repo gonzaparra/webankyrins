@@ -21,7 +21,7 @@ class ChainRepository extends EntityRepository {
               ->setParameter('chainId', $chainId)
                 ;
         
-        return $qb->getQuery()->getResult()[0];
+        return $qb->getQuery()->getResult();
         
     }
     
