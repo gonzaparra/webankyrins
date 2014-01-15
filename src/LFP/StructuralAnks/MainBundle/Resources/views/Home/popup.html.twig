@@ -20,11 +20,11 @@
                 <param name="perspectiveDepth" value="false">
             </object>
         </div>
-        <input TYPE="button" VALUE="Configurational frustration" onClick="
+        <input type="radio" name="options1" value="Configurational frustration" onClick="
                 document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}')
-        ">
-        <input TYPE="button" VALUE="Mutational frustration" onClick="
+                    ">Configurational frustration<br>
+        <input type="radio" name="options1" value="Mutational frustration" onClick="
                 document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_mfrst.jmol')|getContents }}')
-        ">
+                    ">Mutational frustration<br>
     </body>
 </html>

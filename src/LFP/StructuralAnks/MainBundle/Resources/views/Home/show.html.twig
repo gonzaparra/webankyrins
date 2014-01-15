@@ -7,17 +7,31 @@
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/highstock.js ') }}" type="text/javascript"></script>    
     <script src="{{ asset('bundles/lfpstructuralanksmain/js/modules/exporting.js ') }}" type="text/javascript"></script>    
     <script src="{{ asset('bundles/lfpstructuralanksmain/jmol/jmol.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('bundles/lfpstructuralanksmain/jmol/seqview.js') }}" type="text/javascript"></script>
+
     {% if chartOptions.showChart %}{#http://www.highcharts.com/docs   HighStock#}
     {% include 'LFPStructuralAnksMainBundle:Home:jscharts.html.twig' with {'options':chartOptions}%}
     {%endif%}
     
     
 {% endblock %}
+    
+{% block stylesheets %}
+    {{ parent() }}
+
+{% endblock %}
 
 
 
-{%block container%}
-<p>Pdb: {{pdbId}}</p>
+{%block container%} 
+<p>Pdb: {{pdb.pdbId}}</p>
+<h2>Protein Tiling </h2>    
+<div id="chain_tiling"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Delta_'~pdb.pdbId | lower~'_'~chain.chain~'_normalized.png') }}" width="400px" /></div>
+<h2>Repeats Logo at length 33 </h2> 
+<div id="chain_logo"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/Logo_'~pdb.pdbId | lower~'_'~chain.chain~'.png') }}" width="400px" /></div>
+<h2> Energy Tiling </h2> 
+<div id="chain_phase"><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/chain_img/'~pdb.pdbId | lower~'_'~chain.chain~'_OutPut_FrstPhase.png') }}" width="400px" /></div>
+
 <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 {#<div id="jmol">
         <script>

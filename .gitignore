@@ -7,3 +7,4 @@
 !/.gitignore
 !.htaccess
 src/LFP/StructuralAnks/MainBundle/Resources/public/jmol/anksdb
+src/LFP/StructuralAnks/MainBundle/Resources/public/anksdb

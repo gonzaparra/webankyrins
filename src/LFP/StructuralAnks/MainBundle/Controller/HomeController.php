@@ -63,14 +63,19 @@ class HomeController extends Controller
     {
         /* Save entity manager in $em */
         $em = $this->getDoctrine()->getManager();
+        $chains = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->getChainByCode($pdbId,$chainId);
+        $chain=$chains[0];
+//        echo var_dump($chain);die();
         
         /* Get all pdb structures */
-        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
+//        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
+        
         $chartOptions = $this->createsChartsOptions($chain);
 
         return array(
             'chartOptions' => $chartOptions,
-            'pdbId' => $pdbId,
+            'pdb' => $chain->getStructure(),
+            'chain'=>$chain
             );
     }
     
