@@ -20,8 +20,11 @@
                 <param name="perspectiveDepth" value="false">
             </object>
         </div>
-        <INPUT TYPE="button" VALUE="Get mol in Jmol" onClick="
-                document.jmol.loadInline('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}')
+        <input TYPE="button" VALUE="Configurational frustration" onClick="
+                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}')
+        ">
+        <input TYPE="button" VALUE="Mutational frustration" onClick="
+                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_mfrst.jmol')|getContents }}')
         ">
     </body>
 </html>
