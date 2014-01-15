@@ -1,6 +1,6 @@
 
     <script type="text/javascript">
-$(function () {
+{#$(function () {
         $('#chart').highcharts({
             chart: {
                 zoomType: 'x'
@@ -9,14 +9,8 @@ $(function () {
                 text: 'Residues Properties',
                 x: -20 //center
             },
-            {#subtitle: {
-                text: 'Source: WorldClimate.com',
-                x: -20
-            },#}
             xAxis: {
                 categories: {{options.xAxisCategories|raw}},
-                {#min: 10,
-                max: 40#}
             },
             scrollbar: {
                 enabled: true
@@ -24,7 +18,7 @@ $(function () {
             yAxis: [{ // Primary yAxis
                 labels: {
                     formatter: function() {
-                        return this.value +'Å';
+                        return this.value +'Å²';
                     },
                     style: {
                         color: '#89A54E'
@@ -54,11 +48,16 @@ $(function () {
                         color: '#4572A7'
                     }
                 },
-{#                        opposite: true#}
-    
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }],
+                showLastLabel:false,
             }],
             tooltip: {
-                shared: true
+
+                valueSuffix: 'aers',
             },
             legend: {
                 layout: 'vertical',
@@ -74,7 +73,7 @@ $(function () {
                 color: '#89A54E',
                 data: {{options.sasa}},
                 tooltip: {
-                    valueSuffix: ' Å :D'
+                    valueSuffix: ' Å²'
                 }
             }, {
                 name: 'Energy',
@@ -85,6 +84,144 @@ $(function () {
                 }
             }]
         });
-    });
+    });#}
+ $(function () {
+        $('#chart').highcharts({
+            chart: {
+                zoomType: 'x'
+            },
+            scrollbar: {
+                enabled: true
+            },
+            title: {
+                text: 'Residues Properties'
+            },
+            xAxis: [{
+                categories: {{options.xAxisCategories|raw}}
+            }],
+            yAxis: [{ // Primary yAxis
+                labels: {
+                    formatter: function() {
+                        return this.value +' E';
+                    },
+                    style: {
+                        color: '#89A54E'
+                    }
+                },
+                title: {
+                    text: 'Energy',
+                    style: {
+                        color: '#89A54E'
+                    }
+                },
+                opposite: true
     
+            }, { // Secondary yAxis
+                gridLineWidth: 1,
+                title: {
+                    text: 'PASTA',
+                    style: {
+                        color: '#4572A7'
+                    }
+                },
+                labels: {
+                    formatter: function() {
+                        return this.value +' units';
+                    },
+                    style: {
+                        color: '#4572A7'
+                    }
+                }
+    
+            }, { // Tertiary yAxis
+                gridLineWidth: 1,
+                title: {
+                    text: 'SASA',
+                    style: {
+                        color: '#AA4643'
+                    }
+                },
+                labels: {
+                    formatter: function() {
+                        return this.value +' Å²';
+                    },
+                    style: {
+                        color: '#AA4643'
+                    }
+                },
+                opposite: true
+            },{ // yAxis 4
+                gridLineWidth: 1,
+                title: {
+                    text: 'Mutational Frustration Value',
+                    style: {
+                        color: '#FF4000'
+                    }
+                },
+                labels: {
+                    formatter: function() {
+                        return this.value +' units';
+                    },
+                    style: {
+                        color: '#FF4000'
+                    }
+                }
+    
+            },],
+            tooltip: {
+                shared: true
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'left',
+                x: 120,
+                verticalAlign: 'top',
+                y: 80,
+                floating: true,
+                backgroundColor: '#FFFFFF'
+            },
+            series: [{
+                name: 'PASTA',
+                color: '#4572A7',
+                type: 'spline',
+                yAxis: 1,
+                data: {{options.pasta}},
+                tooltip: {
+                    valueSuffix: ' pastaUnits'
+                }
+    
+            }, {
+                name: 'SASA',
+                type: 'spline',
+                color: '#AA4643',
+                yAxis: 2,
+                data: {{options.sasa}},
+                marker: {
+                    enabled: false
+                },
+                dashStyle: 'shortdot',
+                tooltip: {
+                    valueSuffix: ' Å²'
+                }
+    
+            }, {
+                name: 'Energy',
+                color: '#89A54E',
+                type: 'spline',
+                data: {{options.energy}},
+                tooltip: {
+                    valueSuffix: ' E'
+                }
+            }, {
+                name: 'Mutational Frustration Value',
+                color: '#FF4000',
+                yAxis: 3,
+                type: 'spline',
+                data: {{options.mutFrustVal}},
+                tooltip: {
+                    valueSuffix: ' Was'
+                }
+            }]
+        });
+    });   
     </script>
