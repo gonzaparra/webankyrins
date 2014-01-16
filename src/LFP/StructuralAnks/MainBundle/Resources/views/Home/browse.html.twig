@@ -4,18 +4,21 @@
 
 {%block container%}
 
-<h2>Structures present in the Database </h2>
+<h2><b>Structures present in the Database</b> </h2>
 <div id="browser-accordion" class="browse-results-scroll">
     {% for pdb in pdbs %}
         <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
         <div style="text-align: left">
-            <h3>Structure Summary</h3>
+            <h3><b>Structure Summary</b></h3>
             doi citation: 10.2210/pdb{{pdb.pdbID}}/pdb <a href="http://dx.doi.org/10.2210/pdb{{pdb.pdbID}}/pdb" target=blank rel="nofollow">[download]</a> <br>
             Structure Resolution Method: {{pdb.method}}<br>            
             More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">[click here]</a></span><br>
+            
+           <div id="pdb_image"><img src="http://www.rcsb.org/pdb/images/{{pdb.pdbID}}_bio_r_500.jpg" width="150px" /></div>
+
+            
             <br>
-            <br>
-            Chains in this pdb structure
+            Chains in this pdb structure: {{pdb.chains | length}}
             <br>
             
 {%for chain in pdb.chains %}
