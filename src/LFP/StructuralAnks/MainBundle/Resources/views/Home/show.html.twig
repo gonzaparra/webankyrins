@@ -24,7 +24,18 @@
 
 
 {%block container%} 
-<h1>Pdb chain summary {{pdb.pdbId}} {{chain.chain}}</h1>
+
+<h1>{{pdb.pdbId | lower}} {{chain.chain}} Summary</h1>
+<div>
+Protein Names: {{chain.protein.proteinNames}} <br>
+Entry Name: {{chain.protein.entryName}}<br>    
+Organism: {{chain.protein.organism}} <br>
+Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
+{#Missing Residues: {{chain.missingRes | length}} <br>#}
+
+</div>    
+    
+<h1>{{pdb.pdbId | lower}} {{chain.chain}} structural properties </h1>
 <br />
 <div class="div-center" id="head-table-container">
     <table id="head-table">
