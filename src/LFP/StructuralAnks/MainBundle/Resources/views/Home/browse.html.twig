@@ -22,10 +22,10 @@ Browse by:
                 Structure Resolution Method: {{pdb.method}}<br>            
                 More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}');">[click here]</a></span><br>
                 <br>
+                <div id="pdb_image" data-pdbid="{{pdb.pdbId}}"></div>
                 <br>
                 Chains in this pdb structure
                 <br>
-
                 {%for chain in pdb.chains %}
                     <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId, 'chainId':chain.chain})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
                     <br/>
