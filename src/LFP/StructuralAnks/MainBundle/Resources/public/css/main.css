@@ -76,3 +76,27 @@ and open the template in the editor.
 {
     display: none;
 }
+#sequence
+{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: monospace;
+    display:inline-block;
+    vertical-align: top;
+}
+#chain-head-info
+{
+    border: #A2A2A2 solid 1px;
+    margin:0 auto;
+    padding: 10px 10px 10px 30px;
+    width:400px;
+    text-align: left;
+}
+#jmol-show
+{
+    display:inline-block;
+    vertical-align: top;
+}

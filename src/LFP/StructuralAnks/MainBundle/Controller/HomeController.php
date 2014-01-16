@@ -25,6 +25,11 @@ class HomeController extends Controller
         return array();
     }
     
+    public function aboutAction()
+    {
+        return array();
+    }
+    
     /**
      * @Route("/browse",name="ankyrins_browse")
      * @Template()
@@ -73,11 +78,18 @@ class HomeController extends Controller
 //        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
         
         $chartOptions = $this->createsChartsOptions($chain);
+        
+        $missingResidues = array();
+        foreach ($chain->getMissingRes() as $missingRes){
+            $missingResidues[] = $missingRes->getResNum();
+        }
+        
 
         return array(
             'chartOptions' => $chartOptions,
             'pdb' => $chain->getStructure(),
-            'chain'=>$chain
+            'chain'=>$chain,
+            'missingResidues'=>$missingResidues,
             );
     }
     

@@ -9,3 +9,7 @@ services:
         class: LFP\StructuralAnks\MainBundle\Twig\GetContentsExtension
         tags:
             - { name: twig.extension }
+    main.twig.all_purpose_extension:
+        class: LFP\StructuralAnks\MainBundle\Twig\AllPurposeExtension
+        tags:
+            - { name: twig.extension }

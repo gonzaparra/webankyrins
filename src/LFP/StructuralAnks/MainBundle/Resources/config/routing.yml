@@ -1,7 +1,11 @@
 ankyrins_home:
     pattern:  /
     defaults: { _controller: LFPStructuralAnksMainBundle:Home:index }
-    
+
+ankyrins_about:
+    pattern:  /about
+    defaults: { _controller: LFPStructuralAnksMainBundle:Home:about }    
+
 ankyrins_browse:
     pattern:  /browse
     defaults: { _controller: LFPStructuralAnksMainBundle:Home:browse }

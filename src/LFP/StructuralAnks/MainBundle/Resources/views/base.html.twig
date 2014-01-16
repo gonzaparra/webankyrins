@@ -61,20 +61,20 @@ Released   : 20131117
 
                             <li {% if current == 'Home'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_home')}}" accesskey="1" title="">Home</a></li>
                             <li {% if current == 'Browse'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_browse')}}" accesskey="2" title="">Browse</a></li>
-                            <li {% if current == 'About'%}class="current_page_item"{%endif%}><a href="#" accesskey="3" title="">About</a></li>
+                            <li {% if current == 'About'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_about')}}" accesskey="3" title="">About</a></li>
                             <li {% if current == 'Contact'%}class="current_page_item"{%endif%}><a href="#" accesskey="4" title="">Contact</a></li>
 			</ul>
 		</div>
 </div>
 <div id="wrapper">
-	<div id="featured-wrapper">
-		<div class="container">
-			<div class="main-box">
-			{%block container%}
-                        {%endblock%}
-			</div>		
-		</div>
-	</div>
+    <div id="featured-wrapper">
+        <div class="container">
+            <div class="main-box">
+            {%block container%}
+            {%endblock%}
+            </div>		
+        </div>
+    </div>
 </div>
 <div id="copyright" class="container">
     <p> Structural Anks DB | <a href="http://proteinphysiologylab.tk/" target=blank rel="nofollow"> Protein Physiology Lab</a> | <a href="http://melolab.org/mbl/" target=blank rel="nofollow">MeloLab</a>  | Template design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
