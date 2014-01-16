@@ -42,6 +42,7 @@ Browse by:
             Organism: {{chain.protein.organism}} <br>
             Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
             Missing Residues: {{chain.missingRes | length}} <br>
+            <a href="{{path('ankyrins_show',{'pdbId':chain.structure.pdbID, 'chainId':chain.chain})}}">{{chain.structure.pdbID}}, {{chain.chain}}</a>
             </div>
         {% endfor %}
     </div>

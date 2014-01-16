@@ -25,17 +25,24 @@
 
 {%block container%} 
 
-<h1>{{pdb.pdbId | lower}} {{chain.chain}} Molecule:{{chain.protein.entryName}} </h1>
+<h2>{{pdb.pdbId | lower}} {{chain.chain}} Molecule: {{chain.protein.entryName}} </h2>
 <div>
 {#Protein Names: {{chain.protein.proteinNames}} <br>#}
 {#Entry Name: {{chain.protein.entryName}}<br>    #}
 Organism: {{chain.protein.organism}} <br>
 Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
 Missing Residues: {{chain.missingRes | length}} <br>
+{% if chain.observations in 'Darpin' %}
+Type: Synthetic Ankyrin Repeat Protein <br>
+{% elseif chain.subGroup=='Ank'%}
+Type: Natural Ankyrin Repeat Protein <br> 
+{%else%}
+Type: Natural Non-Repeat Protein <br>
+{% endif %} 
 
 </div>    
     
-<h1>{{pdb.pdbId | lower}} {{chain.chain}} structural properties </h1>
+<h2>{{pdb.pdbId | lower}} {{chain.chain}} structural properties </h2>
 <br />
 <div class="div-center" id="head-table-container">
     <table id="head-table">
@@ -48,8 +55,7 @@ Missing Residues: {{chain.missingRes | length}} <br>
             <th>Tileability</th>
             <th>Contact Order</th>
             <th>SASA</th>
-            <th>ICS Repeats</th>
-            
+            <th>ICS Repeats</th>    
         </tr>
         <tr>
             <td>{{pdb.pdbId}}</td>
@@ -60,7 +66,7 @@ Missing Residues: {{chain.missingRes | length}} <br>
             <td>{{chain.chainStructuralProperties.tileability}}</td>
             <td>{{chain.chainStructuralProperties.contactOrder}}</td>
             <td>{{chain.chainStructuralProperties.sasa}}</td>
-            <td>{{chain.chainStructuralProperties.icsRepeats}}</td>
+            <td> {{ '%.4f'|format(chain.chainStructuralProperties.icsRepeats)}}</td>   
         </tr>
     </table>
 </div>
@@ -80,21 +86,7 @@ Missing Residues: {{chain.missingRes | length}} <br>
 <br>
 <br>
 <br>
-<div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-{#<div id="jmol">
-        <script>
-            jmolInitialize("{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}");
-            jmolSetCallback("UseCommandThread","true");
-            jmolSetParameter("UseCommandThread","true");
-        </script>
-        <object name="jmol" id="jmol" code="JmolApplet" archive="{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}" width="400" height="333" type="application/x-java-applet">
-            <param name="progressbar" value="true">
-            <param name="bgcolor" value="#000000">
-            <param name="style" value="wireframe">
-            <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/1A5E_A.pdb.done/renum_1A5E_A.pdb') }}; {{ 'bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/1A5E_A.pdb.done/test.jmol'|getContents }}">
-            <param name="wireframeRotation" value="false">
-            <param name="perspectiveDepth" value="false">
-        </object>
-</div>#}
+<div id="chart" style="min-width: 250px; height: 300px; margin: 0 auto"></div>
+
 
 {%endblock%}
