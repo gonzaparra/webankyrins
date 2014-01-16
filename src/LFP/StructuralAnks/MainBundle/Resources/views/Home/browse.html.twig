@@ -36,22 +36,12 @@ Browse by:
 </div>
 <div id="chains">
     <div id="browser-accordion-chains" class="browse-results-scroll">
-        {% for pdb in pdbs %}
-            <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
+        {% for chain in chains %}
+            <h3 style="text-align: left">{{ chain.structure.pdbID }}, {{ chain.chain }}</h3>
             <div style="text-align: left">
-                <h3>Structure Summary</h3>
-                doi citation: 10.2210/pdb{{pdb.pdbID}}/pdb <a href="http://dx.doi.org/10.2210/pdb{{pdb.pdbID}}/pdb" target=blank rel="nofollow">[download]</a> <br>
-                Structure Resolution Method: {{pdb.method}}<br>            
-                More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}');">[click here]</a></span><br>
-                <br>
-                <br>
-                Chains in this pdb structure
-                <br>
-
-                {%for chain in pdb.chains %}
-                    <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId, 'chainId':chain.chain})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
-                    <br/>
-                {% endfor %}
+            Organism: {{chain.protein.organism}} <br>
+            Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
+            Missing Residues: {{chain.missingRes | length}} <br>
             </div>
         {% endfor %}
     </div>

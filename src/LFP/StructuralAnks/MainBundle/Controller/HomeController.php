@@ -36,9 +36,11 @@ class HomeController extends Controller
         
         /* Get all pdb structures */
         $pdbs = $em->getRepository('LFPStructuralAnksMainBundle:Structure')->getSortedStructures();
+        $chains = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findAll();
         
         return array(
-            'pdbs' => $pdbs
+            'pdbs' => $pdbs,
+            'chains'=> $chains
             );
     }
     
