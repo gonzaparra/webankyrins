@@ -72,10 +72,6 @@ class HomeController extends Controller
         $em = $this->getDoctrine()->getManager();
         $chains = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->getChainByCode($pdbId,$chainId);
         $chain=$chains[0];
-//        echo var_dump($chain);die();
-        
-        /* Get all pdb structures */
-//        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
         
         $chartOptions = $this->createsChartsOptions($chain);
         
@@ -139,7 +135,7 @@ class HomeController extends Controller
 //            }
         }
         
-        var_dump( $num);
+//        var_dump( $num);
         if($num > 0){
             $miniOptions['showChart'] = True;
             $miniOptions['xAxisCategories'] = $resNames.']';

@@ -96,7 +96,7 @@
         <param name="progressbar" value="true">
         <param name="bgcolor" value="#ffffff">
         <param name="style" value="cartoon">
-        <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; select protein; cartoon;">
+        <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; select protein; cartoons; connect delete; spacefill off;">
         <param name="wireframeRotation" value="false">
         <param name="perspectiveDepth" value="false">
     </object>
