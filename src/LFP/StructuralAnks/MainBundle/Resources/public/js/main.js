@@ -37,7 +37,7 @@ $(document).ready(function() {
             activate: function(){
                 var pdbId = $(this).find('.ui-accordion-content-active').find('#pdb_image').data('pdbid');
                 $(this).find('.ui-accordion-content-active').find('#pdb_image').html('<img src="http://www.rcsb.org/pdb/images/'+pdbId+'_bio_r_500.jpg" width="150px" />');
-            },
+            }
         });
     });
 
