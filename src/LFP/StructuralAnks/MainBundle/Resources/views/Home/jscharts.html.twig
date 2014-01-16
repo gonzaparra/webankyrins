@@ -94,7 +94,15 @@
                 enabled: true
             },
             title: {
-                text: 'Residues Properties'
+                text: 'Residues Properties',
+                fontWeight: 'bold',
+                fontSize: '28px',
+                y: 20,
+                x: 200,
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '20px'
+                }
             },
             xAxis: [{
                 categories: {{options.xAxisCategories|raw}}
@@ -160,7 +168,7 @@
                 },
                 labels: {
                     formatter: function() {
-                        return this.value +' units';
+                        return this.value +' σ';
                     },
                     style: {
                         color: '#FF4000'
@@ -172,11 +180,12 @@
                 shared: true
             },
             legend: {
-                layout: 'vertical',
-                align: 'left',
-                x: 120,
+                layout: 'horizontal',
+                align: 'center',
+                x: -200,
                 verticalAlign: 'top',
-                y: 80,
+{#                y: 80,#}
+{#                y: 12,#}
                 floating: true,
                 backgroundColor: '#FFFFFF'
             },
@@ -207,6 +216,7 @@
             }, {
                 name: 'Energy',
                 color: '#89A54E',
+                lineWidth: 0.8,
                 type: 'spline',
                 data: {{options.energy}},
                 tooltip: {
@@ -215,11 +225,13 @@
             }, {
                 name: 'Mutational Frustration Value',
                 color: '#FF4000',
+                lineWidth: 0.8,
+
                 yAxis: 3,
                 type: 'spline',
                 data: {{options.mutFrustVal}},
                 tooltip: {
-                    valueSuffix: ' Was'
+                    valueSuffix: ' σ'
                 }
             }]
         });
