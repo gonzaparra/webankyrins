@@ -145,7 +145,7 @@ class Chain
     /**
      *  @ORM\OneToMany(targetEntity="MissingRes", mappedBy="chain")
      */
-    protected $missingResidues;
+    protected $missingRes;
     
     /**
      *  @ORM\OneToMany(targetEntity="StructuralRepeat", mappedBy="chain")
@@ -546,20 +546,20 @@ class Chain
      *
      * @return integer 
      */
-    public function getMissingResidues()
+    public function getMissingRes()
     {
-        return $this->missingResidues;
+        return $this->missingRes;
     }
     
     /**
-     * Add missingResidues
+     * Add missingRes
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingRes
      * @return Chain
      */
-    public function addMissingResidues(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
+    public function addMissingRes(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingRes)
     {
-        $this->missingResidues[] = $missingResidues;
+        $this->missingRes[] = $missingRes;
     
         return $this;
     }
@@ -567,11 +567,11 @@ class Chain
     /**
      * Remove missingResidues
      *
-     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues
+     * @param \LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingRes
      */
-    public function removeMissingResidues(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingResidues)
+    public function removeMissingRes(\LFP\StructuralAnks\MainBundle\Entity\MissingRes $missingRes)
     {
-        $this->missingResidues->removeElement($missingResidues);
+        $this->missingRes->removeElement($missingRes);
     }
 
     /**
