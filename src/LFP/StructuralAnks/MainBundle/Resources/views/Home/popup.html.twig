@@ -9,29 +9,59 @@
         <link href="{{ asset('bundles/lfpstructuralanksmain/css/main.css') }}" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <div>
-            <script>
-                jmolInitialize("{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}");
-                jmolSetCallback("UseCommandThread","true");
-                jmolSetParameter("UseCommandThread","true");
-            </script>
-            <object name="jmol" id="jmol" code="JmolApplet" archive="{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}" width="400" height="333" type="application/x-java-applet">
-                <param name="progressbar" value="true">
-                <param name="bgcolor" value="#ffffff">
-                <param name="style" value="cartoon">
-                <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }};">
-                <param name="wireframeRotation" value="false">
-                <param name="perspectiveDepth" value="false">
-            </object>
-        </div>
-        <div id="toggle-button">[Frustración]</div>
-        <div id="toggle-container">
-        <input type="radio" name="options1" value="Configurational frustration" onClick="
-                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}')
-                    ">Configurational frustration<br>
-        <input type="radio" name="options1" value="Mutational frustration" onClick="
-                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_mfrst.jmol')|getContents }}')
-                    ">Mutational frustration<br>
-        </div>
+                <h3 align="center" >{{pdb.pdbID}}: {{pdb.title | capitalize}} <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{pdb.Id | lower}}" target=blank rel="nofollow"> [PDB] </a></h3>
+               
+                <div id="container" aligned="center">
+                <div id="structure_summary" style="display:inline-block; vertical-align: top;">
+                <b>Structure Summary </b> <br>
+                doi citation: 10.2210/pdb{{pdb.pdbID}}/pdb <a href="http://dx.doi.org/10.2210/pdb{{pdb.pdbID}}/pdb" target=blank rel="nofollow">[download]</a> <br>
+                Structure Resolution Method: {{pdb.method}}<br>            
+                {% if pdb.resolution %}
+                Resolution: {{pdb.resolution}} Å² <br>
+                {%else%}
+                Resolution: - <br>
+                {%endif%}
+                Date: {{pdb.pubDate |date("Y/m/")}} <br>
+                {%if pdb.publication%}
+                PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={{pdb.publication.pubmedID}}" target=blank rel="nofollow"> {{pdb.publication.pubmedID}} </a><br>
+                {%endif%}
+                <br>
+                <div id="pdb_image" data-pdbid="{{pdb.pdbId}}"></div>
+                <br>
+                Chains in this pdb structure: {{pdb.chains | length}}
+                <br>
+                {%for chain in pdb.chains %}
+                    <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId, 'chainId':chain.chain})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
+                    <br/>
+                {% endfor %}
+                </div>
+                <div id="jmol_visualization" style="display:inline-block;">
+                 <div>
+                     <script>
+                         jmolInitialize("{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}");
+                         jmolSetCallback("UseCommandThread","true");
+                         jmolSetParameter("UseCommandThread","true");
+                     </script>
+                     <object name="jmol" id="jmol" code="JmolApplet" archive="{{ asset('bundles/lfpstructuralanksmain/jmol/JmolApplet0.jar') }}" width="400" height="333" type="application/x-java-applet">
+                         <param name="progressbar" value="true">
+                         <param name="bgcolor" value="#ffffff">
+                         <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; select protein; cartoons; connect delete; spacefill off;">
+                         <param name="wireframeRotation" value="false">
+                         <param name="perspectiveDepth" value="false">
+                     </object>
+                 </div>
+
+                <div id="toggle-button">[Frustración]</div>
+                <div id="toggle-container">
+                <input type="radio" name="options1" value="Configurational frustration" onClick="
+                        document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_cfrst.jmol')|getContents }}')
+                            ">Configurational frustration<br>
+                <input type="radio" name="options1" value="Mutational frustration" onClick="
+                        document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/' ~ pdb.pdbId|upper ~ '.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Complejos/'~pdb.pdbId|upper~'.pdb.done/'~pdb.pdbId|upper~'.pdb_renum_mfrst.jmol')|getContents }}')
+                            ">Mutational frustration<br>
+                </div>
+                </div>
+                </div>
+        
     </body>
 </html>
