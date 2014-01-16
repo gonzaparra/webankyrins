@@ -24,7 +24,10 @@ class HomeController extends Controller
 //        var_dump($was);
         return array();
     }
-    
+        /**
+     * @Route("/about",name="ankyrins_about")
+     * @Template()
+     */
     public function aboutAction()
     {
         return array();

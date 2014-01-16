@@ -1,7 +1,50 @@
 {%extends "LFPStructuralAnksMainBundle::base.html.twig"%}
 
+{%block javascripts%}
+{{parent()}}
+<script src="{{ asset('bundles/lfpstructuralanksmain/js/jquery.carroussel.js') }}" type="text/javascript"></script>   
+<script src="{{ asset('bundles/lfpstructuralanksmain/js/carroussel.js') }}" type="text/javascript"></script>   
+{%endblock%}
+
+{% block stylesheets %}
+{{parent()}}
+{#    <link href="{{ asset('bundles/lfpstructuralanksmain/css/default.css') }}" type="text/css" rel="stylesheet" />#}
+{% endblock %}
+
 {%set current = 'Home'%}
 
 {%block container%}
-Este es el hyomepage
+<h1><b>Welcome to the Structural Ankyrin Repeats Database!</b></h1>
+
+                    <div class="jcarousel">
+                        <ul class="clearfix">
+                            <li><img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.png') }}" alt="" width="200px" /></li>
+                            <li><img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/2.png') }}" alt="" width="200px" /></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                    <p class="jcarousel-pagination"></p>
+
+{#  <div id="slider">
+            <div class="indicator">
+                <span>1</span>
+                <span>2</span>
+            </div>
+        <div class="viewer">
+            <div class="reel">
+                <div class="slide">
+                    <img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.png') }}" alt="" width="200px" />
+                </div>
+                <div class="slide">
+                    <img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/2.png') }}" alt="" width="200px"/>
+                </div>
+            </div>
+        </div>
+    </div>#}
+
+
 {%endblock%}
+

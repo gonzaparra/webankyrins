@@ -38,7 +38,7 @@ Browse by:
 <div id="chains">
     <div id="browser-accordion-chains" class="browse-results-scroll">
         {% for chain in chains %}
-            <h3 style="text-align: left">{{ chain.structure.pdbID }}, {{ chain.chain }}</h3>
+            <h3 style="text-align: left"> <b>{{ chain.structure.pdbID | lower }}, {{ chain.chain }}: </b> {{chain.protein.entryName}}</h3>
             <div style="text-align: left">
             Organism: {{chain.protein.organism}} <br>
             Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
