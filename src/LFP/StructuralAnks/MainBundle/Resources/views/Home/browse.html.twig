@@ -15,8 +15,6 @@
             More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}')">[click here]</a></span><br>
             
            <div id="pdb_image"><img src="http://www.rcsb.org/pdb/images/{{pdb.pdbID}}_bio_r_500.jpg" width="150px" /></div>
-
-            
             <br>
             Chains in this pdb structure: {{pdb.chains | length}}
             <br>
