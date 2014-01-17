@@ -12,6 +12,12 @@ and open the template in the editor.
 {
     min-height: 20em;
     
+    
+}
+
+#sidebar
+{
+    padding-left: 10px
 }
 
 /******************************************/
@@ -37,6 +43,7 @@ and open the template in the editor.
     font-family: monospace;
     display:inline-block;
     vertical-align: top;
+    cursor: default;
 }
 
 .ui-accordion .ui-accordion-header {
@@ -60,7 +67,7 @@ and open the template in the editor.
 .filter-form-box
 {
     padding: 5px;
-    width:370px;
+    width:360px;
     margin-right: 30px;
     text-align: left;
     border: #A2A2A2 solid 1px;
@@ -172,4 +179,18 @@ and open the template in the editor.
 .nextLink
 {
     margin-left: 20px;
+}
+
+#jmol-buttons-container
+{
+    text-align: left;
+    border: #6F6F6F solid 1px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.sequence-element:hover
+{
+    background-color: #fbd850;
+
 }

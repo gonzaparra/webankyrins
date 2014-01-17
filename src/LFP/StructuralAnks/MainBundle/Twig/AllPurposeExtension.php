@@ -14,6 +14,7 @@ class AllPurposeExtension extends \Twig_Extension
     {
         return array(
             new \Twig_SimpleFilter('resConverter', array($this, 'residueConverterFilter')),
+            new \Twig_SimpleFilter('strpad', array($this, 'strpadFilter')),
         );
     }
 
@@ -29,7 +30,10 @@ class AllPurposeExtension extends \Twig_Extension
         
         return $code[$res];
     }
-
+    public function strpadFilter($input, $padlength, $padstring='', $padtype=\STR_PAD_LEFT){
+        
+        return str_pad($input, $padlength, $padstring, $padtype);
+    }
     public function getName()
     {
         return 'all_purpose_extension';

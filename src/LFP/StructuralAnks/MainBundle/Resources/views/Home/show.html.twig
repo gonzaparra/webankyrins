@@ -107,12 +107,12 @@ Type: Non-Ankyrin Repeat Protein <br>
 <div id="sequence">
 {%for residue in chain.residues%}
 {%if loop.first or loop.index0 is divisibleby(40) %}
-<br /><span>{{residue.uniprotPos}}&nbsp;</span>
+<br /><span>{{residue.uniprotPos|strpad(4,'0')}}&nbsp;</span>
 {%endif%}
 {%if loop.index0 is divisibleby(10) or loop.first%}
 &nbsp;{%endif%}
 {%if residue.uniprotPos not in missingResidues|keys %}
-<span>{{residue.resId|resConverter}}</span>{%else%}<span>-</span>
+<span class="sequence-element" title="{{residue.uniprotPos}}">{{residue.resId|resConverter}}</span>{%else%}<span>-</span>
 {%endif%}{%endfor%}
 </div>
 <div id="jmol-show">
@@ -129,6 +129,16 @@ Type: Non-Ankyrin Repeat Protein <br>
         <param name="wireframeRotation" value="false">
         <param name="perspectiveDepth" value="false">
     </object>
+    <div id="jmol-buttons-container" >
+        <b>Frustration</b>
+        <br />
+        <input type="radio" class="jmol-radius" name="options1" value="Configurational frustration" onClick="
+                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/renum_' ~ pdb.pdbid|upper ~ '_'~chain.chain~'.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/'~pdb.pdbId|upper~'_'~chain.chain~'.pdb_renum_cfrst.jmol')|getContents }}')
+        ">Configurational frustration<br>
+        <input type="radio" class="jmol-radius" name="options1" value="Mutational frustration" onClick="
+                document.jmol.script('load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/renum_' ~ pdb.pdbid|upper ~ '_'~chain.chain~'.pdb') }}; {{ ('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/'~pdb.pdbId|upper~'_'~chain.chain~'.pdb_renum_mfrst.jmol')|getContents }}')
+        ">Mutational frustration<br />
+    </div>
 </div>
 
 <br />

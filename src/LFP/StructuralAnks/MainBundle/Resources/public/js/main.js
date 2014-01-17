@@ -50,6 +50,8 @@ $(document).ready(function() {
         });
         
     });
+    
+    $('.jmol-radius').prop('checked', false);
 
 });
 
