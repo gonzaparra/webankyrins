@@ -142,3 +142,13 @@ have a fixed width and height (but it's not required).
     float: left;
     width: 100px;
 }
+
+/* Filter From stylesheet*/
+#filter-form-button{
+    margin: 5px 0px 0px 0px;
+}
+.filter-form-box form {
+    margin: 0px !important;
+}
+.filter-form-box form label{
+    font-weight: normal;

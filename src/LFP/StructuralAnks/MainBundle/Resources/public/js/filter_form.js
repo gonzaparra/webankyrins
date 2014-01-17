@@ -9,5 +9,5 @@ $(document).ready(function() {
         event.preventDefault();
         clearForm($(this).closest('form'));
     });
-    
+    ''
 });
