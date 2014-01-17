@@ -68,16 +68,19 @@ Released   : 20131117
 </div>
 <div id="wrapper">
 	<div id="featured-wrapper">
-            <div id="sidebar">
-                {% block sidebar_search %}
-                {% endblock %}
+            <div class="container">
+                <div>{%block page_title %}
+                    {% endblock %}
+                </div>
+                <div id="sidebar">
+                    {% block sidebar_search %}
+                    {% endblock %}
+                </div>
+                <div class="main-box">
+                    {%block container%}
+                    {%endblock%}
+                </div>		
             </div>
-		<div class="container">
-			<div class="main-box">
-			{%block container%}
-                        {%endblock%}
-			</div>		
-		</div>
 	</div>
 </div>
 <div id="copyright" class="container">

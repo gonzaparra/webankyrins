@@ -8,6 +8,37 @@ and open the template in the editor.
     Author     : darkx
 */
 
+.main-box
+{
+    min-height: 20em;
+    
+}
+
+/******************************************/
+/*Scroll Section                          */
+/******************************************/
+.browse-results-scroll{
+    overflow: auto;
+    height: 400px;
+    width: 700px;
+    
+}
+#chains
+{
+    display: none;
+}
+#sequence
+{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: monospace;
+    display:inline-block;
+    vertical-align: top;
+}
+
 .ui-accordion .ui-accordion-header {
     font-size: 12px;
     font-weight: normal;
@@ -20,22 +51,35 @@ and open the template in the editor.
     padding: 0.3em 0.5em !important;
 }
 
-.browse-results-scroll{
-    overflow: auto;
-    height: 400px;
-    width: 900px;
-    margin: 0 auto;
-}
-
-.main-box
-{
-    min-height: 20em;
-}
-
 .div-center
 {
     margin: 0 auto;
 }
+
+/* Filter From stylesheet*/
+.filter-form-box
+{
+    padding: 5px;
+    width:370px;
+    margin-right: 30px;
+    text-align: left;
+    border: #A2A2A2 solid 1px;
+    border-radius: 2px;
+    background: #eeeeee;
+}
+#filter-form-button
+{
+    margin: 5px 0px 0px 0px;
+}
+.filter-form-box form 
+{
+    margin: 0px !important;
+}
+.filter-form-box form label
+{
+    font-weight: normal;
+}
+
 .show-image
 {
     display: inline-block;
@@ -74,21 +118,8 @@ and open the template in the editor.
 {
     display: none;
 }
-#chains
-{
-    display: none;
-}
-#sequence
-{
-    width: 400px;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 12px;
-    font-weight: normal;
-    font-family: monospace;
-    display:inline-block;
-    vertical-align: top;
-}
+
+
 #chain-head-info
 {
     border: #A2A2A2 solid 1px;
@@ -96,6 +127,10 @@ and open the template in the editor.
     padding: 10px 10px 10px 30px;
     width:400px;
     text-align: left;
+}
+#pdb_image
+{
+    float:right;
 }
 #jmol-show
 {
@@ -143,12 +178,3 @@ have a fixed width and height (but it's not required).
     width: 100px;
 }
 
-/* Filter From stylesheet*/
-#filter-form-button{
-    margin: 5px 0px 0px 0px;
-}
-.filter-form-box form {
-    margin: 0px !important;
-}
-.filter-form-box form label{
-    font-weight: normal;

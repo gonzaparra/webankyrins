@@ -1,0 +1,48 @@
+/*
+Stylesheet made to beautify the popup that shows the pdb structural properties
+in webanksDB
+*/
+/* 
+    Created on : Jan 17, 2014, 2:50:11 PM
+    Author     : Felipe Rodriguez Valenzuela
+*/
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+        background: #ffcd00;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+a
+{
+    color: #699dc7;
+}
+a:visited
+{
+	color: #699dc7;
+}
+a:hover
+{
+	text-decoration: none;
+}
+
+h3
+{
+    margin-top: 5px;
+}
+#container
+{
+    border-top: #3D3D3D solid 3px;
+    background: white;
+    border-bottom: #3D3D3D solid 100px;
+}
+#structure_summary
+{
+/*    border: #6F6F6F solid 1px;
+    border-radius: 2px;*/
+    padding: 10px;
+}

@@ -5,7 +5,7 @@
  */
 
 function popitup(url) {
-        newwindow=window.open(url,'name','height=600,width=800');
+        newwindow=window.open(url,'name','height=550,width=900,scrollbars=yes,resizable=yes');
         if (window.focus) {newwindow.focus()}
         return false;
 }

@@ -6,10 +6,6 @@
 
 $(document).ready(function() {
     
-    $("#toggle-button").click(function(){
-        $("#toggle-container").toggle();
-    });
-    
     /*When page loads, show the corresponding div*/
     if($('#selection').val()==1){
         $("#structures").show();

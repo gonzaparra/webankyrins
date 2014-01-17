@@ -1,16 +1,21 @@
 {# @author Felipe Rodriguez #}
 <div class="filter-form-box">
     <form action="{{send_action}}" method="get" id="filter-form">
+        <table>
+            <tr><td>{{ form_label(filterForm.pdbCode) }}</td><td>{{ form_widget(filterForm.pdbCode) }}</td></tr>
+            <tr><td>{{ form_label(filterForm.type) }}</td><td>{{ form_widget(filterForm.type) }}</td></tr>
+            <tr><td>{{ form_label(filterForm.nchains) }}</td><td>{{ form_widget(filterForm.operator) }}{{ form_widget(filterForm.nchains) }}</td></tr>
+        </table>
         {{ form_widget(filterForm) }}
-            <div id="filter-form-button">
-                <button type="submit">
-                    <span class="ui-icon ui-icon-search" style="display:inline-block;vertical-align: middle"></span>
-                    <span style="vertical-align: middle">Filtrar</span>
-                </button>
-                <button class="clear-form-button">
-                    <span class="ui-icon ui-icon-cancel" style="display:inline-block;vertical-align: middle""></span>
-                    <span style="vertical-align: middle">Limpiar</span>
-                </button>
-            </div>
+        <div id="filter-form-button">
+            <button type="submit">
+                <span class="ui-icon ui-icon-search" style="display:inline-block;vertical-align: middle"></span>
+                <span style="vertical-align: middle">Filter</span>
+            </button>
+            <button class="clear-form-button">
+                <span class="ui-icon ui-icon-cancel" style="display:inline-block;vertical-align: middle""></span>
+                <span style="vertical-align: middle">Clean</span>
+            </button>
+        </div>
     </form>
 </div>

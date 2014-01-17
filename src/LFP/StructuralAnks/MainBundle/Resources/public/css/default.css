@@ -560,10 +560,10 @@ ul.contact li a.icon-rss:before
 /* Sidebar                                                                       */
 /*********************************************************************************/
 
-	#sidebar
+#sidebar
 {
-	float: right;
-	width: 450px;
+	float: left;
+	width: 400px;
 }
 
 #stwo-col

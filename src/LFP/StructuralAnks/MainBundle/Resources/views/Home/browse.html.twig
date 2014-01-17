@@ -11,60 +11,60 @@
 
 {% block sidebar_search %}
     
-        <h1>Filtro</h1>
-
+        <h2 style="text-align: left">Search</h2>
+        <br/>
         {%set send_action = path('ankyrins_browse') %}
         {% embed "LFPStructuralAnksMainBundle:Home:filterForm.html.twig"%}{%endembed%}
 
 {% endblock %}
 
-
+{%block page_title %}<h2>Structures present in the Database </h2>{%endblock%}
 
 {%block container%}
-
-<h2>Structures present in the Database </h2>
-<br />
-Browse by:
-<select id="selection">
-    <option value="1">Structures</option>
-    <option value="2">Chains</option>   
-</select>
-<p>Number of Structures:{{pdbs|length}}</p>
-
-<div id="structures">
-    <div id="browser-accordion-structures" class="browse-results-scroll">
-        {% for pdb in pdbs %}
-            <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title }}</h3>
-            <div style="text-align: left">
-                <div style="display:inline-block; vertical-align: top;">
-                <h3> <b>Structure Summary</b></h3>
-                doi citation: 10.2210/pdb{{pdb.pdbID}}/pdb <a href="http://dx.doi.org/10.2210/pdb{{pdb.pdbID}}/pdb" target=blank rel="nofollow">[download]</a> <br>
-                Structure Resolution Method: {{pdb.method}}<br>            
-                More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}');">[click here]</a></span><br>
-                <br>
-                Chains in this pdb structure
-                <br>
-                {%for chain in pdb.chains %}
-                    <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId, 'chainId':chain.chain})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
-                    <br/>
-                {% endfor %}
-                </div>             
-                <div id="pdb_image" data-pdbid="{{pdb.pdbId}}" style="display:inline-block; vertical-align: middle"></div>
-            </div>
-        {% endfor %}
+    <br />
+    <div style="text-align: left">
+        Browse by:
+        <select id="selection">
+            <option value="1">Structures</option>
+            <option value="2">Chains</option>   
+        </select>
+        <p>Number of Structures:{{pdbs|length}}</p>
     </div>
-</div>
-<div id="chains">
-    <div id="browser-accordion-chains" class="browse-results-scroll">
-        {% for chain in chains %}
-            <h3 style="text-align: left"> <b>{{ chain.structure.pdbID | lower }}, {{ chain.chain }}: </b> {{chain.protein.entryName}}</h3>
-            <div style="text-align: left">
-            Organism: {{chain.protein.organism}} <br>
-            Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
-            Missing Residues: {{chain.missingRes | length}} <br>
-            <a href="{{path('ankyrins_show',{'pdbId':chain.structure.pdbID, 'chainId':chain.chain})}}">{{chain.structure.pdbID}}, {{chain.chain}}</a>
-            </div>
-        {% endfor %}
+    <div id="structures">
+        <div id="browser-accordion-structures" class="browse-results-scroll">
+            {% for pdb in pdbs %}
+            <h3 style="text-align: left">{{ pdb.pdbID }}, {{ pdb.title|lower|slice(0, 100) }}{%if pdb.title|length > 100 %}...{%endif%}</h3>
+                <div style="text-align: left">
+                    <div style="display:inline-block; vertical-align: top;">
+                    <h3> <b>Structure Summary</b></h3>
+                    doi citation: 10.2210/pdb{{pdb.pdbID}}/pdb <a href="http://dx.doi.org/10.2210/pdb{{pdb.pdbID}}/pdb" target=blank rel="nofollow">[download]</a> <br>
+                    Structure Resolution Method: {{pdb.method}}<br>            
+                    More info  <span><a href="{{path('ankyrins_popup',{"id":pdb.id})}}" onclick="return popitup('{{path('ankyrins_popup',{"id":pdb.id})}}');">[click here]</a></span><br>
+                    <br>
+                    Chains in this pdb structure
+                    <br>
+                    {%for chain in pdb.chains %}
+                        <a href="{{path('ankyrins_show',{'pdbId':pdb.pdbId, 'chainId':chain.chain})}}">{{pdb.pdbId}}, {{chain.chain}}</a>
+                        <br/>
+                    {% endfor %}
+                    </div>             
+                    <div id="pdb_image" data-pdbid="{{pdb.pdbId}}" style="display:inline-block; vertical-align: middle"></div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
-</div>
+    <div id="chains">
+        <div id="browser-accordion-chains" class="browse-results-scroll">
+            {% for chain in chains %}
+                <h3 style="text-align: left"> <b>{{ chain.structure.pdbID | lower }}, {{ chain.chain }}: </b> {{chain.protein.entryName}}</h3>
+                <div style="text-align: left">
+                Organism: {{chain.protein.organism}} <br>
+                Uniprot ID: <a href="http://www.uniprot.org/uniprot/{{chain.protein.uniprot}}" target=blank rel="nofollow"> {{chain.protein.uniprot}}</a> <br>
+                Missing Residues: {{chain.missingRes | length}} <br>
+                <a href="{{path('ankyrins_show',{'pdbId':chain.structure.pdbID, 'chainId':chain.chain})}}">{{chain.structure.pdbID}}, {{chain.chain}}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
 {%endblock%}

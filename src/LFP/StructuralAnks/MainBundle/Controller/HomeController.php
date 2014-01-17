@@ -201,7 +201,7 @@ class HomeController extends Controller
         $type = $session->get('filterForm/type');
         $operator = $session->get('filterForm/operator');
         $nchains = $session->get('filterForm/nchains');
-        var_dump($type);
+//        var_dump($type);
         
         $filterData = array('pdbCode' => $pdbCode,
                             'type' => $type,
