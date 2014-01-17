@@ -1,6 +1,6 @@
 {%extends "LFPStructuralAnksMainBundle::base.html.twig"%}
 
-{%set current = 'Home'%}
+{%set current = 'Browse'%}
     
 {% block javascripts %}
     {{ parent() }}
@@ -125,7 +125,7 @@ Type: Non-Ankyrin Repeat Protein <br>
         <param name="progressbar" value="true">
         <param name="bgcolor" value="#ffffff">
         <param name="style" value="cartoon">
-        <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/renum_' ~ pdb.pdbid|upper ~ '.pdb') }}; select protein; cartoons; connect delete; spacefill off;">
+        <param name="script" value="load {{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/Frustrations/' ~ pdb.pdbId|upper ~ '_'~chain.chain~'.pdb.done/renum_' ~ pdb.pdbid|upper ~ '_'~chain.chain~'.pdb') }}; select protein; cartoons; connect delete; spacefill off;">
         <param name="wireframeRotation" value="false">
         <param name="perspectiveDepth" value="false">
     </object>
