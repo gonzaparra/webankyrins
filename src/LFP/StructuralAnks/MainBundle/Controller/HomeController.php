@@ -27,6 +27,14 @@ class HomeController extends Controller
 //        var_dump($was);
         return array();
     }
+        /**
+     * @Route("/about",name="ankyrins_about")
+     * @Template()
+     */
+    public function aboutAction()
+    {
+        return array();
+    }
     
     /**
      * @Route("/browse",name="ankyrins_browse")
@@ -94,17 +102,20 @@ class HomeController extends Controller
         $em = $this->getDoctrine()->getManager();
         $chains = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->getChainByCode($pdbId,$chainId);
         $chain=$chains[0];
-//        echo var_dump($chain);die();
-        
-        /* Get all pdb structures */
-//        $chain = $em->getRepository('LFPStructuralAnksMainBundle:Chain')->findOneById($chainId);
         
         $chartOptions = $this->createsChartsOptions($chain);
+        
+        $missingResidues = array();
+        foreach ($chain->getMissingRes() as $missingRes){
+            $missingResidues[] = $missingRes->getResNum();
+        }
+        
 
         return array(
             'chartOptions' => $chartOptions,
             'pdb' => $chain->getStructure(),
-            'chain'=>$chain
+            'chain'=>$chain,
+            'missingResidues'=>$missingResidues,
             );
     }
     
@@ -154,7 +165,7 @@ class HomeController extends Controller
 //            }
         }
         
-        var_dump( $num);
+//        var_dump( $num);
         if($num > 0){
             $miniOptions['showChart'] = True;
             $miniOptions['xAxisCategories'] = $resNames.']';

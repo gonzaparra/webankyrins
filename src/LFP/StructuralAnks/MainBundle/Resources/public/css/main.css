@@ -78,14 +78,67 @@ and open the template in the editor.
 {
     display: none;
 }
-
-/* Filter From stylesheet*/
-#filter-form-button{
-    margin: 5px 0px 0px 0px;
-}
-.filter-form-box form {
-    margin: 0px !important;
-}
-.filter-form-box form label{
+#sequence
+{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
     font-weight: normal;
+    font-family: monospace;
+    display:inline-block;
+    vertical-align: top;
+}
+#chain-head-info
+{
+    border: #A2A2A2 solid 1px;
+    margin:0 auto;
+    padding: 10px 10px 10px 30px;
+    width:400px;
+    text-align: left;
+}
+#jmol-show
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel li {
+    float: left;
+    width: 100px;
 }

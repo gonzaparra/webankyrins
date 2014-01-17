@@ -46,8 +46,8 @@ Released   : 20131117
 	<div id="header" class="container">
 		<div id="logo">
 			{#<span class="icon icon-group"></span>#}
-			<h1><a href="#">AnksDB</a></h1>
-			<span>Ankyrin Repeat Database</span> </div>
+			<h1><a href="#">AnksDB - S</a></h1>
+			<span>Structural Ankyrin Repeats Database</span> </div>
 		</div>
 		{#<div id="triangle-up"></div>#}
 	</div>
@@ -61,7 +61,7 @@ Released   : 20131117
 
                             <li {% if current == 'Home'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_home')}}" accesskey="1" title="">Home</a></li>
                             <li {% if current == 'Browse'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_browse')}}" accesskey="2" title="">Browse</a></li>
-                            <li {% if current == 'About'%}class="current_page_item"{%endif%}><a href="#" accesskey="3" title="">About</a></li>
+                            <li {% if current == 'About'%}class="current_page_item"{%endif%}><a href="{{path('ankyrins_about')}}" accesskey="3" title="">About</a></li>
                             <li {% if current == 'Contact'%}class="current_page_item"{%endif%}><a href="#" accesskey="4" title="">Contact</a></li>
 			</ul>
 		</div>
