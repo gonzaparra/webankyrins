@@ -16,7 +16,7 @@
 {%block container%}
 <h1><b>Welcome to the Structural Ankyrin Repeats Database!</b></h1>
 
-                    <div class="jcarousel">
+                   {# <div class="jcarousel">
                         <ul class="clearfix">
                             <li><img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.png') }}" alt="" width="200px" /></li>
                             <li><img class="title" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/2.png') }}" alt="" width="200px" /></li>
@@ -24,10 +24,16 @@
                     </div>
 
                     <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>#}
 
-                    <p class="jcarousel-pagination"></p>
-
+<div class="caroussel-outer">
+    <a href="#"> Prev </a>
+    <div class="caroussel-inner">
+         <img class="image-shown" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.png') }}" alt=""/>
+         <img class="image-hidden" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/2.png') }}" alt=""/>
+    </div>
+    <a href="#"> Next </a>
+</div>
 {#  <div id="slider">
             <div class="indicator">
                 <span>1</span>
