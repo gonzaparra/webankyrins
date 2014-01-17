@@ -37,7 +37,7 @@ Type: Synthetic Ankyrin Repeat Protein <br>
 {% elseif chain.subGroup=='Ank'%}
 Type: Natural Ankyrin Repeat Protein <br> 
 {%else%}
-Type: Natural Non-Repeat Protein <br>
+Type: Non-Ankyrin Repeat Protein <br>
 {% endif %} 
 
 </div>    
@@ -62,11 +62,40 @@ Type: Natural Non-Repeat Protein <br>
             <td>{{chain.chain}}</td>
             <td>{{chain.residues|length}}</td>
             <td>{{chain.type}}</td>
-            <td>{{chain.chainStructuralProperties.rGyr}}</td>
-            <td>{{chain.chainStructuralProperties.tileability}}</td>
-            <td>{{chain.chainStructuralProperties.contactOrder}}</td>
-            <td>{{chain.chainStructuralProperties.sasa}}</td>
-            <td> {{ '%.4f'|format(chain.chainStructuralProperties.icsRepeats)}}</td>   
+            {%if chain.chainStructuralProperties is not null%}
+                {%if chain.chainStructuralProperties.rGyr is not null%}
+                <td>{{chain.chainStructuralProperties.rGyr}}</td>
+                {%else%}
+                <td>---</td>
+                {%endif%}
+                {%if chain.chainStructuralProperties.tileability is not null%}
+                <td>{{chain.chainStructuralProperties.tileability}}</td>
+                {%else%}
+                <td>---</td>
+                {%endif%}
+                {%if chain.chainStructuralProperties.contactOrder is not null%}
+                <td>{{chain.chainStructuralProperties.contactOrder}}</td>
+                {%else%}
+                <td>---</td>
+                {%endif%}
+                {%if chain.chainStructuralProperties.sasa is not null%}
+                <td>{{chain.chainStructuralProperties.sasa}}</td>
+                {%else%}
+                <td>---</td>
+                {%endif%}
+                {%if chain.chainStructuralProperties.icsRepeats is not null%}
+                <td>{{ '%.4f'|format(chain.chainStructuralProperties.icsRepeats)}}</td>
+                {%else%}
+                <td>---</td>
+                {%endif%}
+            {%else%}
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            {%endif%}
+            
         </tr>
     </table>
 </div>

@@ -1,0 +1,16 @@
+{# @author Felipe Rodriguez #}
+<div class="filter-form-box">
+    <form action="{{send_action}}" method="get" id="filter-form">
+        {{ form_widget(filterForm) }}
+            <div id="filter-form-button">
+                <button type="submit">
+                    <span class="ui-icon ui-icon-search" style="display:inline-block;vertical-align: middle"></span>
+                    <span style="vertical-align: middle">Filtrar</span>
+                </button>
+                <button class="clear-form-button">
+                    <span class="ui-icon ui-icon-cancel" style="display:inline-block;vertical-align: middle""></span>
+                    <span style="vertical-align: middle">Limpiar</span>
+                </button>
+            </div>
+    </form>
+</div>

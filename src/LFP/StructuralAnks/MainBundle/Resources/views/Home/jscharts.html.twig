@@ -1,90 +1,5 @@
 
     <script type="text/javascript">
-{#$(function () {
-        $('#chart').highcharts({
-            chart: {
-                zoomType: 'x'
-            },
-            title: {
-                text: 'Residues Properties',
-                x: -20 //center
-            },
-            xAxis: {
-                categories: {{options.xAxisCategories|raw}},
-            },
-            scrollbar: {
-                enabled: true
-            },
-            yAxis: [{ // Primary yAxis
-                labels: {
-                    formatter: function() {
-                        return this.value +'Å²';
-                    },
-                    style: {
-                        color: '#89A54E'
-                    }
-                },
-                title: {
-                    text: 'Angstrom',
-                    style: {
-                        color: '#89A54E'
-                    }
-                },
-                opposite: true
-    
-            }, { // Secondary yAxis
-                gridLineWidth: 0,
-                labels: {
-                    formatter: function() {
-                        return this.value +' E';
-                    },
-                    style: {
-                        color: '#4572A7'
-                    }
-                },
-                title: {
-                    text: 'Energy',
-                    style: {
-                        color: '#4572A7'
-                    }
-                },
-                plotLines: [{
-                    value: 0,
-                    width: 1,
-                    color: '#808080'
-                }],
-                showLastLabel:false,
-            }],
-            tooltip: {
-
-                valueSuffix: 'aers',
-            },
-            legend: {
-                layout: 'vertical',
-                align: 'left',
-                x: 120,
-                verticalAlign: 'top',
-                y: 80,
-                floating: true,
-                backgroundColor: '#FFFFFF'
-            },
-            series: [{
-                name: 'Angstrom',
-                color: '#89A54E',
-                data: {{options.sasa}},
-                tooltip: {
-                    valueSuffix: ' Å²'
-                }
-            }, {
-                name: 'Energy',
-                color: '#4572A7',
-                data: {{options.energy}},
-                tooltip: {
-                    valueSuffix: ' E'
-                }
-            }]
-        });
-    });#}
  $(function () {
         $('#chart').highcharts({
             chart: {
@@ -95,8 +10,6 @@
             },
             title: {
                 text: 'Residues Properties',
-                fontWeight: 'bold',
-                fontSize: '28px',
                 y: 20,
                 x: 200,
                 style: {

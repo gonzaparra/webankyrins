@@ -2,6 +2,24 @@
 
 {%set current = 'Browse'%}
 
+
+{% block javascripts %}
+    {{parent()}}
+    <script src="{{ asset('bundles/lfpstructuralanksmain/js/filter_form.js ') }}" type="text/javascript"></script>    
+{% endblock %}
+
+
+{% block sidebar_search %}
+    
+        <h1>Filtro</h1>
+
+        {%set send_action = path('ankyrins_browse') %}
+        {% embed "LFPStructuralAnksMainBundle:Home:filterForm.html.twig"%}{%endembed%}
+
+{% endblock %}
+
+
+
 {%block container%}
 
 <h2>Structures present in the Database </h2>
@@ -11,7 +29,8 @@ Browse by:
     <option value="1">Structures</option>
     <option value="2">Chains</option>   
 </select>
-<p></p>
+<p>Number of Structures:{{pdbs|length}}</p>
+
 <div id="structures">
     <div id="browser-accordion-structures" class="browse-results-scroll">
         {% for pdb in pdbs %}

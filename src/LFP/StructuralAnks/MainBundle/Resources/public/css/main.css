@@ -62,10 +62,12 @@ and open the template in the editor.
 #head-table th
 {
     background: #ddd;
+    text-align: center;
 }
 #head-table td
 {
     background: #eeeeee;
+    text-align: center;
 }
 
 #toggle-container
@@ -75,4 +77,15 @@ and open the template in the editor.
 #chains
 {
     display: none;
+}
+
+/* Filter From stylesheet*/
+#filter-form-button{
+    margin: 5px 0px 0px 0px;
+}
+.filter-form-box form {
+    margin: 0px !important;
+}
+.filter-form-box form label{
+    font-weight: normal;
 }
