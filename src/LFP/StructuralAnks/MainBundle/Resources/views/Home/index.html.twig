@@ -2,8 +2,8 @@
 
 {%block javascripts%}
 {{parent()}}
-<script src="{{ asset('bundles/lfpstructuralanksmain/js/jquery.carroussel.js') }}" type="text/javascript"></script>   
-{#<script src="{{ asset('bundles/lfpstructuralanksmain/js/carroussel.js') }}" type="text/javascript"></script>   #}
+<script src="{{ asset('bundles/lfpstructuralanksmain/js/jcarousel.js') }}" type="text/javascript"></script>   
+{#<script src="{{ asset('bundles/lfpstructuralanksmain/js/jquery.carroussel.js') }}" type="text/javascript"></script>   #}
 {%endblock%}
 
 {% block stylesheets %}
@@ -26,7 +26,7 @@
                     <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
                     <a href="#" class="jcarousel-control-next">&rsaquo;</a>#}
 
-<div class="caroussel-outer">
+{#<div class="caroussel-outer">
     <a class="previousLink" href="#"> Prev </a>
     <div class="caroussel-inner">
          <img class="image-shown" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.jpg') }}" alt=""/>
@@ -35,7 +35,20 @@
          <img class="image-hidden" src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/4.jpg') }}" alt=""/>
     </div>
     <a class="nextLink" href="#"> Next </a>
+</div>#}
+
+<div id="wrap">
+<a id="prev" href="#"><</a><a id="forw" href="#">></a>
+ 
+ 
+ 
+<ul id="carrusel">
+	<li><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/1.jpg') }}" alt="" /></li>
+	<li><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/2.jpg') }}" alt="" /></li>
+	<li><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/3.jpg') }}" alt="" /></li>
+	<li><img src="{{ asset('bundles/lfpstructuralanksmain/jmol/anksdb/data_img/slider_img/4.jpg') }}" alt="" /></li>
 </div>
+
 {#  <div id="slider">
             <div class="indicator">
                 <span>1</span>

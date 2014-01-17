@@ -37,19 +37,65 @@ $(document).ready(function() {
         });
     });
     
-    $(function(){
-        $(".nextLink").on("click", function(e){
-            var currentActiveImage = $(".image-shown");
-            var nextActiveImage = currentActiveImage.next();
-            
-            currentActiveImage.removeClass("image-shown").addClass("image-hidden").css("z-index", -10);
-            nextActiveImage.addClass("image-shown").removeClass("image-hidden").css("z-index", 20);
-            
-            $(".caroussel-inner img").not([nextActiveImage, currentActiveImage]).css("z-index", 1);
-            e.preventDefault();
-        });
-        
+//    $(function(){
+//        $(".nextLink").on("click", function(e){
+//            var currentActiveImage = $(".image-shown");
+//            var nextActiveImage = currentActiveImage.next();
+//            
+//            if(nextActiveImage.length === 0)
+//            {
+//                nextActiveImage= $(".caroussel-inner img").first();
+//            }
+//            
+//            currentActiveImage.removeClass("image-shown").addClass("image-hidden").css("z-index", -10);
+//            nextActiveImage.addClass("image-shown").removeClass("image-hidden").css("z-index", 20);
+//            
+//            $(".caroussel-inner img").not([nextActiveImage, currentActiveImage]).css("z-index", 1);
+//            e.preventDefault();
+//        });
+//      
+//        $(".previousLink").on("click", function(e){
+//            var currentActiveImage = $(".image-shown");
+//            var nextActiveImage = currentActiveImage.prev();
+//            
+//            if(nextActiveImage.length === 0)
+//            {
+//                nextActiveImage= $(".caroussel-inner img").last();
+//            }
+//            
+//            currentActiveImage.removeClass("image-shown").addClass("image-hidden").css("z-index", -10);
+//            nextActiveImage.addClass("image-shown").removeClass("image-hidden").css("z-index", 20);
+//            $(".caroussel-inner img").not([nextActiveImage, currentActiveImage]).css("z-index", 1);
+//            e.preventDefault();
+//            
+//        });
+//        
+//    });
+
+function mycarousel_initCallback(carousel) {
+	
+    jQuery('#forw').bind('click', function() {
+        carousel.next();
+        return false;
     });
+
+    jQuery('#prev').bind('click', function() {
+        carousel.prev();
+        return false;
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery("#carrusel").jcarousel({
+       scroll :1,
+	   auto: 3,
+       wrap : "both",
+       initCallback: mycarousel_initCallback,
+	     buttonNextHTML: null,
+        buttonPrevHTML: null
+	   });
+ });
+
 
 });
 
