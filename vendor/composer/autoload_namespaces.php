@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Vich\\UploaderBundle' => array($vendorDir . '/vich/uploader-bundle'),
     'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Symfony\\Component\\Icu\\' => array($vendorDir . '/symfony/icu'),
@@ -18,7 +19,10 @@ return array(
     'Sensio\\Bundle\\DistributionBundle' => array($vendorDir . '/sensio/distribution-bundle'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Monolog' => array($vendorDir . '/monolog/monolog/src'),
+    'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
+    'Knp\\Bundle\\GaufretteBundle' => array($vendorDir . '/knplabs/knp-gaufrette-bundle'),
     'Incenteev\\ParameterHandler' => array($vendorDir . '/incenteev/composer-parameter-handler'),
+    'Gaufrette' => array($vendorDir . '/knplabs/gaufrette/src'),
     'Doctrine\\ORM' => array($vendorDir . '/doctrine/orm/lib'),
     'Doctrine\\DBAL' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
