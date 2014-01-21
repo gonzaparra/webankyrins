@@ -101,7 +101,7 @@ jQuery(document).ready(function() {
         carousel.prev();
         return false;
     });
-};
+},
 
 jQuery(document).ready(function() {
     jQuery("#carrusel").jcarousel({
@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
 	     buttonNextHTML: null,
         buttonPrevHTML: null
 	   });
- });
+ }),
 
 
 });
